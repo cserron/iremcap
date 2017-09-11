@@ -1,0 +1,26 @@
+.irem_navbar { 
+    background: #FFF;
+    border-bottom: 4px solid _palette(primary);
+    .navbar-brand {
+        color: _palette(primary);
+    }
+
+    &, 
+    .nav-link {
+        color: _palette(deepblue);
+        &:hover {
+            color: _palette(primary);
+        }
+        
+    }
+}
+
+.btn-primary {
+    background: _palette(primary);
+    border-color: _palette(primary); 
+    color: #FFF!important;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+    }
+}

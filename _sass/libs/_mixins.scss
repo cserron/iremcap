@@ -1,0 +1,23 @@
+$breakpoints: (
+    sm: 480px,
+    md: 768px,
+    lg: 992px,
+    landscape: 1024px,
+    xl: 1200px
+);
+
+@mixin respond-to($viewport){
+    // if the breakpoint exists in the map
+    @if(map-has-key($breakpoints,$viewport)){
+        @media (min-width: (map-get($breakpoints, $viewport)) ){
+            @content;
+        }
+    }
+    @else{
+        @warn "No se encuentra el breakpoint #{$viewpoint}";
+    }
+}
+
+@function _palette($key) {
+	@return map-get($palette,$key);
+}
