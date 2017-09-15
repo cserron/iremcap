@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  padding: 20px 3px;
+  background-color: _palette(darkgray);
+  color: #fff;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  @include respond-to(md) {
+    font-size: 0.85rem;
+    height: 120px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 80px;
+  }
+  .row {
+    margin: 0;
+  }
+  &__list {
+    &-item {
+      list-style-type: none;
+    }
+  }
+  &__dev {
+    font-size: 0.6rem;
+    text-align: center;
+    @include respond-to(md) {
+      text-align: right;
+    }
+  }
+}
