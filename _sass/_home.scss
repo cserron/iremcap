@@ -1,5 +1,11 @@
 .homepage-wrapper{
-    overflow-x: hidden;
+    //overflow-x: hidden;
+    overflow: hidden;
+    height: 600px;
+    @include respond-to(md) {
+        height: auto;
+        max-height: calc(100vh - 150px);
+    }
 }
 .hero-subhero-wrapper{
     position: relative;
@@ -67,7 +73,7 @@
         position: absolute;
         z-index: 4;
         width: 100%;
-        height: 700px;
+        height: 300px;
         top: -130px;
         transform: skewY(-3deg);
         -webkit-transform: skewY(-3deg);
