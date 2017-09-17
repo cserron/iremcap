@@ -1,8 +1,8 @@
 menu:
 
-- {name: Estrategia, topic: 'building-interior'}
-- {name: Servicios, topic: 'renovation'}
-- {name: Mercados, topic: 'building-management'}
-- {name: Clientes, topic: 'zoning'}
-- {name: Noticias, topic: 'peace'}
-- {name: Equipo, topic: 'social'}
+- {name: Estrategia, topic: '/#'}
+- {name: Servicios, topic: '/#'}
+- {name: Mercados, topic: '/#'}
+- {name: Clientes, topic: '/#'}
+- {name: Noticias, topic: '/#'}
+- {name: Equipo, topic: 'team'}

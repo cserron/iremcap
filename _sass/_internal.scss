@@ -1,0 +1,56 @@
+.internal {
+  &__header {
+    background-image: url('../assets/images/worldmap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 80px 15px;
+    text-align: justify;
+    @include respond-to(md) {
+      height: 35vh;
+    }
+    &-title {
+      font-size: 2rem;
+      line-height: 2.0;
+      text-align: center;
+    }
+    &-tagline {
+      font-size: 1rem;
+      line-height: 1.5;
+      padding: 0 20px 20px 20px;
+      @include respond-to(lg) {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.team {
+  text-align: center;
+  margin: 20px 0 70px 0;
+  &__title {
+    text-align: center;
+    line-height: 2.0;
+    font-size: 1.6rem;
+    padding: 20px 0;
+    color: _palette(primary);
+  }
+  &__box {
+    color: _palette(lightgray);
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    .img-fluid {
+      text-align: center;
+      width: 50%;
+    }
+    &-title {
+      color: _palette(primary);
+      line-height: 2.0;
+    }
+  }
+}
