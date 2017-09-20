@@ -3,6 +3,10 @@
     border-bottom: 4px solid _palette(primary);
     .navbar-brand {
         color: _palette(primary);
+        .logo {
+            width: 32px;
+            height: 28px;
+        }
     }
 
     &, 

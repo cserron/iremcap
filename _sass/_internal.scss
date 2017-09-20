@@ -1,6 +1,26 @@
 .internal {
+  .bg-strategy {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+  .bg-services {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+  .bg-markets {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+  .bg-clients {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+  .bg-news {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+  .bg-team {
+    background-image: url('/assets/images/worldmap.jpg');
+  }
+
+
+
   &__header {
-    background-image: url('../assets/images/worldmap.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
@@ -27,6 +47,10 @@
       }
     }
   }
+  &__content {
+    float: left;
+    padding: 20px;
+  }
 }
 
 .team {
@@ -42,7 +66,7 @@
   &__box {
     color: _palette(lightgray);
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     margin: 10px;
     .img-fluid {
       text-align: center;
@@ -50,6 +74,10 @@
     }
     &-title {
       color: _palette(primary);
+      line-height: 2.0;
+    }
+    &-subtitle {
+      color: _palette(darkgray);
       line-height: 2.0;
     }
   }
