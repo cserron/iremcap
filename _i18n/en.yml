@@ -1,0 +1,201 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+langs:
+  it: Italiano
+  en: English
+  es: Español
+nav:
+  strategy: strategy
+  services: services
+  markets: markets
+  clients: clients
+  team: team
+team:
+  title: Team
+  tagline: >
+    Our work group is in the image of the business that we project. People who were
+    all entrepreneurs on their own, have decided to live, work and conceive life according to
+    the phrase of Jack London, <em> "The proper function of man is to live, not to exist"</em>
+  subtitle: Our team
+  team:
+    -
+      name: Jimena
+      role: Founder
+      linkedin: http://linkedin.com
+      email: jimena@iremcap.com
+    -
+      name: Christian
+      role: Founder
+      linkedin: linkedin.com
+      email: http://jimena@iremcap.com
+    -
+      name: Guillaume
+      role: Founder
+      linkedin: linkedin.com
+      email: http://jimena@iremcap.com
+strategy:
+  title: Strategy
+  tagline: >
+    “Advising clients with data, creativity and incorporating new uses to buildings and
+    technology to the process“
+  list:
+    -
+      item_tagline: Data analysis
+      item_image_url: img01.png
+    -
+      item_tagline: Hands on execution
+      item_image_url: img01.png
+    -
+      item_tagline: Real Estate added-value
+      item_image_url: img01.png
+    -
+      item_tagline: Digital enhancement
+      item_image_url: img01.png
+  text_1: >
+    Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la
+    comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir,
+    trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo.
+    Uno de nuestros aspectos diferenciales es que combinamos técnicas del e-commerce con
+    métodos tradicionales para vender edificios o concebir proyectos de inversión inmobiliaria.
+  text_2: >
+    Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio:
+  text_list:
+    - El sector inmobiliario
+    - El e-commerce
+    - La infraestructura tecnológica y análisis de datos
+  text_3: ¿Usted quiere sacar valor a esa evolución para vender su edificio o invertir?
+  btn_cta:
+    text: ¡Contáctenos!
+    url: /contacto/
+services:
+  title: Servicios
+  list:
+    -
+      item_icon: img01.png
+      item_text: >
+        Gestión integral de inversiones (IREM se encarga de todo el proceso de
+        inversión desde detectar la oportunidad hasta su concreción pasando por la
+        estructuración y búsqueda de financiación)
+    -
+      item_icon: img01.png
+      item_text: >
+        Procesos de intermediación en compra / venta de edificios vacíos o alquilados
+        con potencial valor añadido
+    -
+      item_icon: img01.png
+      item_text: >
+        Asesoramiento a propietarios para sacar rendimiento a su edificio vacío o
+        tierra
+    -
+      item_icon: img01.png
+      item_text: >
+        Asesoramiento a usuarios para conseguir lugares de negocio adaptados a
+        nuevas necesidades
+    -
+      item_icon: img01.png
+      item_text: >
+        Creación de tecnología genuina para el sector inmobiliario
+    -
+      item_icon: img01.png
+      item_text: >
+        Estudios de viabilidad
+clients:
+  title: Clientes
+  investors:
+    text_top: >
+      Nos enfocamos en detectar oportunidades procesando datos de mercado y perfiles de
+      tendencias gracias a herramientas digitales (redes sociales, publicaciones online...) y luego
+      ejecutamos las estrategias definidas para vender o invertir en ciudades y productos.
+    list:
+      -
+        item_icon: img01.png
+        item_text: Cosmopolitas
+      -
+        item_icon: img01.png
+        item_text: Seguras
+      -
+        item_icon: img01.png
+        item_text: Núcleos de negocios
+      -
+        item_icon: img01.png
+        item_text: Jóvenes
+      -
+        item_icon: img01.png
+        item_text: Parques (verde)
+      -
+        item_icon: img01.png
+        item_text: Vida nocturna
+      -
+        item_icon: img01.png
+        item_text: Vida cultural
+      -
+        item_icon: img01.png
+        item_text: Transporte público
+      -
+        item_icon: img01.png
+        item_text: Focos de innovación
+    cities:
+      -
+        title: Madrid
+        img: img01.png
+        cta:
+          text: Conozca más de Madrid
+          url: /madrid/
+      -
+        title: Montevideo
+        img: img01.png
+        cta:
+          text: Conozca más de Montevideo
+          url: /montevideo/
+      -
+        title: Valencia
+        img: img01.png
+        cta:
+          text: Conozca más de Valencia
+          url: /valencia/
+    text_bottom: >
+      Ofrecemos a inversores unirse a nosotros para invertir en el sector inmobiliario beneficiándose
+      de un asesoramiento global (desde la inversión inicial hasta la gestión de la propiedad y
+      asesoramiento financiero y tributario) bajo una metodología probada que potencia los activos
+      inmobiliarios con herramientas digitales de concepción y comercialización.
+      Si le interesa nuestra forma de trabajo podemos asesorarle en cómo invertir en las mejores
+      condiciones.
+    cta_contact:
+      text: Contáctenos
+      url: /contacto/
+  owners:
+    text_1: >
+      Nuestro valor añadido reside en nuestra metodología de trabajo que superpone conocimiento
+      de mercado y know how inmobiliario a técnicas novedosas de comercialización y puesta en
+      valor del bien inmueble.
+    text_2: ¿Tiene un edificio vacío y quiere venderlo?
+    cta_contact:
+      text: ¡Consúltenos!
+      url: /contacto/
+  users:
+    text_1: >
+      Asesoramos clientes usuarios en la realización de proyectos singulares para uso propio y la
+      optimización de sus activos inmobiliarios en pro de la actividad de la empresa.
+    text_2: >
+      Las formas de trabajar, relacionarse, vender y atender el cliente han cambiado drásticamente
+      en los últimos años. Por eso nos enfocamos a encontrar el mejor lugar para su negocio
+      procurando innovar en nuestras propuestas.
+    text_3: ¿Quiere recibir propuestas creativas de lugares de actividad?
+    cta_contact:
+      text: ¡Consúltenos!
+      url: /contacto/
+markets:
+  title: Markets
+  spain:
+    text: “Descubra porque España es el sitio más interesante para invertir ahora”
+    img: img_spain.jpg
+  uruguay:
+    text: “Descubra porque todo el mundo quiere vivir e invertir en Uruguay”
+    img: img_spain.jpg
+  name: Nombre
+  phone: Teléfono
+  email: Correo
+  cta_contact: Contactarme

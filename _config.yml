@@ -31,6 +31,8 @@ sass:
     sass_dir: _sass
 plugins:
   - jekyll-feed
+exclude_from_localizations: ["assets", "_sass", "javascript", "css"]
+languages: ["es", "en", "fr"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

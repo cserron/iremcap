@@ -1,0 +1,52 @@
+
+<div class="text-center strategy">
+  <h1>strategy</h1>
+  <div class="row">
+
+    <ul class="strategy__list list-inline">
+      <li class="strategy__list__item">
+        <div class="strategy__list__item-wrapper">
+          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
+        </div>
+        Data analysis
+      </li>
+      <li class="strategy__list__item">
+        <div class="strategy__list__item-wrapper">
+          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
+        </div>
+        Hands on execution
+      </li>
+      <li class="strategy__list__item">
+        <div class="strategy__list__item-wrapper">
+          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
+        </div>
+        Real Estate added-value
+      </li>
+      <li class="strategy__list__item">
+        <div class="strategy__list__item-wrapper">
+          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
+        </div>
+        Digital enhancement
+      </li>
+    </ul>
+  </div>
+  <section class="section strategy__content">
+    <div class="row">
+      <div class="col-12">
+        <p>{% t strategy.text_1 %}</p>
+        <p>{% t strategy.text_2 %}</p>
+        <ul class="list">
+          {% for item in site.translations[site.lang]["strategy"]["text_list"] %}
+            <li class="list-item">{{ item }}</li>
+          {% endfor %}
+        </ul>
+        <p>{% t strategy.text_3 %}</p>
+        <p>
+          <a class="btn-primary btn mt-2 mt-md-0 float-left">{% t strategy.btn_cta %} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

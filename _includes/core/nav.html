@@ -1,6 +1,7 @@
 <nav class="irem_navbar navbar navbar-expand-md fixed-top">
     <a class="navbar-brand " href="#">
         <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/logo.png" alt="Scroll or swipe for more"> -->
+      <img src="{{baseurl_root}}/assets/images/logo.png" class="logo">
         IREMCAP
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,14 +11,32 @@
       <ul class="navbar-nav mr-auto">
         
         <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          {% if site.lang == "es" %}
+            <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+          {% elsif site.lang == "en"%}
+            <a class="nav-link" href="/en/">Home <span class="sr-only">(current)</span></a>
+          {% else %}
+            <a class="nav-link" href="/fr/">Accueil <span class="sr-only">(current)</span></a>
+          {% endif %}
         </li>
-        {% for item in site.data.nav.menu %}
+        {% for item in site.translations[site.lang]["nav"] %}
             <li class="nav-item">
-                <a class="nav-link" href="{{item.topic}}">{{ item.name }}</a>
+              {% if site.lang == "es" %}
+                <a class="nav-link" href="/{{ item[1] }}">{{ item[1] | capitalize}}</a>
+              {% else %}
+                <a class="nav-link" href="/{{site.lang}}/{{ item[1] }}">{{ item[1] | capitalize}}</a>
+              {% endif %}
             </li>
         {% endfor %}
+
       </ul>
+      <!--{% capture nav %}{% t nav %}{% endcapture %}-->
+
+      <!--{{ nav }}-->
+      <!--{% for item in site.translations[site.lang]["nav"] %}-->
+      <!--<p>{{ item[0] }} -> {{ item[1] }}</p>-->
+      <!--{% endfor %}-->
+      <!--nav.strategy-->
       <a class="btn-primary btn mt-2 mt-md-0">Contacto</a>
       <!-- <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
