@@ -1,3 +1,7 @@
+.row {
+  margin: 0;
+  padding: 0;
+}
 .internal {
   .bg-strategy {
     background-image: url('/assets/images/worldmap.jpg');
@@ -23,23 +27,26 @@
   &__header {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    min-height: 40vh;
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 80px 15px;
     text-align: justify;
     @include respond-to(md) {
-      height: 35vh;
+      min-height: 50vh;
     }
     &-title {
       font-size: 2rem;
       line-height: 2.0;
       text-align: center;
+      font-family: 'Montserrat', sans-serif;
     }
     &-tagline {
+      text-align: center;
       font-size: 1rem;
       line-height: 1.5;
       padding: 0 20px 20px 20px;
+
       @include respond-to(lg) {
         width: 70%;
         margin: 0 auto;
@@ -49,7 +56,7 @@
   }
   &__content {
     float: left;
-    padding: 20px;
+    padding: 0;
   }
 }
 
