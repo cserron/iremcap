@@ -3,53 +3,76 @@
   width: 100%;
   &__list {
     float: left;
-    list-style-type: none;
     width: 70%;
     margin: 20px auto;
     &__item {
+      list-style-type: none;
       float: left;
+      width: 25%;
     }
   }
   &__content {
     text-align: justify;
+    color: _palette(lightgray);
+    padding: 120px 0px;
+    width: 100%;
+    @include respond-to(md) {
+      padding: 90px 0px;
+    }
+    &-odd,
+    &-even {
+      padding: 50px 10px;
+      @include respond-to(md) {
+        padding: 90px 10px;
+      }
+    }
+    &-odd {
+      background-color: #fff;
+    }
+    &-even {
+      background: #d0e3f4; /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #d0e3f4 0%, #b3d5f2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, #d0e3f4 0%,#b3d5f2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, #d0e3f4 0%,#b3d5f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      .clear {
+        clear: both;
+      }
+      .paragraph {
+        text-align: center;
+      }
+      .ul-wrapper {
+        margin: 0 auto;
+        float: right;
+        width: 100%;
+        @include respond-to(md) {
+          width: 80%;
+        }
+      }
+    }
+    &__list {
+      float: left;
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      @include respond-to(md) {
+        width: 80%;
+      }
+      &-item {
+        list-style-type: none;
+        float: left;
+        width: 100%;
+        &__icon {
+          width: 60px;
+          width: 60px;
+          float: left;
+        }
+        &__text {
+          width: calc(100% - 60px);
+          float: left;
+          padding-left: 40px;
+        }
+      }
+    }
   }
-
-
-
-  //&__list {
-  //  float: left;
-  //  width: 100%;
-  //  text-align: center;
-  //  list-style-type: none;
-  //  padding: 0;
-  //  margin: 25px 25px;
-  //  height: 100%;
-  //  &__item {
-  //    float: left;
-  //    width: 100px;
-  //    height: 100px;
-  //    &-wrapper {
-  //      border: 1px solid _palette(primary);
-  //      display: inline-block;
-  //      -webkit-transform: rotate(45deg);
-  //      -moz-transform: rotate(45deg);
-  //      -ms-transform: rotate(45deg);
-  //      -o-transform: rotate(45deg);
-  //      transform: rotate(45deg);
-  //    }
-  //    & img {
-  //      max-width: 50%;
-  //      height: 50%;
-  //      display: inline-block;
-  //      vertical-align: middle;
-  //
-  //      -webkit-transform: rotate(-45deg);
-  //      -moz-transform: rotate(-45deg);
-  //      -ms-transform: rotate(-45deg);
-  //      -o-transform: rotate(-45deg);
-  //      transform: rotate(-45deg);
-  //
-  //    }
-  //  }
-  //}
 }
