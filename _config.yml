@@ -29,8 +29,6 @@ markdown: kramdown
 theme: minima
 sass:
     sass_dir: _sass
-plugins:
-  - jekyll-feed
 exclude_from_localizations: ["assets", "_sass", "javascript", "css"]
 languages: ["es", "en", "fr"]
 
