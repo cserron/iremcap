@@ -63,9 +63,15 @@ strategy:
   text_2: >
     Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio:
   text_list:
-    - El sector inmobiliario
-    - El e-commerce
-    - La infraestructura tecnológica y análisis de datos
+    -
+      img: /assets/images/strategy_real-estate.svg
+      text: El sector inmobiliario
+    -
+      img: /assets/images/strategy_e-commerce.svg
+      text: El e-commerce
+    -
+      img: /assets/images/strategy_data-analysis.svg
+      text: La infraestructura tecnológica y análisis de datos
   text_3: ¿Usted quiere sacar valor a esa evolución para vender su edificio o invertir?
   btn_cta:
     text: ¡Contáctenos!

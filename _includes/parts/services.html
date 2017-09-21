@@ -1,22 +1,24 @@
-<div class="services container">
+<div class="services">
   {% for item in site.translations[site.lang]["services"]["list"] %}
-  <div  class="row services__item ">
     {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if group == 'odd' %}
-      <div class="col-10 col-md-8">
-        {{ item['item_text'] }}
+      <div class="row services__item-{{ group }}">
+      {% if group == 'odd' %}
+        <div class="col-8">
+          {{ item['item_text'] }}
+        </div>
+        <div class="col-4">
+          <!--<img src="{{ item['item_icon'] }}" alt="">-->
+          <img data-src="holder.js/100px180?theme=social" alt="">
+        </div>
+      {% else %}
+        <div class="col-4">
+          <!--<img src="{{ item['item_icon'] }}" alt="">-->
+          <img data-src="holder.js/100px180?theme=gray" alt="">
+        </div>
+        <div class="col-8">
+          {{ item['item_text'] }}
+        </div>
+      {% endif %}
       </div>
-      <div class="col-2 col-md-4">
-        <img src="{{ item['item_icon'] }}" alt="">
-      </div>
-    {% else %}
-      <div class="col-2 col-md-4">
-        <img src="{{ item['item_icon'] }}" alt="">
-      </div>
-      <div class="col-10 col-md-8">
-        {{ item['item_text'] }}
-      </div>
-    {% endif %}
-  </div>
   {% endfor %}
 </div>

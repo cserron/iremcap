@@ -1,0 +1,12 @@
+.markets {
+  height: 120vh;
+  background-color: #fff;
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 200px solid red;
+    border-left: 4000px solid transparent;
+  }
+}

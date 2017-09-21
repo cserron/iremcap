@@ -1,6 +1,5 @@
 
 <div class="text-center strategy">
-  <h1>strategy</h1>
   <div class="row">
 
     <ul class="strategy__list list-inline">
@@ -30,23 +29,34 @@
       </li>
     </ul>
   </div>
-  <section class="section strategy__content">
-    <div class="row">
-      <div class="col-12">
-        <p>{% t strategy.text_1 %}</p>
-        <p>{% t strategy.text_2 %}</p>
-        <ul class="list">
-          {% for item in site.translations[site.lang]["strategy"]["text_list"] %}
-            <li class="list-item">{{ item }}</li>
-          {% endfor %}
-        </ul>
-        <p>{% t strategy.text_3 %}</p>
-        <p>
-          <a class="btn-primary btn mt-2 mt-md-0 float-left">{% t strategy.btn_cta %} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-          </a>
+  <div class="strategy__content container-fluid">
+    <div class="row strategy__content-odd justify-content-center">
+      <div class="col-10">
+          {% t strategy.text_1 %}
+      </div>
+    </div>
+    <div class="row strategy__content-even justify-content-center">
+      <div class="col-10">
+        <p class="paragraph">{% t strategy.text_2 %}</p>
+        <div class="ul-wrapper">
+          <ul class="strategy__content__list">
+            {% for item in site.translations[site.lang]["strategy"]["text_list"] %}
+            <li class="strategy__content__list-item">
+              <div class="strategy__content__list-item__icon">
+                <img src="{{ item.img }}" alt="">
+              </div>
+              <div class="strategy__content__list-item__text">
+                {{ item.text }}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <p class="paragraph clear">{% t strategy.text_3 %}</p>
+        <p class="paragraph ">
+          <a class="btn-primary btn">{% t strategy.btn_cta.text %} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>
-
   </div>
 </div>
