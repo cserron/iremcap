@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-livereload"
-   gem "jekyll-multiple-languages-plugin"
+   gem "jekyll-multiple-languages-plugin", "~> 1.4.0"
    gem "jekyll-paginate"
 end
 
