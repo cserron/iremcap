@@ -1,24 +1,23 @@
-<div class="services">
+<div class="services col-12 col-md-10 wow">
   {% for item in site.translations[site.lang]["services"]["list"] %}
     {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
-      <div class="row services__item-{{ group }}">
+    <div class="row services__item-{{ group }} wow fadeInUp">
       {% if group == 'odd' %}
-        <div class="col-8">
-          {{ item['item_text'] }}
-        </div>
-        <div class="col-4">
-          <!--<img src="{{ item['item_icon'] }}" alt="">-->
-          <img data-src="holder.js/100px180?theme=social" alt="">
-        </div>
-      {% else %}
-        <div class="col-4">
-          <!--<img src="{{ item['item_icon'] }}" alt="">-->
-          <img data-src="holder.js/100px180?theme=gray" alt="">
-        </div>
-        <div class="col-8">
-          {{ item['item_text'] }}
-        </div>
-      {% endif %}
+      <div class="services__icon">
+        <img src="{{ item['item_icon'] }}" alt="">
       </div>
+      <div class="services__desc">
+        <p>{{ item['item_text'] }}</p>
+      </div>
+      {% else %}
+      <div class="services__desc even">
+        <p>{{ item['item_text'] }}</p>
+      </div>
+      <div class="services__icon">
+        <img src="{{ item['item_icon'] }}" alt="">
+      </div>
+      {% endif %}
+    </div>
+  <hr class="services__separator wow fadeInUp">
   {% endfor %}
 </div>

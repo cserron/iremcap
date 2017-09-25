@@ -4,48 +4,64 @@
 }
 .internal {
   .bg-strategy {
-    background-image: url('/assets/images/worldmap.jpg');
+    background-image: url('/assets/images/stock-photo-double-exposure-of-success-businessman-using-digital-tablet-with-london-building-and-social-media-326189489.jpg');
   }
   .bg-services {
-    background-image: url('/assets/images/worldmap.jpg');
+    background-image: url('/assets/images/stock-photo-big-city-night-life-527653387.jpg');
   }
   .bg-markets {
-    background-image: url('/assets/images/worldmap.jpg');
+    background-image: url('/assets/images/stock-photo-aerial-view-over-punta-del-este-and-atlantic-ocean-on-sunset-uruguay-647676238.jpg');
   }
   .bg-clients {
-    background-image: url('/assets/images/worldmap.jpg');
-  }
-  .bg-news {
-    background-image: url('/assets/images/worldmap.jpg');
+    background-image: url('/assets/images/stock-photo-long-exposure-traffic-scene-of-tokyo-285342980.jpg');
   }
   .bg-team {
-    background-image: url('/assets/images/worldmap.jpg');
+    background-image: url('/assets/images/stock-photo-business-documents-on-office-table-with-smart-phone-and-laptop-computer-and-graph-financial-with-403553284.jpg');
+  }
+  .bg-contact {
+    background-image: url('/assets/images/stock-photo-businesswoman-working-with-modern-devices-student-girl-using-digital-tablet-computer-and-mobile-556752016.jpg');
   }
 
 
 
   &__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-repeat: no-repeat;
+    background-position: center bottom;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 40vh;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', serif;
     padding: 80px 15px;
     text-align: justify;
     @include respond-to(md) {
       min-height: 50vh;
     }
     &-title {
-      font-size: 2rem;
+      font-size: 3rem;
       line-height: 2.0;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
+      text-shadow: #32353D 1px 1px;
+      font-weight: bold;
+      &:after {
+        border-bottom: 2px solid _palette(primary);
+        width: 90px;
+        margin-right: -90px;
+        position: absolute;
+        content: ' ';
+      }
     }
     &-tagline {
       text-align: center;
-      font-size: 1rem;
+      font-size: 1.4rem;
       line-height: 1.5;
       padding: 0 20px 20px 20px;
+      text-shadow: #32353D 1px 1px;
 
       @include respond-to(lg) {
         width: 70%;
@@ -69,6 +85,13 @@
     font-size: 1.6rem;
     padding: 20px 0;
     color: _palette(primary);
+    &:after {
+      border-bottom: 2px solid _palette(darkgray);
+      width: 60px;
+      margin-left: -60px;
+      position: absolute;
+      content: ' ';
+    }
   }
   &__box {
     color: _palette(lightgray);

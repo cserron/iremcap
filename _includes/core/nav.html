@@ -1,6 +1,5 @@
 <nav class="irem_navbar navbar navbar-expand-md fixed-top">
-    <a class="navbar-brand " href="#">
-        <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/logo.png" alt="Scroll or swipe for more"> -->
+    <a class="navbar-brand " href="{% t global.root_url %}">
       <img src="{{baseurl_root}}/assets/images/logo.png" class="logo">
         IREMCAP
     </a>
@@ -30,6 +29,12 @@
         {% endfor %}
 
       </ul>
-      <a class="btn-primary btn mt-2 mt-md-0">Contacto</a>
+      {% if site.lang == "es" %}
+        <a class="btn-primary btn mt-2 mt-md-0" href="/contacto/">Contacto</a>
+      {% elsif site.lang == "en" %}
+        <a class="btn-primary btn mt-2 mt-md-0" href="/en/contact/">Contact</a>
+      {% else %}
+        <a class="btn-primary btn mt-2 mt-md-0" href="/fr/contact/">Contact</a>
+      {% endif %}
     </div>
 </nav>

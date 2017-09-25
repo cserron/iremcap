@@ -1,23 +1,69 @@
 .strategy {
-  float: left;
-  width: 100%;
-  &__list {
+  padding: 0;
+  .item {
+    display: flex;
+    align-items: center;
     float: left;
-    width: 70%;
-    margin: 20px auto;
-    &__item {
-      list-style-type: none;
-      float: left;
-      width: 25%;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    .icon {
+      width: 50%;
+      background-color: #fff;
+      text-align: center;
+      &-strategy {
+        width: 30%;
+      }
+    }
+    .desc {
+      width: 50%;
+      padding: 70px 10px;
+      background-color: #fff;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: _palette(lightgray);
+      &:after {
+        position: absolute;
+        border-bottom: 1px solid _palette(primary);
+        bottom: 0;
+      }
     }
   }
+  &__separator {
+    @include respond-to(md) {
+      border: 1px solid _palette(primary);
+      text-align: center;
+      width: 50%;
+    }
+  }
+  &__header {
+    &__list {
+      //text-align: center;
+      &-item {
+        padding: 40px 10px;
+        text-align: center;
+        width: 20%;
+        .icon {
+          width: 100px;
+        }
+        p {
+          color: _palette(lightgray);
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
   &__content {
     text-align: justify;
     color: _palette(lightgray);
-    padding: 120px 0px;
+    padding: 60px 0px;
     width: 100%;
+    font-size: 1rem;
     @include respond-to(md) {
-      padding: 90px 0px;
+      font-size: 1.2rem;
+      padding: 60px 0px;
     }
     &-odd,
     &-even {
@@ -30,10 +76,8 @@
       background-color: #fff;
     }
     &-even {
-      background: #d0e3f4; /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #d0e3f4 0%, #b3d5f2 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg, #d0e3f4 0%,#b3d5f2 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(135deg, #d0e3f4 0%,#b3d5f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      color: #fff;
+      background-color: #55a9f6;
       .clear {
         clear: both;
       }
@@ -46,6 +90,16 @@
         width: 100%;
         @include respond-to(md) {
           width: 80%;
+        }
+      }
+      .btn {
+        background-color: _palette(primary);
+        color: #fff;
+        //border-radius: 0;
+        border: 2px solid #fff;
+        &:hover {
+          color: _palette(primary) !important;
+          background-color: #fff;
         }
       }
     }
@@ -66,6 +120,9 @@
           width: 60px;
           width: 60px;
           float: left;
+          img {
+            fill: red;
+          }
         }
         &__text {
           width: calc(100% - 60px);

@@ -1,4 +1,5 @@
 global:
+  root_url: /
   tagline: Español
   about: Sobre
   twitter: Twitter
@@ -84,32 +85,32 @@ services:
   title: Servicios
   list:
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_01.svg
       item_text: >
         Gestión integral de inversiones (IREM se encarga de todo el proceso de
         inversión desde detectar la oportunidad hasta su concreción pasando por la
         estructuración y búsqueda de financiación)
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_02.svg
       item_text: >
         Procesos de intermediación en compra / venta de edificios vacíos o alquilados
         con potencial valor añadido
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_03.svg
       item_text: >
         Asesoramiento a propietarios para sacar rendimiento a su edificio vacío o
         tierra
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_04.svg
       item_text: >
         Asesoramiento a usuarios para conseguir lugares de negocio adaptados a
         nuevas necesidades
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_05.svg
       item_text: >
         Creación de tecnología genuina para el sector inmobiliario
     -
-      item_icon: img01.png
+      item_icon: /assets/images/services_06.svg
       item_text: >
         Estudios de viabilidad
 clients:
@@ -209,6 +210,35 @@ markets:
   phone: Teléfono
   email: Correo
   cta_contact: Contactarme
+contact:
+  title: Contacto
+  text_1: >
+    Por más información acerca de nuestros servicios
+    completa este formulario y te estaremos respondiendo a la brevedad.
+  form:
+    thankyou_cb: gracias.html
+    name: Nombre
+    email: Correo Electrónico
+    phone: Teléfono
+    message: Mensaje
+    btn_submit: Enviar
+  data:
+    address:
+      label: Calle
+      value: Calle Castelló 23, 3D – 28003 Madrid
+    phone_es:
+      label: Movil
+      value: +34 654 935 718
+    phone_fr:
+      label: Francia
+      value: +33 (0) 789 05 74 05
+    phone_uy:
+      label: Uruguay
+      value: +598 (0) 95 698 703
+    email:
+      label: Correo
+      value: info@iremcap.com
+
 
 
 

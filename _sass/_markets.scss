@@ -1,12 +1,61 @@
+//.markets {
+//  height: 120vh;
+//  background-color: #fff;
+//  &:before {
+//    content: '';
+//    position: absolute;
+//    bottom: 0;
+//    right: 0;
+//    border-bottom: 200px solid red;
+//    border-left: 4000px solid transparent;
+//  }
+//}
+
 .markets {
-  height: 120vh;
-  background-color: #fff;
-  &:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-bottom: 200px solid red;
-    border-left: 4000px solid transparent;
+  padding: 0;
+  .item {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 100%;
+    .desc {
+      width: 50%;
+      padding: 100px 10px;
+      text-align: center;
+      font-size: 1.4rem;
+      color: #eee;
+      text-shadow: #32353D 1px 1px;
+      @include respond-to(md) {
+        color: _palette(lightgray);
+        text-shadow: none;
+        background-color: #fff;
+        padding: 150px 20px;
+        width: 40%;
+      }
+      @include respond-to(lg) {
+        padding: 120px 20px;
+        width: 40%;
+      }
+      &:after {
+        position: absolute;
+        border-bottom: 1px solid _palette(primary);
+        bottom: 0;
+      }
+    }
+  }
+  .uruguay {
+    background: url('/assets/images/stock-photo-aerial-view-over-punta-del-este-and-atlantic-ocean-on-sunset-uruguay-647676238.jpg');
+    background-position: 25% center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 2px 0;
+  }
+  .spain {
+    background: url('/assets/images/madrid.jpg');
+    background-position: 75% center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 2px 0;
+
   }
 }

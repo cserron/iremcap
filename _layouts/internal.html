@@ -7,10 +7,10 @@
 
 <div class="internal">
   <div class="internal__header bg-{{bg_class}}">
-    <h1 class="internal__header-title">
+    <h1 class="internal__header-title wow fadeInUp">
       {{ object.title }}
     </h1>
-    <h3 class="internal__header-tagline">
+    <h3 class="internal__header-tagline wow fadeInUp">
       {{ object.tagline }}
     </h3>
   </div>
@@ -25,7 +25,10 @@
       {% include parts/clients.html %}
     {% elsif pagetitle == "news" %}
       {% include parts/news.html %}
+    {% elsif pagetitle == "contact" %}
+      {% include parts/contact.html %}
     {% endif %}
+
   </div>
 </div>
 {% include core/footer.html %}

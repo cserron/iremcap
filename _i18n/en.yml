@@ -1,4 +1,5 @@
 global:
+  root_url: /en/
   tagline: English
   about: About
   twitter: Twitter

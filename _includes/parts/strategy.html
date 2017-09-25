@@ -1,35 +1,90 @@
 
-<div class="text-center strategy">
-  <div class="row">
-
-    <ul class="strategy__list list-inline">
-      <li class="strategy__list__item">
-        <div class="strategy__list__item-wrapper">
-          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
-        </div>
-        Data analysis
+<div class="strategy wow">
+  <div class="d-none d-md-flex justify-content-center">
+    <ul class="list-inline strategy__header__list d-md-flex justify-content-center">
+      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
+        <img src="/assets/images/strategy_01.svg" alt="" class="icon">
+        <p>Data analysis</p>
       </li>
-      <li class="strategy__list__item">
-        <div class="strategy__list__item-wrapper">
-          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
-        </div>
-        Hands on execution
+      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
+        <img src="/assets/images/strategy_02.svg" alt="" class="icon">
+        <p>Hands on execution</p>
       </li>
-      <li class="strategy__list__item">
-        <div class="strategy__list__item-wrapper">
-          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
-        </div>
-        Real Estate added-value
+      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
+        <img src="/assets/images/strategy_03.svg" alt="" class="icon">
+        <p>Real Estate added-value</p>
       </li>
-      <li class="strategy__list__item">
-        <div class="strategy__list__item-wrapper">
-          <img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">
-        </div>
-        Digital enhancement
+      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
+        <img src="/assets/images/strategy_04.svg" alt="" class="icon">
+        <p>Digital enhacement</p>
       </li>
     </ul>
   </div>
-  <div class="strategy__content container-fluid">
+  <div class="items__wrapper d-md-none">
+    <div class="row item justify-content-start wow fadeInUp">
+      <article class="desc">
+        Data analysis
+      </article>
+      <div class="icon">
+        <img src="/assets/images/strategy_01.svg" alt="" class="icon-strategy">
+      </div>
+    </div>
+    <div class="row item justify-content-end wow fadeInUp">
+      <div class="icon">
+        <img src="/assets/images/strategy_02.svg" alt="" class="icon-strategy">
+      </div>
+      <article class="desc">
+        Hands on execution
+      </article>
+    </div>
+    <div class="row item justify-content-start wow fadeInUp">
+      <article class="desc">
+        Real Estate added-value
+      </article>
+      <div class="icon">
+        <img src="/assets/images/strategy_03.svg" alt="" class="icon-strategy">
+      </div>
+    </div>
+    <div class="row item justify-content-end wow fadeInUp">
+      <div class="icon">
+        <img src="/assets/images/strategy_04.svg" alt="" class="icon-strategy">
+      </div>
+      <article class="desc">
+        Digital enhacement
+      </article>
+    </div>
+  </div>
+  <hr class="strategy__separator">
+  <!--<div class="row">-->
+
+    <!--<ul class="strategy__list list-inline">-->
+      <!--<li class="strategy__list__item">-->
+        <!--<div class="strategy__list__item-wrapper">-->
+          <!--<img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">-->
+        <!--</div>-->
+        <!--Data analysis-->
+      <!--</li>-->
+      <!--<li class="strategy__list__item">-->
+        <!--<div class="strategy__list__item-wrapper">-->
+          <!--<img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">-->
+        <!--</div>-->
+        <!--Hands on execution-->
+      <!--</li>-->
+      <!--<li class="strategy__list__item">-->
+        <!--<div class="strategy__list__item-wrapper">-->
+          <!--<img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">-->
+        <!--</div>-->
+        <!--Real Estate added-value-->
+      <!--</li>-->
+      <!--<li class="strategy__list__item">-->
+        <!--<div class="strategy__list__item-wrapper">-->
+          <!--<img src="http://catalyst.com/content/uploads/2015/11/growth_icon.png" alt="">-->
+        <!--</div>-->
+        <!--Digital enhancement-->
+      <!--</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+  <div class="strategy__content container-fluid wow">
     <div class="row strategy__content-odd justify-content-center">
       <div class="col-10">
           {% t strategy.text_1 %}
@@ -41,7 +96,7 @@
         <div class="ul-wrapper">
           <ul class="strategy__content__list">
             {% for item in site.translations[site.lang]["strategy"]["text_list"] %}
-            <li class="strategy__content__list-item">
+            <li class="strategy__content__list-item wow fadeInUp">
               <div class="strategy__content__list-item__icon">
                 <img src="{{ item.img }}" alt="">
               </div>

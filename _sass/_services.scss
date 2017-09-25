@@ -1,30 +1,101 @@
 .services {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
   &__item {
-    min-height: 20vh;
-    &-odd {
-      text-align: justify;
+    &-odd,
+    &-even {
       display: flex;
+      margin: 2px 0;
       align-items: center;
-      color: _palette(lightgray);
-      background-color: #fff;
-      padding: 60px 10px;
-      @include respond-to(md) {
-        padding: 90px 10px;
-      }
+      justify-content: center;
+
+    }
+    &-odd {
+      justify-content: flex-end;
     }
     &-even {
-      text-align: justify;
-      display: flex;
-      align-items: center;
-      color: _palette(lightgray);
-      padding: 60px 10px;
-      background: #d0e3f4; /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #d0e3f4 0%, #b3d5f2 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg, #d0e3f4 0%,#b3d5f2 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(135deg, #d0e3f4 0%,#b3d5f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      @include respond-to(md) {
-        padding: 90px 30px;
-      }
+      justify-content: flex-start;
+
+    }
+  }
+  &__icon,
+  &__desc {
+    padding: 10px;
+    @include respond-to(md) {
+      padding: 100px 20px;
+    }
+  }
+  &__icon {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    align-self: center;
+    img {
+      max-width: 80%;
+    }
+  }
+  &__desc {
+    width: 70%;
+    text-align: justify;
+    color: _palette(lightgray);
+    //font-weight: bold;
+    //text-shadow: #32353D 1px 1px;
+    background-attachment: fixed;
+    font-size: 1rem;
+    @include respond-to(md) {
+      font-size: 1.2rem;
+    }
+  }
+  &__separator {
+    @include respond-to(md) {
+      border: 1px solid _palette(primary);
+      text-align: center;
+      width: 70%;
     }
   }
 }
+//
+//.services {
+//  padding: 0;
+//  .item {
+//    display: flex;
+//    align-items: center;
+//    float: left;
+//    width: 100%;
+//    .desc {
+//      width: 50%;
+//      padding: 100px 10px;
+//      background-color: #fff;
+//      text-align: center;
+//      font-size: 1.2rem;
+//      @include respond-to(md) {
+//        font-size: 1.5rem;
+//        padding: 180px 20px;
+//        width: 30%;
+//      }
+//      &:after {
+//        position: absolute;
+//        border-bottom: 1px solid _palette(primary);
+//        bottom: 0;
+//      }
+//    }
+//  }
+//  .uruguay {
+//    background-image: url('/assets/images/stock-photo-double-exposure-of-success-businessman-using-digital-tablet-with-london-building-and-social-media-326189489.jpg');
+//    background-position: 25% center;
+//    background-size: cover;
+//    background-attachment: fixed;
+//    margin: 2px 0;
+//  }
+//  .spain {
+//    background: url('/assets/images/madrid.jpg');
+//    background-position: 75% center;
+//    background-size: cover;
+//    background-attachment: fixed;
+//    margin: 2px 0;
+//
+//  }
+//}

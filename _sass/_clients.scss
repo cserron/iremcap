@@ -1,0 +1,12 @@
+.clients {
+  &__title {
+    width: 100%;
+    text-align: center;
+  }
+  .icon {
+    width: 100px;
+    @include respond-to(md) {
+      width: 128px;
+    }
+  }
+}
