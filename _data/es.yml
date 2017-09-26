@@ -28,20 +28,20 @@ team:
   subtitle: Nuestro equipo
   team:
     -
-      name: Jimena
-      role: Fundador
+      name: Jimena Lasarte
+      role: Cargo
       linkedin: http://linkedin.com
       email: jimena@iremcap.com
     -
-      name: Christian
-      role: Fundador
+      name: Gillaume Sainpy
+      role: Cargo
       linkedin: linkedin.com
-      email: http://jimena@iremcap.com
+      email: guillaume@@iremcap.com
     -
-      name: Guillaume
+      name: Christian Serron
       role: Fundador
       linkedin: linkedin.com
-      email: http://jimena@iremcap.com
+      email: christian@iremcap.com
 strategy:
   title: Estrategia
   tagline: “Asesorar clientes con datos, creatividad e incorporando nuevos usos a los edificios y
