@@ -77,7 +77,7 @@
         top: -130px;
         transform: skewY(-3deg);
         -webkit-transform: skewY(-3deg);
-        background: url("/assets/images/bkg_pattern.png");
+        background: url("#{$site_url}#{$site_baseurl}/assets/images/bkg_pattern.png");
         content: '';
         background-size: cover !important;
         background-position: top right;

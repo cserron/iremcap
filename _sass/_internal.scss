@@ -1,25 +1,26 @@
+
 .row {
   margin: 0;
   padding: 0;
 }
 .internal {
   .bg-strategy {
-    background-image: url('/assets/images/stock-photo-double-exposure-of-success-businessman-using-digital-tablet-with-london-building-and-social-media-326189489.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-double-exposure-of-success-businessman-using-digital-tablet-with-london-building-and-social-media-326189489.jpg');
   }
   .bg-services {
-    background-image: url('/assets/images/stock-photo-big-city-night-life-527653387.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-big-city-night-life-527653387.jpg');
   }
   .bg-markets {
-    background-image: url('/assets/images/stock-photo-aerial-view-over-punta-del-este-and-atlantic-ocean-on-sunset-uruguay-647676238.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-aerial-view-over-punta-del-este-and-atlantic-ocean-on-sunset-uruguay-647676238.jpg');
   }
   .bg-clients {
-    background-image: url('/assets/images/stock-photo-long-exposure-traffic-scene-of-tokyo-285342980.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-long-exposure-traffic-scene-of-tokyo-285342980.jpg');
   }
   .bg-team {
-    background-image: url('/assets/images/stock-photo-business-documents-on-office-table-with-smart-phone-and-laptop-computer-and-graph-financial-with-403553284.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-business-documents-on-office-table-with-smart-phone-and-laptop-computer-and-graph-financial-with-403553284.jpg');
   }
   .bg-contact {
-    background-image: url('/assets/images/stock-photo-businesswoman-working-with-modern-devices-student-girl-using-digital-tablet-computer-and-mobile-556752016.jpg');
+    background-image: url('#{$site_url}#{$site_baseurl}/assets/images/stock-photo-businesswoman-working-with-modern-devices-student-girl-using-digital-tablet-computer-and-mobile-556752016.jpg');
   }
 
 
