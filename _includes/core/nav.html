@@ -22,9 +22,9 @@
         {% for item in site.t[page.lang] %}
             <li class="nav-item">
               {% if lang == "es" %}
-                <a class="nav-link" href="{{site.url}}{{site.baseurl}}/{{ item[1].url }}">{{ item[1].name }}</a>
+                <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{ item[1].url }}">{{ item[1].name }}</a>
               {% else %}
-                <a class="nav-link" href="{{site.url}}{{site.baseurl}}/{{page.lang}}{{ item[1].url }}">{{ item[1].name }}</a>
+                <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{page.lang}}{{ item[1].url }}">{{ item[1].name }}</a>
               {% endif %}
             </li>
         {% endfor %}
