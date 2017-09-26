@@ -4,7 +4,7 @@
     <div class="row services__item-{{ group }} wow fadeInUp">
       {% if group == 'odd' %}
       <div class="services__icon">
-        <img src="{{ item['item_icon'] }}" alt="">
+        <img src="{{site.url}}{{site.baseurl}}{{ item['item_icon'] }}" alt="">
       </div>
       <div class="services__desc">
         <p>{{ item['item_text'] }}</p>
@@ -14,7 +14,7 @@
         <p>{{ item['item_text'] }}</p>
       </div>
       <div class="services__icon">
-        <img src="{{ item['item_icon'] }}" alt="">
+        <img src="{{site.url}}{{site.baseurl}}{{ item['item_icon'] }}" alt="">
       </div>
       {% endif %}
     </div>

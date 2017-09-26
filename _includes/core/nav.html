@@ -1,6 +1,6 @@
 <nav class="irem_navbar navbar navbar-expand-md fixed-top">
     <a class="navbar-brand " href="{% t global.root_url %}">
-      <img src="{{baseurl_root}}/assets/images/logo.png" class="logo">
+      <img src="{{site.url}}{{site.baseurl}}/assets/images/logo.png" class="logo">
         IREMCAP
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,30 +11,30 @@
         
         <li class="nav-item active">
           {% if site.lang == "es" %}
-            <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{site.url}}{{site.baseurl}}/">Inicio <span class="sr-only">(current)</span></a>
           {% elsif site.lang == "en"%}
-            <a class="nav-link" href="/en/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{site.url}}{{site.baseurl}}/en/">Home <span class="sr-only">(current)</span></a>
           {% else %}
-            <a class="nav-link" href="/fr/">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{site.url}}{{site.baseurl}}/fr/">Accueil <span class="sr-only">(current)</span></a>
           {% endif %}
         </li>
         {% for item in site.translations[site.lang]["nav"] %}
             <li class="nav-item">
               {% if site.lang == "es" %}
-                <a class="nav-link" href="/{{ item[1] }}">{{ item[1] | capitalize}}</a>
+                <a class="nav-link" href="{{site.url}}{{site.baseurl}}/{{ item[1] }}">{{ item[1] | capitalize}}</a>
               {% else %}
-                <a class="nav-link" href="/{{site.lang}}/{{ item[1] }}">{{ item[1] | capitalize}}</a>
+                <a class="nav-link" href="{{site.url}}{{site.baseurl}}/{{site.lang}}/{{ item[1] }}">{{ item[1] | capitalize}}</a>
               {% endif %}
             </li>
         {% endfor %}
 
       </ul>
       {% if site.lang == "es" %}
-        <a class="btn-primary btn mt-2 mt-md-0" href="/contacto/">Contacto</a>
+        <a class="btn-primary btn mt-2 mt-md-0" href="{{site.url}}{{site.baseurl}}/contacto/">Contacto</a>
       {% elsif site.lang == "en" %}
-        <a class="btn-primary btn mt-2 mt-md-0" href="/en/contact/">Contact</a>
+        <a class="btn-primary btn mt-2 mt-md-0" href="{{site.url}}{{site.baseurl}}/en/contact/">Contact</a>
       {% else %}
-        <a class="btn-primary btn mt-2 mt-md-0" href="/fr/contact/">Contact</a>
+        <a class="btn-primary btn mt-2 mt-md-0" href="{{site.url}}{{site.baseurl}}/fr/contact/">Contact</a>
       {% endif %}
     </div>
 </nav>
