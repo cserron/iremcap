@@ -1,72 +1,51 @@
-
+{% assign pagedata = site.data[page.lang][page.ref] %}
 <div class="strategy wow">
   <div class="d-none d-md-flex justify-content-center">
     <ul class="list-inline strategy__header__list d-md-flex justify-content-center">
+      {% for item in pagedata['list'] %}
       <li class="list-inline-item strategy__header__list-item wow fadeInUp">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_01.svg" alt="" class="icon">
-        <p>Data analysis</p>
+        <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon">
+        <p>{{item['item_tagline']}}</p>
       </li>
-      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_02.svg" alt="" class="icon">
-        <p>Hands on execution</p>
-      </li>
-      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_03.svg" alt="" class="icon">
-        <p>Real Estate added-value</p>
-      </li>
-      <li class="list-inline-item strategy__header__list-item wow fadeInUp">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_04.svg" alt="" class="icon">
-        <p>Digital enhacement</p>
-      </li>
+      {% endfor %}
     </ul>
   </div>
   <div class="items__wrapper d-md-none">
-    <div class="row item justify-content-start wow fadeInUp">
+    {% for item in pagedata["list"] %}
+    {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
+    <div class="row item wow fadeInUp">
+      {% if group == 'odd' %}
       <article class="desc">
-        Data analysis
+        {{item['item_tagline']}}
       </article>
       <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_01.svg" alt="" class="icon-strategy">
+        <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
       </div>
-    </div>
-    <div class="row item justify-content-end wow fadeInUp">
+      {% else %}
       <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_02.svg" alt="" class="icon-strategy">
+        <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
       </div>
       <article class="desc">
-        Hands on execution
+        {{item['item_tagline']}}
       </article>
+      {% endif %}
     </div>
-    <div class="row item justify-content-start wow fadeInUp">
-      <article class="desc">
-        Real Estate added-value
-      </article>
-      <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_03.svg" alt="" class="icon-strategy">
-      </div>
-    </div>
-    <div class="row item justify-content-end wow fadeInUp">
-      <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_04.svg" alt="" class="icon-strategy">
-      </div>
-      <article class="desc">
-        Digital enhacement
-      </article>
-    </div>
+    {% endfor %}
   </div>
   <hr class="strategy__separator">
   <div class="strategy__content container-fluid wow">
     <div class="row strategy__content-odd justify-content-center">
       <div class="col-10">
-          {% t strategy.text_1 %}
+        {{ pagedata.text_1 }}
       </div>
     </div>
     <div class="row strategy__content-even justify-content-center">
       <div class="col-10">
-        <p class="paragraph">{% t strategy.text_2 %}</p>
+        <p class="paragraph">{{ pagedata.text_2 }}</p>
         <div class="ul-wrapper">
           <ul class="strategy__content__list">
-            {% for item in site.translations[site.lang]["strategy"]["text_list"] %}
+
+            {% for item in pagedata["text_list"] %}
             <li class="strategy__content__list-item wow fadeInUp">
               <div class="strategy__content__list-item__icon">
                 <img src="{{site.url}}{{site.baseurl}}{{ item.img }}" alt="">
@@ -78,9 +57,9 @@
             {% endfor %}
           </ul>
         </div>
-        <p class="paragraph clear">{% t strategy.text_3 %}</p>
+        <p class="paragraph clear">{{ pagedata.text_3 }}</p>
         <p class="paragraph ">
-          <a class="btn-primary btn">{% t strategy.btn_cta.text %} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+          <a class="btn-primary btn">{{ pagedata.btn_cta.text }} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>

@@ -1,5 +1,6 @@
+{% assign pagedata = site.data[page.lang][page.ref] %}
 <div class="services col-12 col-md-10 wow">
-  {% for item in site.translations[site.lang]["services"]["list"] %}
+  {% for item in pagedata["list"] %}
     {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
     <div class="row services__item-{{ group }} wow fadeInUp">
       {% if group == 'odd' %}

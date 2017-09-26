@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: internal
 title: clients
-permalink: /clientes/
-permalink_en:   /clients/
-permalink_fr:   /clients/
+permalink:   /en/clients/
+ref: clients
+lang: en
 ---

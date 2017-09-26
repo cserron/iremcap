@@ -1,8 +1,67 @@
-menu:
-
-- {name: Estrategia, topic: '/#'}
-- {name: Servicios, topic: '/#'}
-- {name: Mercados, topic: '/#'}
-- {name: Clientes, topic: '/#'}
-- {name: Noticias, topic: '/#'}
-- {name: Equipo, topic: 'team'}
+t:
+  es:
+    home:
+      name: Inicio
+      url: /
+    strategy:
+      name: Estrategia
+      url: /estrategia/
+    services:
+      name: Servicios
+      url: /servicios/
+    markets:
+      name: Mercado
+      url: /mercados/
+    clients:
+      name: Clientes
+      url: /clientes/
+    team:
+      name: Equipo
+      url: /equipo/
+    contact:
+      name: Contacto
+      url: /contacto/
+  en:
+    home:
+      name: Home
+      url: /en/
+    strategy:
+      name: Strategy
+      url: /strategy/
+    services:
+      name: Services
+      url: /services/
+    markets:
+      name: Markets
+      url: /markets/
+    clients:
+      name: Clients
+      url: /clients/
+    team:
+      name: Team
+      url: /team/
+    contact:
+      name: Contact
+      url: /contact/
+  fr:
+    home:
+      name: Home
+      url: /fr/
+    strategy:
+      name: Strategy
+      url: /strategy/
+    services:
+      name: Services
+      url: /services/
+    markets:
+      name: Markets
+      url: /markets/
+    clients:
+      name: Clients
+      url: /clients/
+    team:
+      name: Team
+      url: /team/
+    contact:
+      name: Contact
+      url: /contact/

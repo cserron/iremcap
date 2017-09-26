@@ -3,8 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: internal
-title: contact
-permalink: /contacto/
-permalink_en:   /contact/
-permalink_fr:   /contact/
+title: services
+permalink:   /servicios/
+ref: services
+lang: es
 ---

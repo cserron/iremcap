@@ -49,16 +49,16 @@ strategy:
   list:
     -
       item_tagline: Data analysis
-      item_image_url: img01.png
+      item_image_url: strategy_01.svg
     -
       item_tagline: Hands on execution
-      item_image_url: img01.png
+      item_image_url: strategy_02.svg
     -
       item_tagline: Real Estate added-value
-      item_image_url: img01.png
+      item_image_url: strategy_03.svg
     -
       item_tagline: Digital enhancement
-      item_image_url: img01.png
+      item_image_url: strategy_04.svg
   text_1: >
     Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la
     comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir,
@@ -209,7 +209,7 @@ markets:
   name: Nombre
   phone: Teléfono
   email: Correo
-  cta_contact: Contactarme
+  cta_contact: Solicite más info
 contact:
   title: Contacto
   text_1: >

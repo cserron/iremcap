@@ -1,9 +1,9 @@
 {% include core/head.html %}
 {% include core/nav.html %}
 
-{% assign pagetitle = page.title %}
-{% assign object = site.translations[site.lang][pagetitle] %}
-{% capture bg_class %}{{ page.title }}{% endcapture %}
+{% assign pagetitle = page.ref %}
+{% assign object = site.data[page.lang][page.ref] %}
+{% capture bg_class %}{{ page.ref }}{% endcapture %}
 
 <div class="internal">
   <div class="internal__header bg-{{bg_class}}">

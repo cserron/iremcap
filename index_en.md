@@ -2,9 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: internal
-title: strategy
-permalink: /estrategia/
-permalink_en:   /strategy/
-permalink_fr:   /strategie/
+layout: home
+permalink: /en/
+ref: index
+lang: en
 ---
