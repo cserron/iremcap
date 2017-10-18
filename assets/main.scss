@@ -4,7 +4,6 @@
 ---
 $site_url : "{{ site.url }}";
 $site_baseurl : "{{ site.baseurl }}";
-
 @import "libs/variables";
 @import "libs/mixins";
 @import "header";
@@ -17,3 +16,4 @@ $site_baseurl : "{{ site.baseurl }}";
 @import "clients";
 @import "contact";
 @import "footer";
+@import "splash";
