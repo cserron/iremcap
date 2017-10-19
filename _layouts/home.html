@@ -1,24 +1,45 @@
-{% include core/head.html %}
-{% include core/nav.html %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IREMCAP</title>
+  <meta name="description" content="">
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Gudea:700|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 
-<div class="homepage-wrapper">
-    <div class="hero-subhero-wrapper">
-        <div class="hero-overlay">
-                <img src="{{site.url}}{{site.baseurl}}/assets/images/hero_angles.png">
-        </div>
-        <div class="hero-wrapper">
-            <!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" preload="preload">-->
-            <video playsinline="playsinline" autoplay="false" muted="muted" loop="false" preload="preload">
-                <source src="{{site.url}}{{site.baseurl}}/assets/images/intro.mp4" type="video/mp4">
-            </video>
-            <div class="content-wrapper">
-                <h1>Combinamos <strong class="txt-primary">know how</strong> en <strong class="txt-primary">real estate</strong> y <strong class="txt-primary">tecnología</strong> para beneficio del cliente</h1>
-                <br>
-                <a class="btn-primary btn mt-2 mt-md-0 float-left">Entiende cómo <i class="fa fa-chevron-circle-right   " aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-        <div class="subhero-wrapper"></div>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/2f714f8fb9.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+</head>
+<body>
+<div class="main">
+  <video playsinline="playsinline" autoplay="false" muted="muted" loop="false" preload="preload" class="video d-none d-md-block">
+    <source src="{{site.url}}{{site.baseurl}}/assets/images/766612117.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"><img src="{{site.url}}{{site.baseurl}}/assets/images/overlay.png" alt=""></div>
+  <div class="splash__wrapper">
+    <h1 class="title">IREMCAP</h1>
+    <h2 class="subtitle">Próximamente</h2>
+    <div class="splash__contact__phones">
+
+      <a href="tel:+34654935718" class="item">+34 654 935 718 (Móvil)</a>
+      <a href="tel:+33789057405" class="item">+33 (0) 789 05 74 05 (Francia)</a>
+      <a href="tel:+59895698703" class="item">+598 (0) 95 698 703 (Uruguay)</a>
     </div>
+    <div class="splash__contact">
+      <span>Calle Castelló 23, 3D</span>
+      <span>28009 Madrid</span>
+      <a href="mailto:contacto@iremcap.com" class="item">contacto@iremcap.com</a>
+    </div>
+  </div>
 </div>
-{% include core/footer.html %}
+</body>
+</html>
