@@ -1,0 +1,24 @@
+{% include core/head.html %}
+{% include core/nav.html %}
+
+<div class="homepage-wrapper">
+    <div class="hero-subhero-wrapper">
+        <div class="hero-overlay">
+                <img src="{{site.url}}{{site.baseurl}}/assets/images/hero_angles.png">
+        </div>
+        <div class="hero-wrapper">
+            <!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" preload="preload">-->
+            <video playsinline="playsinline" autoplay="false" muted="muted" loop="false" preload="preload">
+                <source src="{{site.url}}{{site.baseurl}}/assets/images/intro.mp4" type="video/mp4">
+            </video>
+            <div class="content-wrapper">
+                <h1>Combinamos <strong class="txt-primary">know how</strong> en <strong class="txt-primary">real estate</strong> y <strong class="txt-primary">tecnología</strong> para beneficio del cliente</h1>
+                <br>
+                <a class="btn-primary btn mt-2 mt-md-0 float-left">Entiende cómo <i class="fa fa-chevron-circle-right   " aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="subhero-wrapper"></div>
+    </div>
+</div>
+{% include core/footer.html %}
