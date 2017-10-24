@@ -54,7 +54,24 @@ body {
     text-decoration: none;
     color: #fff;
   }
+  &-links {
+    display: inline-flex;
+  }
 }
+
+.links {
+  &__wrapper {
+    margin: 20px auto;
+  }
+  &-text {
+    display: none;
+    @include respond-to(md) {
+      display: inline;
+      margin: -5px 0 0 10px;
+    }
+  }
+}
+
 .logo-web {
   max-width: 70%;
   @include respond-to(md) {
