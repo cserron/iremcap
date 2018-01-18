@@ -4,8 +4,11 @@
     .navbar-brand {
         color: _palette(primary);
         .logo {
-            width: 32px;
-            height: 28px;
+            width: 64px;
+            padding: 5px;
+            @include respond-to(md) {
+                width: 96px;
+            }
         }
     }
 

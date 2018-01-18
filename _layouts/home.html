@@ -1,48 +1,44 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IREMCAP</title>
-  <meta name="description" content="">
-  <!-- Bootstrap CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Gudea:700|Open+Sans+Condensed:300" rel="stylesheet">
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/main.css">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+{% include core/head.html %}
+{% include core/nav.html %}
 
-  <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/2f714f8fb9.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<div class="home-fp" id="home">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="home-fp__tagline">Iremcap nace de la suma y complementariedad de nuestras experiencias profesionales internacionales en el sector inmobiliario para crear un modelo de negocio donde tanto vendedor como comprador se benefician de un equipo pluridisciplinario al servicio de la creación de valor.</h3>
+                    <p>
+                        <a href="#" class="btn btn-primary">
+                            Mas info
+                        </a>
+                    </p>
+                </div>
+                <img class="carousel-item__image" src="{{site.url}}{{site.baseurl}}/assets/images/stock-photo-aerial-view-over-punta-del-este-and-atlantic-ocean-on-sunset-uruguay-647676238.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h3 class="home-fp__tagline">“Creamos vínculos inmobiliarios”</h3>
+                    <p>
+                        <a href="#" class="btn btn-primary">
+                            Mas info
+                        </a>
+                    </p>
+                </div>
+                <img class="carousel-item__image" src="{{site.url}}{{site.baseurl}}/assets/images/stock-photo-big-city-night-life-527653387.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="home-fp__tagline">“Buscamos soluciones creativas respaldadas por nuestra experiencia, contactos y apoyadas en la tecnología a nuestro alcance”</h3>
+                    <p>
+                        <a href="#" class="btn btn-primary">
+                            Mas info
+                        </a>
+                    </p>
+                </div>
+                <img class="carousel-item__image" src="{{site.url}}{{site.baseurl}}/assets/images/stock-photo-business-team-present-professional-investor-working-new-start-up-project-finance-managers-meeting-525065131.jpg" alt="Third slide">
+            </div>
+        </div>
 
-</head>
-<body>
-<div class="main">
-  <video playsinline="playsinline" autoplay="false" muted="muted" loop="false" preload="preload" class="video d-none d-md-block">
-    <source src="{{site.url}}{{site.baseurl}}/assets/images/17A229_033_comp.m4v" type="video/mp4">
-  </video>
-  <div class="overlay"><img src="{{site.url}}{{site.baseurl}}/assets/images/overlay.png" alt=""></div>
-  <div class="splash__wrapper">
-    <img src="{{site.url}}{{site.baseurl}}/assets/images/logo-web.png" alt="" class="logo-web">
-    <h2 class="subtitle">real estate + tech + creativity</h2>
-    <div class="splash__contact__phones">
-
-      <a href="tel:+34654935718" class="item">+34 654 935 718 (Móvil)</a>
-      <a href="tel:+33789057405" class="item">+33 (0) 789 05 74 05 (Francia)</a>
-      <a href="tel:+59895698703" class="item">+598 (0) 95 698 703 (Uruguay)</a>
     </div>
-    <div class="splash__contact">
-      <span>Calle Castelló 23, 3D</span>
-      <span>28001 Madrid</span>
-      <div class="links__wrapper">
-        <a href="//linkedin.com/company/iremcap" target="_blank" class="item item-links"><i class="fa fa-linkedin"></i> <span class="links-text">iremcap</span></a>
-        <a href="mailto:contacto@iremcap.com" class="item item-links"><i class="fa fa-envelope"></i> <span class="links-text">contacto@iremcap.com</span></a>
-      </div>
-    </div>
-  </div>
+    {% include core/footer.html %}
 </div>
-</body>
-</html>

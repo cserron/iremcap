@@ -1,12 +1,37 @@
 .clients {
   &__title {
-    width: 100%;
     text-align: center;
+    padding: 20px 0;
+    @include respond-to(md) {
+      padding: 40px 0;
+    }
+  }
+  &__list {
+    padding: 20px 0;
+    @include respond-to(md) {
+      padding: 40px 0;
+    }
   }
   .icon {
-    width: 100px;
+    width: 48px;
     @include respond-to(md) {
-      width: 128px;
+      width: 90px;
+    }
+  }
+  &__text {
+    color: _palette(lightgray);
+    text-align: justify;
+    padding: 15px 0;
+    @include respond-to(md) {
+      padding: 05px 0;
+    }
+  }
+  &__cta {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    @include respond-to(md) {
+      padding: 40px 0;
     }
   }
 }

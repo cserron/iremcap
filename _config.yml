@@ -38,9 +38,6 @@ t:
     services:
       name: Servicios
       url: /servicios/
-    markets:
-      name: Mercado
-      url: /mercados/
     clients:
       name: Clientes
       url: /clientes/
@@ -54,9 +51,6 @@ t:
     services:
       name: Services
       url: /services/
-    markets:
-      name: Markets
-      url: /markets/
     clients:
       name: Clients
       url: /clients/
@@ -70,9 +64,6 @@ t:
     services:
       name: Services
       url: /services/
-    markets:
-      name: Markets
-      url: /markets/
     clients:
       name: Clients
       url: /clients/

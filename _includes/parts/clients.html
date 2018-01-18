@@ -1,19 +1,63 @@
-<div class="container-fluid clients d-flex justify-content-center flex-column">
-  <h1 class="clients__title">Clientes</h1>
+{% assign pagedata = site.data[page.lang][page.ref] %}
+<div class="container clients d-flex justify-content-center flex-column">
   <div class="row">
 
-  <div class="col-10">
-    <ul class="list-inline d-flex justify-content-between">
-      <li class="list-inline-item">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_01.svg" alt="" class="icon">
-      </li>
-      <li class="list-inline-item">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_02.svg" alt="" class="icon">
-      </li>
-      <li class="list-inline-item">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_03.svg" alt="" class="icon">
-      </li>
-    </ul>
+    <div class="col-12">
+      <ul class="clients__list list-inline d-flex justify-content-between nav nav-pills">
+        <li class="list-inline-item active">
+          <a href="#investors" data-toggle="pill">
+            <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_01.svg" alt="" class="icon">
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#owners" data-toggle="pill">
+            <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_02.svg" alt="" class="icon">
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#users" data-toggle="pill">
+            <img src="{{site.url}}{{site.baseurl}}/assets/images/strategy_03.svg" alt="" class="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-  </div>
+    <div class="tab-content">
+      <div id="investors" class="tab-pane fade in active show">
+        <h3 class="clients__title">{{ pagedata["investors"]["title"] }}</h3>
+        <p class="clients__text">{{ pagedata["investors"]["text_1"] }}</p>
+        <p class="clients__text">{{ pagedata["investors"]["text_2"] }}</p>
+        <p class="clients__text">{{ pagedata["investors"]["text_3"] }}</p>
+        <p class="clients__cta">
+          <a href='{{site.url}}{{site.baseurl}}{{ pagedata["investors"]["cta_contact"]["url"]}}' class="btn btn-primary">
+            {{ pagedata["investors"]["cta_contact"]["text"] }}
+            <i class="fa fa-chevron-circle-right"></i>
+          </a>
+        </p>
+      </div>
+      <div id="owners" class="tab-pane fade">
+        <h3 class="clients__title">{{ pagedata["owners"]["title"] }}</h3>
+        <p class="clients__text">{{ pagedata["owners"]["text_1"] }}</p>
+        <p class="clients__text">{{ pagedata["owners"]["text_2"] }}</p>
+        <p class="clients__cta">
+          <a href='{{site.url}}{{site.baseurl}}{{ pagedata["investors"]["cta_contact"]["url"]}}' class="btn btn-primary">
+            {{ pagedata["owners"]["cta_contact"]["text"] }}
+            <i class="fa fa-chevron-circle-right"></i>
+          </a>
+        </p>
+      </div>
+      <div id="users" class="tab-pane fade">
+        <h3 class="clients__title">{{ pagedata["users"]["title"] }}</h3>
+        <p class="clients__text">{{ pagedata["users"]["text_1"] }}</p>
+        <p class="clients__text">{{ pagedata["users"]["text_2"] }}</p>
+        <p class="clients__text">{{ pagedata["users"]["text_3"] }}</p>
+        <p class="clients__cta">
+          <a href='{{site.url}}{{site.baseurl}}{{ pagedata["investors"]["cta_contact"]["url"]}}' class="btn btn-primary">
+            {{ pagedata["users"]["cta_contact"]["text"] }}
+            <i class="fa fa-chevron-circle-right"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+
 </div>
