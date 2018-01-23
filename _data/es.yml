@@ -24,22 +24,27 @@ team:
   tagline: >
       Nuestro grupo de trabajo es a la imagen del negocio que proyectamos. Personas que fueron
       todos empresarios por su cuenta, han decidido vivir, trabajar y concebir la vida según la frase
-      de Jack London, <em>"La función propia del hombre es vivir, no existir”</em>
+      de Jack London, <em>"La función propia del hombre es vivir, no existir"</em>
   subtitle: Nuestro equipo
   team:
     -
+      name: Myriam Freval
+      role: Partner, Estrategia y brokerage inversión
+      linkedin: http://linkedin.com
+      email: myriam@iremcap.com
+    -
+      name: Gillaume Sainpy
+      role: Partner, RE análisis y gestión proyectos de inversión
+      linkedin: linkedin.com
+      email: guillaume@iremcap.com
+    -
       name: Jimena Lasarte
-      role: Cargo
+      role: SEO y tendencias digitales
       linkedin: http://linkedin.com
       email: jimena@iremcap.com
     -
-      name: Gillaume Sainpy
-      role: Cargo
-      linkedin: linkedin.com
-      email: guillaume@@iremcap.com
-    -
       name: Christian Serron
-      role: Fundador
+      role: IT e infraestructura
       linkedin: linkedin.com
       email: christian@iremcap.com
 strategy:
@@ -48,16 +53,16 @@ strategy:
            tecnología al proceso”
   list:
     -
-      item_tagline: Data analysis
+      item_tagline: Análisis de datos
       item_image_url: strategy_01.svg
     -
-      item_tagline: Hands on execution
+      item_tagline: Ejecución por un partner de la empresa
       item_image_url: strategy_02.svg
     -
-      item_tagline: Real Estate added-value
+      item_tagline: Valor añadido inmobiliario
       item_image_url: strategy_03.svg
     -
-      item_tagline: Digital enhancement
+      item_tagline: Mejora digital de los procesos
       item_image_url: strategy_04.svg
   text_1: >
     Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la

@@ -11,36 +11,39 @@
     </ul>
   </div>
   <div class="items__wrapper d-md-none">
-    {% for item in pagedata["list"] %}
-    {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
-    <div class="row item wow fadeInUp">
-      {% if group == 'odd' %}
-      <article class="desc">
-        {{item['item_tagline']}}
-      </article>
-      <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
+    <div class="container-fluid">
+
+      {% for item in pagedata["list"] %}
+      {% capture group %}{% cycle 'odd', 'even' %}{% endcapture %}
+      <div class="row item wow fadeInUp">
+        {% if group == 'odd' %}
+        <article class="desc">
+          {{item['item_tagline']}}
+        </article>
+        <div class="icon">
+          <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
+        </div>
+        {% else %}
+        <div class="icon">
+          <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
+        </div>
+        <article class="desc">
+          {{item['item_tagline']}}
+        </article>
+        {% endif %}
       </div>
-      {% else %}
-      <div class="icon">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/{{item['item_image_url']}}" alt="" class="icon-strategy">
-      </div>
-      <article class="desc">
-        {{item['item_tagline']}}
-      </article>
-      {% endif %}
-    </div>
     {% endfor %}
+    </div>
   </div>
   <hr class="strategy__separator">
   <div class="strategy__content container-fluid wow">
     <div class="row strategy__content-odd justify-content-center">
-      <div class="col-10">
+      <div class="col-12 col-md-10">
         {{ pagedata.text_1 }}
       </div>
     </div>
     <div class="row strategy__content-even justify-content-center">
-      <div class="col-10">
+      <div class="col-12 col-md-10">
         <p class="paragraph">{{ pagedata.text_2 }}</p>
         <div class="ul-wrapper">
           <ul class="strategy__content__list">

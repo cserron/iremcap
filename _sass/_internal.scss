@@ -72,7 +72,7 @@
     }
   }
   &__content {
-    float: left;
+    //float: left;
     padding: 0;
   }
 }
@@ -83,7 +83,7 @@
     text-align: center;
     line-height: 2.0;
     font-size: 1.6rem;
-    padding: 20px 0;
+    padding: 60px 0;
     color: _palette(primary);
     &:after {
       border-bottom: 2px solid _palette(darkgray);

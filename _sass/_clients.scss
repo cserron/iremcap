@@ -2,10 +2,20 @@
   &__title {
     text-align: center;
     padding: 20px 0;
+    color: #55a9f6;
+    line-height: 2.0;
     @include respond-to(md) {
       padding: 40px 0;
     }
+    &:after {
+      border-bottom: 2px solid _palette(darkgray);
+      width: 60px;
+      margin-left: -60px;
+      position: absolute;
+      content: ' ';
+    }
   }
+
   &__list {
     padding: 20px 0;
     @include respond-to(md) {
