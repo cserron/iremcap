@@ -1,0 +1,30 @@
+# Main navigation
+main:
+  en:
+    - title: HOME
+      url: /
+    - title: SERVICES
+      url: /services/
+    - title: CLIENTS
+      url: /clients/
+    - title: TEAM
+      url: /team/
+    - title: CONTACT
+      url: /contact/
+    - title: NEWS
+      url: /news/
+
+  es:
+    - title: HOME
+      url: /
+    - title: SERVICIOS
+      url: /servicios/
+    - title: CLIENTES
+      url: /clientes/
+    - title: EQUIPO
+      url: /equipo/
+    - title: CONTACTO
+      url: /contacto/
+    - title: NOTICIAS
+      url: /noticias/
+

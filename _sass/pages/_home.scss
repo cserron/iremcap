@@ -1,0 +1,12 @@
+.intro {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/assets/images/home.jpg");
+
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

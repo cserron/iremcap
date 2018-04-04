@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {% include common/head.html %}
+    <body>
+        {% include common/header.html %}
+        <article>
+            {{ content }}
+        </article>
+    <!-- include footer goes here-->
+    <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+    </body>
+</html>

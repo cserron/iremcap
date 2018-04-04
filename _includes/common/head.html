@@ -1,0 +1,42 @@
+<!--
+  ______       _ _ _    ______        ____________ _____ _____
+  | ___ \     (_) | |   | ___ \       | ___ \ ___ \  _  /  ___|
+  | |_/ /_   _ _| | |_  | |_/ /_   _  | |_/ / |_/ / | | \ `--.
+  | ___ \ | | | | | __| | ___ \ | | | | ___ \    /| | | |`--. \
+  | |_/ / |_| | | | |_  | |_/ / |_| | | |_/ / |\ \\ \_/ /\__/ /
+  \____/ \__,_|_|_|\__| \____/ \__, | \____/\_| \_|\___/\____/
+                                __/ |
+                             |___/
+
+
+  You must be wondering why we gathered you here today...
+
+  We truly want to show you we are not just a pretty face.
+  This website has been crafted up and down, back and front, inside, outside and BEYOND!
+  We are picky and we take our clients and development process VERY SERIOUSLY.
+  Our mission is to build high-quality software that empowers our clients.
+
+  Feel free to check out our code, tear this web apart:
+  https://github.com/BuiltByBROS/jekyll-boilerplate.git
+
+
+  Happy Hacking!
+  - BROS' Dream team.
+
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+
+    <link rel="icon" href="{{ '/assets/images/general/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %} {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
+</head>

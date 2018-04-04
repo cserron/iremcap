@@ -1,0 +1,11 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "reset";
+@import "dimensions";
+@import "colors";
+@import "mixins";
+
+@import "pages/home";
+@import "header/header";
