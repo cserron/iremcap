@@ -29,7 +29,7 @@ en:
       - link: /assets/images/hotel.png
         text: La gestión operativa hotelera
 
-    second:
+    second-list:
       - link: /assets/images/briefcase.png
         text: La infraestructura tecnológica y análisis de datos
       - link: /assets/images/laptop.png

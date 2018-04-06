@@ -31,9 +31,9 @@ layout: default
     <div class="skills">
         <p>{{page_data.skills.title}}</p>
 
-        <ul class="commitments__list">
+        <ul class="skills__list">
             {% for item in page_data.skills.first-list %}
-            <li class="commitments__item">
+            <li class="skills__item">
                 <img src={{item.link}} alt="">
                 <span>{{item.text}}</span>
             </li>
@@ -41,8 +41,8 @@ layout: default
         </ul>
 
         <ul class="commitments__list">
-            {% for item in page_data.skills.second %}
-            <li class="commitments__item">
+            {% for item in page_data.skills.second-list %}
+            <li class="skills__item">
                 <img src={{item.link}} alt="">
                 <span>{{item.text}}</span>
             </li>

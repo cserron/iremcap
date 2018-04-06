@@ -144,4 +144,38 @@
     color: $white;
     font-size: 20px;
   }
+
+  &__list {
+    margin-bottom: 50px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include for-size(tablet-portrait-up) {
+      flex-direction: row;
+    }
+  }
+
+  &__item {
+    img {
+      width: 150px;
+      height: 120px;
+    }
+
+    span {
+      width: 70%;
+      margin: 20px;
+      color: $white;
+      font-size: 20px;
+    }
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
