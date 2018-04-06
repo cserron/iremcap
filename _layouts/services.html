@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign page_data = site.data.page__home[page.lang] %}
+
+<section class="intro">
+    <img class="intro__logo" src="/assets/images/logo.png" alt="">
+    <span class="intro__slogan">{{page_data.slogan}}</span>
+    {% include common/cta_button.html cta=page_data.cta %}
+</section>
+
+<section class="overview">
+
+    <div class="commitments">
+        <h4 class="commitments__title">{{page_data.commitments.title}}</h4>
+        <ul class="commitments__list">
+            {% for item in page_data.commitments.list %}
+            <li class="commitments__item">
+                <img src={{item.link}} alt="">
+                <span>{{item.text}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="text">
+        <p>{{page_data.text}}</p>
+    </div>
+
+    <div class="skills">
+        <p>{{page_data.skills.title}}</p>
+
+        <ul class="skills__list">
+            {% for item in page_data.skills.first-list %}
+            <li class="skills__item">
+                <img src={{item.link}} alt="">
+                <span>{{item.text}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <ul class="commitments__list">
+            {% for item in page_data.skills.second-list %}
+            <li class="skills__item">
+                <img src={{item.link}} alt="">
+                <span>{{item.text}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
