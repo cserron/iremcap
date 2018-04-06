@@ -16,7 +16,7 @@ main:
 
   es:
     - title: HOME
-      url: /
+      url: /inicio
     - title: SERVICIOS
       url: /servicios/
     - title: CLIENTES

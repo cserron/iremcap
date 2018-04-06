@@ -1,0 +1,38 @@
+en:
+  title: Clients
+
+es:
+  title: Clientes
+
+  clientes:
+    - title: Inversores
+      text: Nos enfocamos en detectar oportunidades procesando datos de mercado y perfiles de
+            tendencias gracias a herramientas digitales (redes sociales, publicaciones online…) y luego
+            ejecutamos las estrategias definidas para asesorar, vender o invertir en ciudades y productos.
+            Ofrecemos a inversores privados unirse a nosotros para invertir en el sector inmobiliario
+            beneficiándose de un asesoramiento global (desde la inversión inicial hasta la gestión de la
+            propiedad y asesoramiento financiero y tributario) bajo una metodología probada que
+            potencia los activos inmobiliarios con herramientas digitales de concepción y comercialización.
+            Si le interesa nuestra forma de trabajo podemos asesorarle en cómo invertir en las mejores
+            condiciones.
+      cta:
+        label: ¡Contáctenos!
+        link: /contacto/
+
+    - title: Propietarios
+      text: Nuestro valor añadido reside en nuestra metodología de trabajo que superpone conocimiento de
+            mercado y know how inmobiliario a técnicas novedosas de comercialización y puesta envalor del bien inmueble.
+            ¿Tiene un edificio vacío/alquilada y quiere venderlo?
+      cta:
+        label: ¡Consúltenos!
+        link: /contacto/
+
+    - title: Usuarios
+      text: Asesoramos clientes usuarios en la realización de proyectos singulares para uso propio y
+            la optimización de sus activos inmobiliarios en pro de la actividad de la empresa. Las formas de trabajar,
+            relacionarse, vender y atender el cliente han cambiado drásticamenteen los últimos años.
+            Por eso nos enfocamos a encontrar el mejor lugar para su negocioprocurando innovar en nuestras propuestas.
+            ¿Quiere recibir propuestas creativas de lugares de actividad?
+      cta:
+        label: ¡Consúltenos!
+        link: /contacto/

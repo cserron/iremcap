@@ -8,13 +8,13 @@ en:
   commitments:
     title: NUESTRO COMPROMISO
     list:
-      - link: /assets/images/graph.png
+      - link: /assets/images/home/graph.png
         text: Asesoramiento basado en datos
-      - link: /assets/images/hands.png
+      - link: /assets/images/common/hands.png
         text: Ejecución por un partner de la empresa
-      - link: /assets/images/house.png
+      - link: /assets/images/common/house.png
         text: Valor añadido inmobiliario
-      - link: /assets/images/cellphone.png
+      - link: /assets/images/home/cellphone.png
         text: Integridad y mejora profesionnal continua
 
   text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hoteleria o las infracturas técnologicas
@@ -22,17 +22,17 @@ en:
   skills:
     title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio
     first-list:
-      - link: /assets/images/real-state.png
+      - link: /assets/images/home/real-state.png
         text: El sector inmobiliario
-      - link: /assets/images/cart.png
+      - link: /assets/images/home/cart.png
         text: El e-commerce
-      - link: /assets/images/hotel.png
+      - link: /assets/images/home/hotel.png
         text: La gestión operativa hotelera
 
     second-list:
-      - link: /assets/images/briefcase.png
+      - link: /assets/images/home/briefcase.png
         text: La infraestructura tecnológica y análisis de datos
-      - link: /assets/images/laptop.png
+      - link: /assets/images/home/laptop.png
         text: La gestión de obras en el sector terciario
 
 es:
@@ -45,23 +45,29 @@ es:
   commitments:
       title: NUESTRO COMPROMISO
       list:
-        - link: /assets/images/graph.png
+        - link: /assets/images/home/graph.png
           text: Asesoramiento basado en datos
-        - link: /assets/images/hands.png
+        - link: /assets/images/home/hands.png
           text: Ejecución por un partner de la empresa
-        - link: /assets/images/house.png
+        - link: /assets/images/home/house.png
           text: Valor añadido inmobiliario
-        - link: /assets/images/cellphone.png
+        - link: /assets/images/home/cellphone.png
           text: Integridad y mejora profesionnal continua
 
   text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hoteleria o las infracturas técnologicas
 
   skills:
     title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio
-    first:
-      - link: /assets/images/real-state.png
+    first-list:
+      - link: /assets/images/home/real-state.png
         text: El sector inmobiliario
-      - link: /assets/images/cart.png
+      - link: /assets/images/home/cart.png
         text: El e-commerce
-      - link: /assets/images/hotel.png
+      - link: /assets/images/home/hotel.png
         text: La gestión operativa hotelera
+
+    second-list:
+      - link: /assets/images/home/briefcase.png
+        text: La infraestructura tecnológica y análisis de datos
+      - link: /assets/images/home/laptop.png
+        text: La gestión de obras en el sector terciario
