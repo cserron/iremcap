@@ -43,7 +43,7 @@
 
     margin-bottom: 20px;
 
-    img {
+    &--img {
       @include for-size(desktop-up) {
         padding-right: 30px;
       }
@@ -54,10 +54,11 @@
       height: 120px;
     }
 
-    span {
+    &--text {
       @include for-size(phone-only) {
         text-align: center;
       }
+      color: $white;
       font-size: 20px;
     }
   }

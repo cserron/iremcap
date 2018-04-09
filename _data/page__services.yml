@@ -3,17 +3,19 @@ en:
   subtitle: Interactive Real Estate Management
 
   services:
-    - text: o Gestión integral de inversiones. IREM se encarga de todo el proceso de inversión desde detectar la oportunidad hasta su concreción pasando por la estructuración y búsqueda de financiación
+    - text: >
+        Integral investment management : IREM is in charge of the whole process of investment from detecting the opportunity to its realization through the
+        structuring and seeking financing
       link: /assets/images/services/engine.png
-    - text: o Procesos de intermediación en compra / venta de edificios vacíos o alquilados con potencial valor añadido
+    - text: Processes of intermediation in the purchase / sale of empty or rented buildings with potential added value
       link: /assets/images/services/intermediation.png
-    - text: o Asesoramiento a propietarios para sacar rendimiento a su edificio vacío, alquilado o tierra
+    - text: Advice to owners to get the most out of their vacant building, rented or land
       link: /assets/images/services/advice-owner.png
-    - text: o Asesoramiento a usuarios para conseguir lugares de negocio adaptados a nuevas necesidades icono de una fábrica con techo de casa por ejemplo
+    - text: Advice to users to obtain business places adapted to new icon needs of a factory with a roof over the house for example
       link: /assets/images/services/advice-user.png
-    - text: o Asesoramiento y procesos de inversion/desinversion en el sector hotelero basado en experiencia operativa de mas de 30 años
+    - text: Advice and investment/divestment processes in the hotel sector based on more than 30 years of operational experience.
       link: /assets/images/common/house.png
-    - text: o Estudios de viabilidad
+    - text: Feasibility studies
       link: /assets/images/common/hands.png
 
 es:
@@ -21,7 +23,8 @@ es:
   subtitle: Interactive Real Estate Management
 
   services:
-    - text: o Gestión integral de inversiones. IREM se encarga de todo el proceso de inversión desde detectar la oportunidad hasta su concreción pasando por la estructuración y búsqueda de financiación
+    - text: >
+        o Gestión integral de inversiones : IREM se encarga de todo el proceso de inversión desde detectar la oportunidad hasta su concreción pasando por la estructuración y búsqueda de financiación
       link: /assets/images/services/engine.png
     - text: o Procesos de intermediación en compra / venta de edificios vacíos o alquilados con potencial valor añadido
       link: /assets/images/services/intermediation.png

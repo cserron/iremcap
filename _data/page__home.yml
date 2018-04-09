@@ -6,34 +6,35 @@ en:
     link: /services/
 
   commitments:
-    title: NUESTRO COMPROMISO
+    title: OUR COMMITMENT
     list:
       - link: /assets/images/home/graph.png
-        text: Asesoramiento basado en datos
+        text: Data-based advice
       - link: /assets/images/common/hands.png
-        text: Ejecución por un partner de la empresa
+        text: Execution by a partner of the company
       - link: /assets/images/common/house.png
-        text: Valor añadido inmobiliario
+        text: Added value real estate
       - link: /assets/images/home/cellphone.png
-        text: Integridad y mejora profesionnal continua
+        text: Integrity and continuous professional improvement
 
-  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hoteleria o las infracturas técnologicas
+  text: Today the real estate sector is at the crossroads of industry, communication and e-commerce. A building should be more than a place to live, work or sleep; it should be a link of transcendental content for those who are going to use it. One of our differential aspects is that we add real estate experience with the knowledge of experts in sectors such as e-commerce, hotels or technological infrastructures.
 
   skills:
-    title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio
+    title: >
+      That's why we have specialists from every critical point of our business model:
     first-list:
       - link: /assets/images/home/real-state.png
-        text: El sector inmobiliario
+        text: The real estate sector
       - link: /assets/images/home/cart.png
-        text: El e-commerce
+        text: E-commerce
       - link: /assets/images/home/hotel.png
-        text: La gestión operativa hotelera
+        text: Hotel operational management
 
     second-list:
       - link: /assets/images/home/briefcase.png
-        text: La infraestructura tecnológica y análisis de datos
+        text: Technological infrastructure and data analysis
       - link: /assets/images/home/laptop.png
-        text: La gestión de obras en el sector terciario
+        text: Management of works in the tertiary sector
 
 es:
   slogan: Real Estate Investment & Consulting

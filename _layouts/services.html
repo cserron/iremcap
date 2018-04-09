@@ -12,8 +12,8 @@ layout: default
 
         {% for item in page_data.services %}
         <div class="services__service">
-            <img src="{{item.link}}" alt="">
-            <span>{{item.text}}</span>
+            <img class="services__service--img" src="{{item.link}}" alt="">
+            <span class="services__service--text">{{item.text}}</span>
         </div>
         {% endfor %}
 

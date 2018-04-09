@@ -1,6 +1,35 @@
 en:
   title: Clients
 
+  clientes:
+    - title: Investors
+      text: We focus on detecting opportunities by processing market data and profiles of
+            digital tools (social networks, online publications...) and then
+            we execute the strategies defined to advise, sell or invest in cities and products.
+            We offer private investors to join us to invest in the real estate sector
+            with comprehensive advice (from the initial investment to the management of the
+            and financial and tax advice) under a proven methodology that will
+            enhances real estate assets with digital design and marketing tools.
+            If you are interested in our way of working we can advise you on how to invest in the best
+            conditions.
+      cta:
+        label: Contact us !
+        link: /contact/
+
+    - title: Owners
+      text: Our added value lies in our work methodology that superimposes market knowledge and real estate know-how on innovative marketing techniques and the enhancement of real estate.
+            Do you have an empty/rented building and want to sell it?
+      cta:
+        label: Contact us !
+        link: /contact/
+
+    - title: Users
+      text: We advise our clients on the realization of unique projects for their own use and the optimization of their real estate assets for the benefit of the company's activity, and the ways in which they work, interact, sell and serve their clients have changed drastically in recent years. That is why we focus on finding the best place for your business, trying to innovate in our proposals.
+            Would you like to receive creative proposals of places of activity?
+      cta:
+        label: Contact us !
+        link: /contact/
+
 es:
   title: Clientes
 

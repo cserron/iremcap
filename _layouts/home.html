@@ -17,25 +17,25 @@ layout: default
         <ul class="commitments__list">
             {% for item in page_data.commitments.list %}
             <li class="commitments__item">
-                <img src={{item.link}} alt="">
-                <span>{{item.text}}</span>
+                <img class="commitments__item--img" src={{item.link}} alt="">
+                <span class="commitments__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
         </ul>
     </div>
 
     <div class="text">
-        <p>{{page_data.text}}</p>
+        <p class="text--text">{{page_data.text}}</p>
     </div>
 
     <div class="skills">
-        <p>{{page_data.skills.title}}</p>
+        <p class="skills--text">{{page_data.skills.title}}</p>
 
         <ul class="skills__list">
             {% for item in page_data.skills.first-list %}
             <li class="skills__item">
-                <img src={{item.link}} alt="">
-                <span>{{item.text}}</span>
+                <img class="skills__item--img" src={{item.link}} alt="">
+                <span class="skills__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
         </ul>
@@ -43,8 +43,8 @@ layout: default
         <ul class="commitments__list">
             {% for item in page_data.skills.second-list %}
             <li class="skills__item">
-                <img src={{item.link}} alt="">
-                <span>{{item.text}}</span>
+                <img class="skills__item--img" src={{item.link}} alt="">
+                <span class="skills__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
         </ul>
