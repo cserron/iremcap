@@ -28,13 +28,13 @@ en:
       - link: /assets/images/home/cart.png
         text: E-commerce
       - link: /assets/images/home/hotel.png
-        text: Hotel operational management
+        text: La gestión operativa hotelera
 
     second-list:
       - link: /assets/images/home/briefcase.png
         text: Technological infrastructure and data analysis
       - link: /assets/images/home/laptop.png
-        text: Management of works in the tertiary sector
+        text: La gestión de obras en el sector terciario
 
 es:
   slogan: Real Estate Investment & Consulting
@@ -48,9 +48,9 @@ es:
       list:
         - link: /assets/images/home/graph.png
           text: Asesoramiento basado en datos
-        - link: /assets/images/home/hands.png
+        - link: /assets/images/common/hands.png
           text: Ejecución por un partner de la empresa
-        - link: /assets/images/home/house.png
+        - link: /assets/images/common/house.png
           text: Valor añadido inmobiliario
         - link: /assets/images/home/cellphone.png
           text: Integridad y mejora profesionnal continua

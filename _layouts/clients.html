@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign page_data = site.data.page__clients[page.lang] %}
+
+<section class="clients-intro">
+
+    <h1 class="title">{{page_data.title}}</h1>
+
+    <div class="clients">
+        {% for item in page_data.clients %}
+        <div class="clients__client">
+            <span class="clients__client--sub-title">{{item.title}}</span>
+            <span class="clients__client--text">{{item.text}}</span>
+            {% include common/cta_button.html cta=item.cta %}
+        </div>
+        {% endfor %}
+    </div>
+
+</section>

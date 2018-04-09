@@ -1,8 +1,9 @@
 en:
-  title: Clients
+  title: CLIENTS
 
-  clientes:
-    - title: Investors
+  clients:
+    - title: >
+        Investors:
       text: We focus on detecting opportunities by processing market data and profiles of
             digital tools (social networks, online publications...) and then
             we execute the strategies defined to advise, sell or invest in cities and products.
@@ -16,14 +17,16 @@ en:
         label: Contact us !
         link: /contact/
 
-    - title: Owners
+    - title: >
+        Owners:
       text: Our added value lies in our work methodology that superimposes market knowledge and real estate know-how on innovative marketing techniques and the enhancement of real estate.
             Do you have an empty/rented building and want to sell it?
       cta:
         label: Contact us !
         link: /contact/
 
-    - title: Users
+    - title: >
+        Users:
       text: We advise our clients on the realization of unique projects for their own use and the optimization of their real estate assets for the benefit of the company's activity, and the ways in which they work, interact, sell and serve their clients have changed drastically in recent years. That is why we focus on finding the best place for your business, trying to innovate in our proposals.
             Would you like to receive creative proposals of places of activity?
       cta:
@@ -31,10 +34,11 @@ en:
         link: /contact/
 
 es:
-  title: Clientes
+  title: CLIENTES
 
-  clientes:
-    - title: Inversores
+  clients:
+    - title: >
+        Inversores:
       text: Nos enfocamos en detectar oportunidades procesando datos de mercado y perfiles de
             tendencias gracias a herramientas digitales (redes sociales, publicaciones online…) y luego
             ejecutamos las estrategias definidas para asesorar, vender o invertir en ciudades y productos.
@@ -48,7 +52,8 @@ es:
         label: ¡Contáctenos!
         link: /contacto/
 
-    - title: Propietarios
+    - title: >
+        Propietarios:
       text: Nuestro valor añadido reside en nuestra metodología de trabajo que superpone conocimiento de
             mercado y know how inmobiliario a técnicas novedosas de comercialización y puesta envalor del bien inmueble.
             ¿Tiene un edificio vacío/alquilada y quiere venderlo?
@@ -56,7 +61,8 @@ es:
         label: ¡Consúltenos!
         link: /contacto/
 
-    - title: Usuarios
+    - title: >
+        Usuarios:
       text: Asesoramos clientes usuarios en la realización de proyectos singulares para uso propio y
             la optimización de sus activos inmobiliarios en pro de la actividad de la empresa. Las formas de trabajar,
             relacionarse, vender y atender el cliente han cambiado drásticamenteen los últimos años.
