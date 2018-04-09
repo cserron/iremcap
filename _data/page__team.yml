@@ -1,0 +1,76 @@
+en:
+
+  title: OUR TEAM
+
+  team-row-one:
+    - link: /assets/images/team/person.png
+      name: MYRIAM FRÉVAL
+      description: Founder and partner IREMCAP - RICS
+      email: mfreval@iremcap.com
+      phones:
+        - +34 649874606
+        - +1 (516) 7283315
+
+    - link: /assets/images/team/person.png
+      name: GUILLAUME SAINPY
+      description: Founder and  partner IREMCAP - MRICS
+      email: gsainpy@iremcap.com
+      phones:
+        - +34 654 935 718
+        - +598 (0) 95698703
+
+  team-row-two:
+    - link: /assets/images/team/person.png
+      name: MYRIAM FRÉVAL
+      description: Founder and partner IREMCAP - RICS
+      email: mfreval@iremcap.com
+      phones:
+        - +34 649874606
+        - +1 (516) 7283315
+
+    - link: /assets/images/team/person.png
+      name: GUILLAUME SAINPY
+      description: Founder and  partner IREMCAP - MRICS
+      email: gsainpy@iremcap.com
+      phones:
+        - +34 654 935 718
+        - +598 (0) 95698703
+
+es:
+
+  title: NUESTRO EQUIPO
+
+  team-row-one:
+    - link: /assets/images/team/person.png
+      name: MYRIAM FRÉVAL
+      description: Founder and partner IREMCAP - RICS
+      email: mfreval@iremcap.com
+      phones:
+        - +34 649874606
+        - +1 (516) 7283315
+
+    - link: /assets/images/team/person.png
+      name: GUILLAUME SAINPY
+      description: Founder and  partner IREMCAP - MRICS
+      email: gsainpy@iremcap.com
+      phones:
+        - +34 654 935 718
+        - +598 (0) 95698703
+
+  team-row-two:
+    - link: /assets/images/team/person.png
+      name: MYRIAM FRÉVAL
+      description: Founder and partner IREMCAP - RICS
+      email: mfreval@iremcap.com
+      phones:
+        - +34 649874606
+        - +1 (516) 7283315
+
+    - link: /assets/images/team/person.png
+      name: GUILLAUME SAINPY
+      description: Founder and  partner IREMCAP - MRICS
+      email: gsainpy@iremcap.com
+      phones:
+        - +34 654 935 718
+        - +598 (0) 95698703
+
