@@ -1,32 +1,27 @@
 .intro {
   height: 100vh;
   background-size: cover;
-  background-attachment: fixed;
-  background-image: url("/assets/images/home/home.jpg");
+  background: url("/assets/images/home/home.jpg") fixed;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 
+  padding: $header__menu__height + 70px 30px 30px 30px;
+
+  @include for-size(phone-only) {
+    padding: $header__menu__height 30px 30px 30px;
+  }
+
   &__logo {
-    margin: $header__menu__height + 70px 30px 30px 30px;
-
-    @include for-size(phone-only) {
-      margin: $header__menu__height 30px 30px 30px;
-    }
-
     width: 356px;
     max-width: 100%;
     height: auto;
   }
 
   &__slogan {
-    margin: 30px;
-
-    @include for-size(tablet-portrait-up) {
-      margin: 40px;
-    }
+    padding: 30px;
     font-weight: bold;
     font-size: 30px;
     color: $white;
