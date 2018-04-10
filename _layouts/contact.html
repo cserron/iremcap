@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% assign page_data = site.data.page__contact[page.lang] %}
+
+<section class="contact-intro">
+
+    {% include common/page_title.html
+        title=page_data.title
+        title-classes='title'
+        container-classes=''
+    %}
+
+    <div class="info">
+        <span class="info__item">{{page_data.info.street}}</span>
+        <a class="info__item" href="mailto:{{page_data.email}}">{{page_data.info.email}}</a>
+        {% for item in page_data.info.phones %}
+            <a class="info__item" href="tel:{{item.phone}}">{{item.label}} {{item.phone}}</a>
+        {% endfor %}
+    </div>
+
+    <div class="map">
+        <iframe class="map__iframe" src={{page_data.location}} allowfullscreen></iframe>
+    </div>
+
+    {% include common/form.html
+        form-container-classes='contact-form'
+        form-classes='contact-form__form'
+        form-textarea-classes='contact-form__form--textarea'
+        form-submit-classes='contact-form__form--submit'
+        form-input-classes='contact-form__form--input'
+        form=page_data.form
+    %}
+
+</section>
