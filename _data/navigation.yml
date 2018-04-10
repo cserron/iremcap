@@ -13,6 +13,8 @@ main:
       url: /contact/
     - title: NEWS
       url: /news/
+    - title: SPANISH
+      url: /inicio/
 
   es:
     - title: HOME
@@ -27,4 +29,7 @@ main:
       url: /contacto/
     - title: NOTICIAS
       url: /noticias/
+    - title: INGLÉS
+      url: /
+
 
