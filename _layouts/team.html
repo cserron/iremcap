@@ -6,7 +6,11 @@ layout: default
 
 <section class="team-intro">
 
-    <h1 class="title">{{page_data.title}}</h1>
+    {% include common/page_title.html
+        title=page_data.title
+        title-classes='title'
+        container-classes=''
+    %}
 
     <div class="team">
         {% for item in page_data.team-row-one %}
@@ -17,10 +21,8 @@ layout: default
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>
                 {% for phone in item.phones %}
-                    <span class="team__member--phone">{{phone}}</span>
+                    <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
                 {% endfor %}
-
-
             </div>
 
         {% endfor %}
@@ -35,10 +37,8 @@ layout: default
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>
                 {% for phone in item.phones %}
-                    <span class="team__member--phone">{{phone}}</span>
+                    <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
                 {% endfor %}
-
-
             </div>
 
         {% endfor %}

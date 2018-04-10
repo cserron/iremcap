@@ -6,7 +6,11 @@ layout: default
 
 <section class="clients-intro">
 
-    <h1 class="title">{{page_data.title}}</h1>
+    {% include common/page_title.html
+        title=page_data.title
+        title-classes='title'
+        container-classes=''
+    %}
 
     <div class="clients">
         {% for item in page_data.clients %}

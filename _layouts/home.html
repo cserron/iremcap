@@ -6,14 +6,26 @@ layout: default
 
 <section class="intro">
     <img class="intro__logo" src="/assets/images/home/logo.png" alt="">
-    <span class="intro__slogan">{{page_data.slogan}}</span>
-    {% include common/cta_button.html cta=page_data.cta %}
+    {% include common/page_title.html
+        title=page_data.slogan
+        title-classes='intro__slogan'
+        container-classes=''
+    %}
+
+    {% include common/cta_button.html
+        cta=page_data.cta
+    %}
 </section>
 
 <section class="overview">
 
     <div class="commitments">
-        <h4 class="commitments__title">{{page_data.commitments.title}}</h4>
+        {% include common/page_title.html
+            title=page_data.commitments.title
+            title-classes='commitments__title'
+            container-classes=''
+        %}
+
         <ul class="commitments__list">
             {% for item in page_data.commitments.list %}
             <li class="commitments__item">
