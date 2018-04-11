@@ -1,7 +1,7 @@
 .team-intro {
   min-height: 100vh;
   width: 100%;
-  background-color: $blue-background;
+  background-color: $white;
   padding-top: $header__menu__height + 70px;
   display: flex;
   flex-direction: column;
@@ -51,10 +51,17 @@
       margin: 10px;
       line-height: 1.3;
       font-size: 16px;
-      color: $white;
+      color: $black;
     };
 
     &--img {
+      filter: grayscale(100%);
+
+      &:hover {
+        filter: none;
+      }
+      max-width: 240px;
+      height: auto;
       border-radius: 50%;
     }
   }

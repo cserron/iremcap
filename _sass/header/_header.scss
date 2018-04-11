@@ -69,7 +69,7 @@
   .main-menu {
     flex: 3;
     padding: $site-content--margin-xs/2 $site-content--margin-xs;
-    background: $lightish-brown;
+    background: $blue;
 
     @include for-size(tablet-portrait-up) {
       width: 55%;
@@ -95,7 +95,7 @@
 
         line-height: normal;
         text-align: center;
-        flex: 1;
+        margin: 20px;
         display: flex;
         justify-content: center;
 

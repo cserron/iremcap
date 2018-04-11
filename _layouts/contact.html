@@ -12,16 +12,13 @@ layout: default
         container-classes=''
     %}
 
+
     <div class="info">
         <span class="info__item">{{page_data.info.street}}</span>
         <a class="info__item" href="mailto:{{page_data.email}}">{{page_data.info.email}}</a>
         {% for item in page_data.info.phones %}
-            <a class="info__item" href="tel:{{item.phone}}">{{item.label}} {{item.phone}}</a>
+        <a class="info__item" href="tel:{{item.phone}}">{{item.label}} {{item.phone}}</a>
         {% endfor %}
-    </div>
-
-    <div class="map">
-        <iframe class="map__iframe" src={{page_data.location}} allowfullscreen></iframe>
     </div>
 
     {% include common/form.html
@@ -32,5 +29,9 @@ layout: default
         form-input-classes='contact-form__form--input'
         form=page_data.form
     %}
+
+    <div class="map">
+        <iframe class="map__iframe" src={{page_data.location}} allowfullscreen></iframe>
+    </div>
 
 </section>
