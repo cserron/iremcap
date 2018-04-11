@@ -4,11 +4,11 @@
         {% for item in include.form.fields %}
 
             {% if item.type == "message" %}
-                <textarea class={{include.form-textarea-classes}} name={{item.name}} placeholder={{item.placeholder}}></textarea>
+                <textarea class={{include.form-textarea-classes}} name={{item.name}} placeholder={{item.placeholder}} required></textarea>
             {% elsif item.type == "submit" %}
                 <input class={{include.form-submit-classes}} type={{item.type}} value={{item.value}} >
             {% else %}
-                <input class={{include.form-input-classes}} type={{item.type}} name={{item.name}} placeholder={{item.placeholder}}>
+                <input class={{include.form-input-classes}} type={{item.type}} name={{item.name}} placeholder={{item.placeholder}} required>
             {% endif %}
 
         {% endfor %}
