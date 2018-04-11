@@ -15,7 +15,7 @@ en:
             conditions.
       cta:
         label: Contact us !
-        link: /contact/
+        link: /contact
 
     - title: >
         Owners:
@@ -23,7 +23,7 @@ en:
             Do you have an empty/rented building and want to sell it?
       cta:
         label: Contact us !
-        link: /contact/
+        link: /contact
 
     - title: >
         Users:
@@ -31,7 +31,7 @@ en:
             Would you like to receive creative proposals of places of activity?
       cta:
         label: Contact us !
-        link: /contact/
+        link: /contact
 
 es:
   title: CLIENTES
@@ -50,7 +50,7 @@ es:
             condiciones.
       cta:
         label: ¡Contáctenos!
-        link: /contacto/
+        link: /contacto
 
     - title: >
         Propietarios:
@@ -59,7 +59,7 @@ es:
             ¿Tiene un edificio vacío/alquilada y quiere venderlo?
       cta:
         label: ¡Consúltenos!
-        link: /contacto/
+        link: /contacto
 
     - title: >
         Usuarios:
@@ -70,4 +70,4 @@ es:
             ¿Quiere recibir propuestas creativas de lugares de actividad?
       cta:
         label: ¡Consúltenos!
-        link: /contacto/
+        link: /contacto

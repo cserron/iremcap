@@ -4,7 +4,7 @@ en:
 
   cta:
     label: MORE INFO
-    link: /services/
+    link: /services
 
   commitments:
     title: OUR COMMITMENT
@@ -43,7 +43,7 @@ es:
 
   cta:
       label: MÁS INFO
-      link: /servicios/
+      link: /servicios
 
   commitments:
       title: NUESTRO COMPROMISO
