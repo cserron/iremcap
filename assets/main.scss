@@ -17,3 +17,10 @@
 @import "pages/clients";
 @import "pages/team";
 @import "pages/contact";
+
+
+// We need front matter to access site.baseurl variable, that's why we set here the background image.
+
+.intro {
+  background: url("{{site.baseurl}}/assets/images/home/home.jpg") fixed;
+}

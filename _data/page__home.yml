@@ -1,4 +1,5 @@
 en:
+  logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
   cta:
@@ -37,6 +38,7 @@ en:
         text: La gestión de obras en el sector terciario
 
 es:
+  logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
   cta:

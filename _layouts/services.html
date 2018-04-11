@@ -16,7 +16,7 @@ layout: default
 
         {% for item in page_data.services %}
         <div class="services__service">
-            <img class="services__service--img" src="{{item.link}}" alt="">
+            <img class="services__service--img" src="{{item.link | prepend: site.baseurl}}" alt="">
             <span class="services__service--text">{{item.text}}</span>
         </div>
         {% endfor %}

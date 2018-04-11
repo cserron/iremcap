@@ -16,7 +16,7 @@ layout: default
         {% for item in page_data.team-row-one %}
 
             <div class="team__member">
-                <img class="team__member--img" src={{item.link}} alt="">
+                <img class="team__member--img" src="{{item.link | prepend: site.baseurl}}" alt="">
                 <span class="team__member--name">{{item.name}}</span>
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>
@@ -32,7 +32,7 @@ layout: default
         {% for item in page_data.team-row-two %}
 
             <div class="team__member">
-                <img class="team__member--img" src={{item.link}} alt="">
+                <img class="team__member--img" src="{{item.link | prepend: site.baseurl}}" alt="">
                 <span class="team__member--name">{{item.name}}</span>
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>

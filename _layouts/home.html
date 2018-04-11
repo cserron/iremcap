@@ -5,7 +5,7 @@ layout: default
 {% assign page_data = site.data.page__home[page.lang] %}
 
 <section class="intro">
-    <img class="intro__logo" src="/assets/images/home/logo.png" alt="">
+    <img class="intro__logo" src="{{page_data.logo | prepend: site.baseurl}}" alt="">
     {% include common/page_title.html
         title=page_data.slogan
         title-classes='intro__slogan'
@@ -29,7 +29,7 @@ layout: default
         <ul class="commitments__list">
             {% for item in page_data.commitments.list %}
             <li class="commitments__item">
-                <img class="commitments__item--img" src={{item.link}} alt="">
+                <img class="commitments__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
                 <span class="commitments__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
@@ -46,7 +46,7 @@ layout: default
         <ul class="skills__list">
             {% for item in page_data.skills.first-list %}
             <li class="skills__item">
-                <img class="skills__item--img" src={{item.link}} alt="">
+                <img class="skills__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
                 <span class="skills__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
@@ -55,7 +55,7 @@ layout: default
         <ul class="commitments__list">
             {% for item in page_data.skills.second-list %}
             <li class="skills__item">
-                <img class="skills__item--img" src={{item.link}} alt="">
+                <img class="skills__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
                 <span class="skills__item--text">{{item.text}}</span>
             </li>
             {% endfor %}
