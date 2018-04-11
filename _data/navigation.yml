@@ -4,31 +4,31 @@ main:
     - title: HOME
       url: /
     - title: SERVICES
-      url: /services/
+      url: /services
     - title: CLIENTS
-      url: /clients/
+      url: /clients
     - title: TEAM
-      url: /team/
+      url: /team
     - title: CONTACT
-      url: /contact/
+      url: /contact
     - title: NEWS
-      url: /news/
+      url: /news
     - title: ESPAÑOL
-      url: /inicio/
+      url: /inicio
 
   es:
     - title: HOME
       url: /inicio
     - title: SERVICIOS
-      url: /servicios/
+      url: /servicios
     - title: CLIENTES
-      url: /clientes/
+      url: /clientes
     - title: EQUIPO
-      url: /equipo/
+      url: /equipo
     - title: CONTACTO
-      url: /contacto/
+      url: /contacto
     - title: NOTICIAS
-      url: /noticias/
+      url: /noticias
     - title: ENGLISH
       url: /
 
