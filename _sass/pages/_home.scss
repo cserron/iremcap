@@ -6,16 +6,15 @@
   align-items: center;
   justify-content: flex-start;
 
-  padding: $header__menu__height + 70px 30px 30px 30px;
-
   @include for-size(phone-only) {
     padding: $header__menu__height 30px 30px 30px;
   }
 
   &__logo {
-    width: 356px;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    margin-top: $header__menu__height + 70px;
+    width: 356px;
   }
 
   &__slogan {
