@@ -1,0 +1,5 @@
+<section class="cta-button">
+  {% for cta in include.ctas %}
+    <a class="cta-button__link" href="{{cta.link | prepend: site.baseurl}}">{{cta.label}}</a>
+  {% endfor %}
+</section>

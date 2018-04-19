@@ -1,35 +1,39 @@
 # Main navigation
 main:
   en:
-    - title: HOME
+    - title: Home
+      img: assets/images/common/iremcap.svg
       url: /
-    - title: SERVICES
+    - title: Services
       url: /services
-    - title: CLIENTS
+    - title: Clients
       url: /clients
-    - title: TEAM
+    - title: Team
       url: /team
-    - title: CONTACT
+    - title: Contact
       url: /contact
-    - title: NEWS
+    - title: News
       url: /news
-    - title: ESPAÑOL
+    - title: ES
+      preText: EN/
+      tooltip: Español
       url: /inicio
 
   es:
-    - title: HOME
+    - title: Home
+      img: assets/images/common/iremcap.svg
       url: /inicio
-    - title: SERVICIOS
+    - title: Servicios
       url: /servicios
-    - title: CLIENTES
+    - title: Clientes
       url: /clientes
-    - title: EQUIPO
+    - title: Equipo
       url: /equipo
-    - title: CONTACTO
+    - title: Contacto
       url: /contacto
-    - title: NOTICIAS
+    - title: Noticias
       url: /noticias
-    - title: ENGLISH
+    - title: EN
+      postText: /ES
+      tooltip: English
       url: /
-
-

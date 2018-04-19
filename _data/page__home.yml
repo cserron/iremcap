@@ -2,9 +2,11 @@ en:
   logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
-  cta:
-    label: MORE INFO
-    link: /services
+  ctas:
+    - label: About Us
+      link: /team
+    - label: Services
+      link: /services
 
   commitments:
     title: OUR COMMITMENT
@@ -41,8 +43,10 @@ es:
   logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
-  cta:
-      label: MÁS INFO
+  ctas:
+    - label: Equipo
+      link: /equipo
+    - label: Servicios
       link: /servicios
 
   commitments:
