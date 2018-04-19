@@ -15,7 +15,7 @@ layout: default
     <div class="team">
       <div class="team-grid">
         {% for member in page_data.team %}
-        <div class="team__member team__member--{{ member.width }}">
+        <div class="team__member">
           <img class="team__member--img" src="{{member.link | prepend: site.baseurl}}" alt="{{ member.name }}" />
           <div class="team-member__info">
             <h3 class="team__member--name">{{member.name}}</h3>

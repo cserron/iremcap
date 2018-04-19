@@ -10,7 +10,9 @@ en:
       phones:
         - +34 649874606
         - +1 (516) 7283315
-      width: half
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/myriamfreval/
 
     - link: /assets/images/team/guillaume_sainpy.jpg
       name: Guillaume Sainpy
@@ -19,28 +21,35 @@ en:
       phones:
         - +34 654 935 718
         - +598 (0) 95698703
-      width: half
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/gsainpy/
 
     - link: /assets/images/team/cees_houweling.jpg
       name: Cees Houweling
       description: Partner at Cees Houweling Advisory
-      width: third
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ceeshouweling/
 
     - link: /assets/images/team/veronica_martin.jpg
       name: Verónica Martin
       description: Partner / QS Architect and PM
-      width: third
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ceeshouweling/
 
     - link: /assets/images/team/mariana_mosso.jpg
       name: Mariana Mosso
       description: Associated Architect and PM
-      width: third
 
     - link: /assets/images/team/person.png
       name: Jimena Lasarte
       description: SEO and digital trends
       email: jlasarte@iremcap.com
-      width: third
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
     - link: /assets/images/team/person.png
       name: Christian Serron
@@ -49,7 +58,6 @@ en:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
-      width: third
 
     - link: /assets/images/team/person.png
       name: Ruben Pintado
@@ -57,7 +65,6 @@ en:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/
-      width: third
 
 es:
 
@@ -74,7 +81,6 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/myriamfreval/
-      width: half
 
     - link: /assets/images/team/guillaume_sainpy.jpg
       name: Guillaume Sainpy
@@ -86,7 +92,6 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/gsainpy/
-      width: half
 
     - link: /assets/images/team/cees_houweling.jpg
       name: Cees Houweling
@@ -94,7 +99,6 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ceeshouweling/
-      width: third
 
     - link: /assets/images/team/veronica_martin.jpg
       name: Verónica Martin
@@ -102,18 +106,18 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ceeshouweling/
-      width: third
 
     - link: /assets/images/team/mariana_mosso.jpg
       name: Mariana Mosso
       description: Associated Architect and PM
-      width: third
 
     - link: /assets/images/team/person.png
       name: Jimena Lasarte
       description: SEO and digital trends
       email: jlasarte@iremcap.com
-      width: third
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
     - link: /assets/images/team/person.png
       name: Christian Serron
@@ -122,7 +126,6 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
-      width: third
 
     - link: /assets/images/team/person.png
       name: Ruben Pintado
@@ -130,4 +133,3 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/
-      width: third
