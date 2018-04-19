@@ -13,6 +13,39 @@ layout: default
     %}
 
     <div class="team">
+      <div class="team-grid">
+        {% for member in page_data.team %}
+        <div class="team__member team__member--{{ member.width }}">
+          <img class="team__member--img" src="{{member.link | prepend: site.baseurl}}" alt="{{ member.name }}" />
+          <div class="team-member__info">
+            <h3 class="team__member--name">{{member.name}}</h3>
+            <em class="team__member--description">{{member.description}}</em>
+            <p>
+              {% if member.email %}
+              <a class="team__member--email" href="mailto:{{ member.email }}">{{member.email}}</a>
+              <br />
+              {% endif %}
+              {% for phone in member.phones %}
+              <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
+              <br />
+              {% endfor %}
+            </p>
+          </div>
+          <div class="team-member__social">
+          {% if member.social %}
+            <ul>
+              {% for social in member.social %}
+              <li class="{{ social.network | downcase }}"><a href="{{ social.url }}" title="{{ social.network }}">{{ social.network }}</a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- <div class="team">
         {% for item in page_data.team-row-one %}
 
             <div class="team__member">
@@ -21,12 +54,13 @@ layout: default
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>
                 {% for phone in item.phones %}
-                    <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
+                  <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
                 {% endfor %}
             </div>
 
         {% endfor %}
     </div>
+
 
     <div class="team">
         {% for item in page_data.team-row-two %}
@@ -37,11 +71,11 @@ layout: default
                 <span class="team__member--description">{{item.description}}</span>
                 <a class="team__member--email" href="mailto:{{item.email}}">{{item.email}}</a>
                 {% for phone in item.phones %}
-                    <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
+                  <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
                 {% endfor %}
             </div>
 
         {% endfor %}
-    </div>
+    </div> -->
 
 </section>
