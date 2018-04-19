@@ -1,65 +1,133 @@
 en:
 
-  title: OUR TEAM
+  title: Our Team
 
-  team-row-one:
-    - link: /assets/images/team/myriam.png
-      name: MYRIAM FRÉVAL
+  team:
+    - link: /assets/images/team/myriam_freval.jpg
+      name: Myriam Fréval
       description: Founder and partner IREMCAP - RICS
       email: mfreval@iremcap.com
       phones:
         - +34 649874606
         - +1 (516) 7283315
+      width: half
 
-    - link: /assets/images/team/guillaume.png
-      name: GUILLAUME SAINPY
+    - link: /assets/images/team/guillaume_sainpy.jpg
+      name: Guillaume Sainpy
       description: Founder and  partner IREMCAP - MRICS
       email: gsainpy@iremcap.com
       phones:
         - +34 654 935 718
         - +598 (0) 95698703
+      width: half
 
-  team-row-two:
+    - link: /assets/images/team/cees_houweling.jpg
+      name: Cees Houweling
+      description: Partner at Cees Houweling Advisory
+      width: third
+
+    - link: /assets/images/team/veronica_martin.jpg
+      name: Verónica Martin
+      description: Partner / QS Architect and PM
+      width: third
+
+    - link: /assets/images/team/mariana_mosso.jpg
+      name: Mariana Mosso
+      description: Associated Architect and PM
+      width: third
+
     - link: /assets/images/team/person.png
-      name: JIMENA LASARTE
+      name: Jimena Lasarte
       description: SEO and digital trends
       email: jlasarte@iremcap.com
-
+      width: third
 
     - link: /assets/images/team/person.png
-      name: CHRISTIAN SERRON
+      name: Christian Serron
       description: IT and infrastructures
       email: cserron@iremcap.com
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/cserron/
+      width: third
+
+    - link: /assets/images/team/person.png
+      name: Ruben Pintado
+      description: Desc
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+      width: third
 
 es:
 
-  title: NUESTRO EQUIPO
+  title: Nuestro Equipo
 
-  team-row-one:
-    - link: /assets/images/team/myriam.png
-      name: MYRIAM FRÉVAL
+  team:
+    - link: /assets/images/team/myriam_freval.jpg
+      name: Myriam Fréval
       description: Founder and partner IREMCAP - RICS
       email: mfreval@iremcap.com
       phones:
         - +34 649874606
         - +1 (516) 7283315
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/myriamfreval/
+      width: half
 
-    - link: /assets/images/team/guillaume.png
-      name: GUILLAUME SAINPY
+    - link: /assets/images/team/guillaume_sainpy.jpg
+      name: Guillaume Sainpy
       description: Founder and  partner IREMCAP - MRICS
       email: gsainpy@iremcap.com
       phones:
         - +34 654 935 718
         - +598 (0) 95698703
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/gsainpy/
+      width: half
 
-  team-row-two:
+    - link: /assets/images/team/cees_houweling.jpg
+      name: Cees Houweling
+      description: Partner at Cees Houweling Advisory
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ceeshouweling/
+      width: third
+
+    - link: /assets/images/team/veronica_martin.jpg
+      name: Verónica Martin
+      description: Partner / QS Architect and PM
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ceeshouweling/
+      width: third
+
+    - link: /assets/images/team/mariana_mosso.jpg
+      name: Mariana Mosso
+      description: Associated Architect and PM
+      width: third
+
     - link: /assets/images/team/person.png
-      name: JIMENA LASARTE
+      name: Jimena Lasarte
       description: SEO and digital trends
       email: jlasarte@iremcap.com
+      width: third
 
     - link: /assets/images/team/person.png
-      name: CHRISTIAN SERRON
+      name: Christian Serron
       description: IT and infrastructures
       email: cserron@iremcap.com
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/cserron/
+      width: third
 
+    - link: /assets/images/team/person.png
+      name: Ruben Pintado
+      description: Analista de inversiones
+      social:
+        - network: LinkedIn
+          url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+      width: third

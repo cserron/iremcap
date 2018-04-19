@@ -12,6 +12,7 @@
 .title {
   font-size: 30px;
   color: $black;
+  text-transform: uppercase;
 }
 
 .clients {
@@ -25,21 +26,20 @@
 
   &__client {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
     margin: 30px;
+    text-align: center;
 
     @include for-size(desktop-up) {
       margin: 30px 200px;
     }
 
     &--sub-title {
-      align-self: flex-start;
       color: $black;
       font-size: 25px;
+      border-bottom: 3px solid $blue;
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 8px;
     }
 
     &--text {
