@@ -32,6 +32,11 @@
 
   margin-top: 50px;
 
+  @include for-size(desktop-up) {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
   &__service {
 
     margin: 30px;
@@ -43,12 +48,13 @@
 
 
     @include for-size(phone-only) {
-      padding: 5px 40px 5px 40px;
+      padding: 5px 0;
       flex-direction: column;
+      margin: 10px;
     }
 
     @include for-size(desktop-up) {
-      padding: 30px 100px 30px 100px;
+      padding: 30px 0;
     }
 
     &--img {

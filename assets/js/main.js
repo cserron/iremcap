@@ -35,14 +35,8 @@ if (hamburgers.length > 0) {
 (function () {
   var header = document.getElementById('header');
   var mainMenu = document.getElementById('main-menu-list');
-  var top = header.offsetTop;
   window.onscroll = function stickyHeader() {
     var sticky = mainMenu.offsetTop;
     header.classList.toggle('sticky', (window.pageYOffset > sticky));
-    // if (window.pageYOffset >= sticky + 50) {
-    //   header.classList.add("sticky");
-    // } else {
-    //   header.classList.remove("sticky");
-    // }
   };
 })();

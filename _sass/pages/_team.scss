@@ -57,9 +57,9 @@
     &--img {
       filter: grayscale(100%);
 
-      &:hover {
-        filter: none;
-      }
+      // &:hover {
+      //   filter: none;
+      // }
       max-width: 240px;
       height: auto;
       border-radius: 50%;
