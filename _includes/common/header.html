@@ -1,15 +1,12 @@
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 <header id="header" class="header">
-
     <!-- Toolbar -->
     <div class="header__toolbar">
-
         <div class="hamburger hamburger--collapse">
             <div class="hamburger-box">
                 <div class="hamburger-inner"></div>
             </div>
         </div>
-
     </div>
 
     <div class="header__menu">
@@ -22,7 +19,7 @@
                   {% if link.preText %}{{ link.preText }}{% endif %}
                   <a href="{{link.url | prepend: site.baseurl}}">
                     {% if link.img %}
-                      <img src="{{ "assets/images/common/iremcap.svg" | relative_url }}" alt="{{link.title}}" class="site-logo" /></a>
+                      <img src="{{ "assets/images/common/iremcap.svg" | relative_url }}" alt="{{link.title}}" class="site-logo" />
                     {% else %}
                       {{link.title}}
                     {% endif %}
@@ -32,7 +29,5 @@
               {% endfor %}
             </ul>
         </nav>
-
     </div>
-
 </header>
