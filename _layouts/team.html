@@ -35,7 +35,7 @@ layout: default
           {% if member.social %}
             <ul>
               {% for social in member.social %}
-              <li class="{{ social.network | downcase }}"><a href="{{ social.url }}" title="{{ social.network }}">{{ social.network }}</a></li>
+              <li class="{{ social.network | downcase }}"><a href="{{ social.url }}" title="{{ social.network }}" rel="noopener noreferrer" target="_blank">{{ social.network }}</a></li>
               {% endfor %}
             </ul>
             {% endif %}
