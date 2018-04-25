@@ -1,18 +1,30 @@
 .cta-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
+
+  width: 100%;
+
+  @include for-size(tablet-portrait-up) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
   &__link {
     background-color: $blue;
     border-radius: 3px;
-    align-items: center;
-    line-height: 50px;
-    color: #f6f6f6;
-    padding: 0 5em;
+    color: $white;
+    line-height: 1.5;
     margin: 1em;
+    padding: 0.6em 1em;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include for-size(phone-only) {
+      display: block;
+      width: 100%;
+      margin: 1em 0;
+      box-sizing: border-box;
+    }
 
     &:hover {
       background-color: $blue-hover;
