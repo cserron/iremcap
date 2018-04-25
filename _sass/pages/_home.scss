@@ -125,19 +125,26 @@
 
 .skills {
   width: 100%;
+  max-width: 800px;
+  padding: 100px 0;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
 
-  &--text {
-    line-height: 1.3;
-    padding: 50px;
+  &__text {
+    padding: 50px 100px 0 0;
     line-height: 20px;
     text-align: center;
     color: $black;
     font-size: 20px;
+  }
+
+  &-tip {
+    color: $blue;
+    font-weight: 600;
+    padding-top: 1em;
   }
 
   &__list {
@@ -173,5 +180,68 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+}
+
+.skills-list {
+	display: grid;
+	grid-template-columns: repeat(3, 4rem);
+	grid-gap: 9px;
+	transform: rotate(45deg);
+
+  &:hover {
+    .skills-item {
+    	opacity: .6;
+    	filter: blur(1px);
+    	transform: scale(.95, .95);
+    }
+  }
+
+  .skills-item {
+    border: 2px solid $blue;
+    color: $blue;
+    height: 4rem;
+    width: 4rem;
+  	transition: transform .2s cubic-bezier(.3, .50, .90, .7),
+  		opacity .2s cubic-bezier(.3, .50, .90, .7),
+  		filter .2s cubic-bezier(.3, .50, .90, .7);
+
+    &:hover {
+    	opacity: 1;
+    	filter: none;
+    	color: $blue;
+    	transform: scale(1.2, 1.2);
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__icon {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    svg {
+      fill: $blue;
+      width: 3rem;
+      height: 3rem;
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+      background-color: $blue;
+      border: none;
+
+      svg {
+        fill: $white;
+        width: 4rem;
+        height: 4rem;
+      }
+    }
   }
 }
