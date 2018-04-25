@@ -122,11 +122,6 @@
     justify-content: space-evenly;
     text-align: center;
 
-    &--img {
-      width: 150px;
-      height: 120px;
-    }
-
     &--text {
       color: $black;
       font-size: 20px;
@@ -180,7 +175,7 @@
         background-color: $blue;
         border: none;
   
-        svg {
+        .skills-item__img {
           fill: $white;
           width: 4rem;
           height: 4rem;
@@ -211,7 +206,7 @@
         width: 100%;
       }
 
-      svg {
+      .skills-item__img {
         fill: $blue;
         width: 3rem;
         height: 3rem;
