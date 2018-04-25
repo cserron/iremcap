@@ -9,12 +9,6 @@
   justify-content: flex-start;
 }
 
-.title {
-  font-size: 30px;
-  color: $black;
-  text-transform: uppercase;
-}
-
 .clients {
   display: flex;
   flex-direction: column;
@@ -36,7 +30,6 @@
     &--sub-title {
       color: $black;
       font-size: 25px;
-      border-bottom: 3px solid $blue;
       width: 90%;
       margin: 0 auto;
       padding-bottom: 8px;

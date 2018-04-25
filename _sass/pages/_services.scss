@@ -9,20 +9,6 @@
   justify-content: flex-start;
 }
 
-.title {
-  font-size: 30px;
-  color: $black;
-
-  &:after {
-    content: "\A";
-    display: block;
-    margin: 20px auto 0;
-    width: 80%;
-    height: 6px;
-    background-color: $blue;
-  }
-}
-
 .services {
   display: flex;
   flex-direction: column;

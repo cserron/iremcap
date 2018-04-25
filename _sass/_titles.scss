@@ -1,0 +1,14 @@
+.title {
+  color: $black;
+  font-size: 30px;
+  text-transform: uppercase;
+
+  &:after {
+    content: "\A";
+    display: block;
+    margin: 20px auto 0;
+    width: 80%;
+    height: 6px;
+    background-color: $blue;
+  }
+}

@@ -1,5 +1,5 @@
 en:
-  title: CLIENTS
+  title: Clients
 
   clients:
     - title: Investors
@@ -31,7 +31,7 @@ en:
         link: /contact
 
 es:
-  title: CLIENTES
+  title: Clientes
 
   clients:
     - title: Inversores
