@@ -5,60 +5,29 @@ layout: default
 {% assign page_data = site.data.page__home[page.lang] %}
 
 <section class="intro">
-    <img class="intro__logo" src="{{page_data.logo | prepend: site.baseurl}}" alt="">
-    {% include common/page_title.html
-        title=page_data.slogan
-        title-classes='intro__slogan'
-        container-classes=''
-    %}
-
-    {% include common/cta_buttons.html
-        ctas=page_data.ctas
-    %}
+  <img class="intro__logo" src="{{page_data.logo | prepend: site.baseurl}}" alt="">
+  {% include common/page_title.html
+    title=page_data.slogan
+    title-classes='intro__slogan'
+    container-classes=''
+  %}
+  {% include common/cta_buttons.html
+    ctas=page_data.ctas
+  %}
 </section>
-
 <section class="overview">
-
-    <div class="commitments">
-        {% include common/page_title.html
-            title=page_data.commitments.title
-            title-classes='commitments__title'
-            container-classes=''
-        %}
-
-        <ul class="commitments__list">
-            {% for item in page_data.commitments.list %}
-            <li class="commitments__item">
-                <img class="commitments__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
-                <span class="commitments__item--text">{{item.text}}</span>
-            </li>
-            {% endfor %}
-        </ul>
+  <div class="text">
+    <p class="text--text">{{ page_data.text }}</p>
+  </div>
+  <div id="skills" class="skills">
+    <p id="skills-text" class="skills__text">{{ page_data.skills.title }}</p>
+    <div class="skills-list">
+    {% for item in page_data.skills.list %}
+      <div class="skills-item">
+        <span class="skills-item__icon"><svg class="skills-item__img"><use xlink:href="#{{ item.icon }}" /></svg></span>
+        <h3 class="skills-item__title">{{ item.text }}</h3>
+      </div>
+    {% endfor %}
     </div>
-
-    <div class="text">
-        <p class="text--text">{{page_data.text}}</p>
-    </div>
-
-    <div class="skills">
-        <p class="skills--text">{{page_data.skills.title}}</p>
-
-        <ul class="skills__list">
-            {% for item in page_data.skills.first-list %}
-            <li class="skills__item">
-                <img class="skills__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
-                <span class="skills__item--text">{{item.text}}</span>
-            </li>
-            {% endfor %}
-        </ul>
-
-        <ul class="commitments__list">
-            {% for item in page_data.skills.second-list %}
-            <li class="skills__item">
-                <img class="skills__item--img" src="{{item.link | prepend: site.baseurl}}" alt="">
-                <span class="skills__item--text">{{item.text}}</span>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+  </div>
 </section>

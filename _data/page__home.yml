@@ -8,36 +8,30 @@ en:
     - label: Services
       link: /services
 
-  commitments:
-    title: OUR COMMITMENT
-    list:
-      - link: /assets/images/home/graph.png
-        text: Data-based advice
-      - link: /assets/images/common/hands.png
-        text: Execution by a partner of the company
-      - link: /assets/images/common/house.png
-        text: Added value real estate
-      - link: /assets/images/home/cellphone.png
-        text: Integrity and continuous professional improvement
-
   text: Today the real estate sector is at the crossroads of industry, communication and e-commerce. A building should be more than a place to live, work or sleep; it should be a link of transcendental content for those who are going to use it. One of our differential aspects is that we add real estate experience with the knowledge of experts in sectors such as e-commerce, hotels or technological infrastructures.
 
   skills:
     title: >
       That's why we have specialists from every critical point of our business model:
-    first-list:
-      - link: /assets/images/home/real-state.png
-        text: The real estate sector
-      - link: /assets/images/home/cart.png
-        text: E-commerce
-      - link: /assets/images/home/hotel.png
-        text: La gestión operativa hotelera
-
-    second-list:
-      - link: /assets/images/home/briefcase.png
-        text: Technological infrastructure and data analysis
-      - link: /assets/images/home/laptop.png
-        text: La gestión de obras en el sector terciario
+    list:
+      - text: Data-based advice
+        icon: graph
+      - text: Execution by a partner of the company
+        icon: handshake
+      - text: Added value real estate
+        icon: building
+      - text: Integrity and continuous professional improvement
+        icon: growth
+      - text: The real estate sector
+        icon: realstate
+      - text: E-commerce
+        icon: ecommerce
+      - text: Operational hotel management
+        icon: hotel
+      - text: Technological infrastructure and data analysis
+        icon: dataanalysis
+      - text: Construction management in the tertiary sector
+        icon: intermediate
 
 es:
   logo: /assets/images/home/logo.png
@@ -49,32 +43,26 @@ es:
     - label: Servicios
       link: /servicios
 
-  commitments:
-      title: NUESTRO COMPROMISO
-      list:
-        - link: /assets/images/home/graph.png
-          text: Asesoramiento basado en datos
-        - link: /assets/images/common/hands.png
-          text: Ejecución por un partner de la empresa
-        - link: /assets/images/common/house.png
-          text: Valor añadido inmobiliario
-        - link: /assets/images/home/cellphone.png
-          text: Integridad y mejora profesionnal continua
-
-  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hoteleria o las infracturas técnologicas
+  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hotelería o las infraestructuras técnologicas.
 
   skills:
     title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio
-    first-list:
-      - link: /assets/images/home/real-state.png
-        text: El sector inmobiliario
-      - link: /assets/images/home/cart.png
-        text: El e-commerce
-      - link: /assets/images/home/hotel.png
-        text: La gestión operativa hotelera
-
-    second-list:
-      - link: /assets/images/home/briefcase.png
-        text: La infraestructura tecnológica y análisis de datos
-      - link: /assets/images/home/laptop.png
-        text: La gestión de obras en el sector terciario
+    list:
+      - text: Asesoramiento basado en datos
+        icon: graph
+      - text: Ejecución por un partner de la empresa
+        icon: handshake
+      - text: Valor añadido inmobiliario
+        icon: building
+      - text: Integridad y mejora profesional continua
+        icon: growth
+      - text: El sector inmobiliario
+        icon: realstate
+      - text: El e-commerce
+        icon: ecommerce
+      - text: La gestión operativa hotelera
+        icon: hotel
+      - text: La infraestructura tecnológica y análisis de datos
+        icon: dataanalysis
+      - text: La gestión de obras en el sector terciario
+        icon: intermediate

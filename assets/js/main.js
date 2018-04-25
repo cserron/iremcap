@@ -40,3 +40,21 @@ if (hamburgers.length > 0) {
     header.classList.toggle('sticky', (window.pageYOffset > sticky));
   };
 })();
+
+// Home grid
+(function () {
+  var skills = document.getElementById('skills');
+  var items = skills.getElementsByClassName('skills-item');
+  var tip = document.getElementById('skills-text').appendChild(document.createElement('h3'));
+  tip.appendChild(document.createTextNode(' '));
+  tip.className = 'skills-tip';
+  for (var i = 0; i < items.length; i++) {
+    items.item(i).addEventListener('mouseenter', function(ev) {
+      var title = this.getElementsByClassName('skills-item__title').item(0).firstChild.nodeValue;
+      tip.firstChild.replaceWith(title);
+    });
+    items.item(i).addEventListener('mouseleave', function(ev) {
+      tip.firstChild.replaceWith(' ');
+    });
+  }
+})();

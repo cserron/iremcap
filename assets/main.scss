@@ -10,6 +10,7 @@
 @import "mixins";
 @import "fontawesome-v5.0.10/fa-brands";
 
+@import "titles";
 @import "cta-button";
 
 @import "header/header";
@@ -20,6 +21,7 @@
 @import "pages/clients";
 @import "pages/team";
 @import "pages/contact";
+@import "pages/404";
 
 
 // We need front matter to access site.baseurl variable, that's why we set here the background image.

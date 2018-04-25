@@ -16,7 +16,7 @@ layout: default
       {% for address in page_data.info.addresses %}
         <span class="info__item">{{address}}</span>
       {% endfor %}
-      <a class="info__item" href="mailto:{{page_data.email}}">{{page_data.info.email}}</a>
+      <a class="info__item" href="mailto:{{ page_data.info.email }}">{{ page_data.info.email }}</a>
       {% for item in page_data.info.phones %}
         <a class="info__item" href="tel:{{item.phone}}">{{item.label}} {{item.phone}}</a>
       {% endfor %}

@@ -5,10 +5,10 @@ en:
   team:
     - link: /assets/images/team/myriam_freval.jpg
       name: Myriam Fréval
-      description: Founder and partner IREMCAP - RICS
+      description: Founder and partner IREMCAP - MRICS
       email: mfreval@iremcap.com
       phones:
-        - +34 649874606
+        - +34 649 874 606
         - +1 (516) 7283315
       social:
         - network: LinkedIn
@@ -51,7 +51,7 @@ en:
         - network: LinkedIn
           url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
-    - link: /assets/images/team/person.png
+    - link: /assets/images/team/christian_serron.jpg
       name: Christian Serron
       description: IT and infrastructures
       email: cserron@iremcap.com
@@ -59,9 +59,12 @@ en:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
 
-    - link: /assets/images/team/person.png
-      name: Ruben Pintado
-      description: Desc
+    - link: /assets/images/team/ruben_pintado.jpg
+      name: Rubén Pintado
+      description: Investment Analyst IREMCAP
+      email: invest@iremcap.com
+      phones:
+        - +34 666 870 084
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/
@@ -73,7 +76,7 @@ es:
   team:
     - link: /assets/images/team/myriam_freval.jpg
       name: Myriam Fréval
-      description: Founder and partner IREMCAP - RICS
+      description: Founder and partner IREMCAP - MRICS
       email: mfreval@iremcap.com
       phones:
         - +34 649874606
@@ -119,7 +122,7 @@ es:
         - network: LinkedIn
           url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
-    - link: /assets/images/team/person.png
+    - link: /assets/images/team/christian_serron.jpg
       name: Christian Serron
       description: IT and infrastructures
       email: cserron@iremcap.com
@@ -127,9 +130,12 @@ es:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
 
-    - link: /assets/images/team/person.png
-      name: Ruben Pintado
-      description: Analista de inversiones
+    - link: /assets/images/team/ruben_pintado.jpg
+      name: Rubén Pintado
+      description: Analista de Inversiones IREMCAP
+      email: invest@iremcap.com
+      phones:
+        - +34 666 870 084
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/

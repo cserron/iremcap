@@ -4,19 +4,18 @@ en:
 
   services:
     - text: >
-        Integral investment management : IREM is in charge of the whole process of investment from detecting the opportunity to its realization through the
-        structuring and seeking financing
-      link: /assets/images/services/engine.png
-    - text: Processes of intermediation in the purchase / sale of empty or rented buildings with potential added value
-      link: /assets/images/services/intermediation.png
+        Integral investment management : IREM is in charge of the whole investment process from sourcing the opportunity to its execution through financing and project management
+      icon: building
+    - text: Intermediation in the purchase / sale of empty or rented buildings with potential added value
+      icon: intermediate
     - text: Advice to owners to get the most out of their vacant building, rented or land
-      link: /assets/images/services/advice-owner.png
-    - text: Advice to users to obtain business places adapted to new icon needs of a factory with a roof over the house for example
-      link: /assets/images/services/advice-user.png
+      icon: training
+    - text: Advice to users to obtain business places adapted to new tendencies
+      icon: location
     - text: Advice and investment/divestment processes in the hotel sector based on more than 30 years of operational experience.
-      link: /assets/images/common/house.png
+      icon: graph
     - text: Feasibility studies
-      link: /assets/images/common/hands.png
+      icon: handshake
 
 es:
   title: SERVICIOS
@@ -25,14 +24,14 @@ es:
   services:
     - text: >
         Gestión integral de inversiones : IREM se encarga de todo el proceso de inversión desde detectar la oportunidad hasta su concreción pasando por la estructuración y búsqueda de financiación
-      link: /assets/images/services/engine.png
+      icon: building
     - text: Procesos de intermediación en compra / venta de edificios vacíos o alquilados con potencial valor añadido
-      link: /assets/images/services/intermediation.png
+      icon: intermediate
     - text: Asesoramiento a propietarios para sacar rendimiento a su edificio vacío, alquilado o tierra
-      link: /assets/images/services/advice-owner.png
-    - text: Asesoramiento a usuarios para conseguir lugares de negocio adaptados a nuevas necesidades icono de una fábrica con techo de casa por ejemplo
-      link: /assets/images/services/advice-user.png
-    - text: Asesoramiento y procesos de inversion/desinversion en el sector hotelero basado en experiencia operativa de mas de 30 años
-      link: /assets/images/common/house.png
+      icon: training
+    - text: Asesoramiento a usuarios para conseguir lugares de negocio adaptados a nuevas necesidades
+      icon: location
+    - text: Asesoramiento y procesos de inversión/desinversión en el sector hotelero basado en experiencia operativa de más de 30 años
+      icon: graph
     - text: Estudios de viabilidad
-      link: /assets/images/common/hands.png
+      icon: handshake
