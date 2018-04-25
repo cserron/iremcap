@@ -57,18 +57,21 @@
     justify-content: center;
     align-items: center;
 
-    &--input, &--textarea, &--submit {
+    &--input,
+    &--textarea,
+    &--submit {
 
       @include for-size(desktop-up) {
         width: 40%;
       }
 
-      width: 70%;
-      border: solid 1px $black;
+      border: 1px solid $black;
       border-radius: 3px;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
       margin: 5px;
       padding: 10px;
-      font-size: 16px;
+      width: 70%;
     }
 
     &--textarea {
