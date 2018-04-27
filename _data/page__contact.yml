@@ -7,14 +7,14 @@ en:
       label: Madrid
       lat: 40.4246500823053
       lng: -3.6816476566164056
+    - address:
+      label: Mallorca
+      lat: 39.5715422
+      lng: 2.6517081
     - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
       label: Montevideo
       lat: -34.904425119577745
       lng: -56.188194557169254
-    - address:
-      label: El Cairo
-      lat: 30.059729192539777
-      lng: 31.260217752647577
 
   info:
     email: invest@iremcap.com
