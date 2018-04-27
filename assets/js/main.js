@@ -44,6 +44,9 @@ if (hamburgers.length > 0) {
 // Home grid
 (function () {
   var skills = document.getElementById('skills');
+  if (!skills) {
+    return;
+  }
   var items = skills.getElementsByClassName('skills-item');
   var tip = document.getElementById('skills-text').appendChild(document.createElement('h3'));
   tip.appendChild(document.createTextNode(' '));
