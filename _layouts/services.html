@@ -15,8 +15,8 @@ layout: default
   <div class="services">
     {% for item in page_data.services %}
     <div class="services-item">
-      <svg><use class="services-item__img" xlink:href="#{{ item.icon }}" /></svg>
-      <span class="services-item__text">{{ item.text }}</span>
+      <svg class="services-item__img"><use xlink:href="#{{ item.icon }}" /></svg>
+      <p class="services-item__text">{{ item.text }}</p>
     </div>
     {% endfor %}
   </div>
