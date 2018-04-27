@@ -73,7 +73,7 @@ function initMap() {
   panTo(0);
   markers.addEventListener('click', function (ev) {
     ev.preventDefault();
-    var key = parseInt(ev.originalTarget.dataset.marker);
+    var key = parseInt(ev.target.dataset.marker);
     panTo(key);
   });
 }
