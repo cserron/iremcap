@@ -14,12 +14,18 @@ layout: default
 
     <div class="clients">
         {% for item in page_data.clients %}
-        <div class="clients__client">
-            <h2 class="clients__client--sub-title">{{item.title}}</h2>
-            <p class="clients__client--text">{{item.text}}</p>
-            {% include common/cta_button.html cta=item.cta %}
+        <div class="clients-item">
+            <h2 class="clients-item__title">{{ item.title }}</h2>
+            <ul class="clients-item__keywords">
+            {% for keyword in item.keywords %}
+              <li class="clients-item__keywords-item">{{ keyword }}</li>
+            {% endfor %}
+            </ul>
+            <div class="clients-item__cta">
+              <p class="clients-item__question">{{ item.question }}</p>
+              {% include common/cta_button.html cta=item.cta %}
+            </div>
         </div>
         {% endfor %}
     </div>
-
 </section>

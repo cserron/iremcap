@@ -12,20 +12,41 @@ en:
             enhance real estate assets with digital design and marketing tools.
             If you are interested in our way of working we can advise you on how to invest in the best
             conditions.
+      keywords:
+        - detecting real estate opportunities
+        - strategies defined to advise, sell or invest in cities and products
+        - invest with us in the real estate sector benefitting from a global advice
+      question: Do you want to invest in the best conditions?
       cta:
         label: Contact us!
         link: /contact
 
     - title: Owners
-      text: Our added value lies in our work methodology that combines market knowledge and real estate know-how with innovative marketing techniques and the enhancement of real estate.
+      text: Our added value lies in our work methodology that combines market
+            knowledge and real estate know-how with innovative marketing techniques
+            and the enhancement of real estate.
             Do you have an empty/rented building and want to sell it?
+      keywords:
+        - added value
+        - conocimiento de mercado y expertise inmobiliario
+        - market knowledge and real estate know-how
+        - innovative marketing techniques and the enhancement of real estate
+      question: Do you have an empty/rented building and want to sell it?
       cta:
         label: Contact us!
         link: /contact
 
     - title: Users
-      text: We advise our clients on the realization of unique projects for their own use and the optimization of their real estate assets for the benefit of the company's activity, and the ways in which they work, interact, sell and serve their clients have changed drastically in recent years. That is why we focus on finding the best place for your business, trying to innovate in our proposals.
+      text: We advise our clients on the realization of unique projects for their own use and
+            the optimization of their real estate assets for the benefit of the company's activity,
+            and the ways in which they work, interact, sell and serve their clients
+            have changed drastically in recent years. That is why we focus on finding the best place for your business, trying to innovate in our proposals.
             Would you like to receive creative proposals of places of activity?
+      keywords:
+        - realization of unique projects for their own use
+        - optimization of their real estate assets
+        - find the best place for your business
+      question: Would you like to receive creative proposals of places of activity?
       cta:
         label: Contact us!
         link: /contact
@@ -44,6 +65,11 @@ es:
             potencia los activos inmobiliarios con herramientas digitales de concepción y comercialización.
             Si le interesa nuestra forma de trabajo podemos asesorarle en cómo invertir en las mejores
             condiciones.
+      keywords:
+        - detectar oportunidades
+        - estrategias definidas para asesorar, vender o invertir en ciudades y productos
+        - invierta con nosotros en el sector inmobiliario beneficiándose de un asesoramiento global
+      question: ¿Quiere invertir en las mejores condiciones?
       cta:
         label: ¡Contáctenos!
         link: /contacto
@@ -52,6 +78,11 @@ es:
       text: Nuestro valor añadido reside en nuestra metodología de trabajo que superpone conocimiento de
             mercado y know how inmobiliario a técnicas novedosas de comercialización y puesta envalor del bien inmueble.
             ¿Tiene un edificio vacío/alquilada y quiere venderlo?
+      keywords:
+        - valor añadido
+        - conocimiento de mercado y expertise inmobiliario
+        - novedosas técnicas de comercialización y puesta en valor del bien inmueble.
+      question: ¿Tiene un edificio vacío/alquilado y quiere venderlo?
       cta:
         label: ¡Contáctenos!
         link: /contacto
@@ -62,6 +93,11 @@ es:
             relacionarse, vender y atender el cliente han cambiado drásticamenteen los últimos años.
             Por eso nos enfocamos a encontrar el mejor lugar para su negocioprocurando innovar en nuestras propuestas.
             ¿Quiere recibir propuestas creativas de lugares de actividad?
+      keywords:
+        - realización de proyectos singulares para uso propio
+        - optimización de sus activos inmobiliarios
+        - encontrar el mejor lugar para su negocio
+      question: ¿Quiere recibir propuestas creativas de lugares de actividad?
       cta:
         label: ¡Contáctenos!
         link: /contacto
