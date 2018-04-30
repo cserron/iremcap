@@ -1,0 +1,38 @@
+<div id="contact-dialog" class="contact-dialog hidden">
+  <div class="contact-dialog__header">
+    <button id="contact-dialog-toggle" type="button" class="contact-dialog__toggle">
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="contact-dialog__body">
+    <form id="contact-dialog-form" method="post" action="https://formspree.io/{{ site.data.contact.main.email }}">
+      <ul class="contact-dialog__itemslist">
+        <li class="contact-dialog__item">
+          <label class="contact-dialog__label" for="contact-dialog-email">{{ site.data.contact.main[page.lang].fields.email.label }}</label>
+          <input id="contact-dialog-email" name="_replyto" type="email" class="contact-dialog__input" required />
+        </li>
+        <li class="contact-dialog__item">
+          <label for="contact-dialog-iam" class="contact-dialog__label">{{ site.data.contact.main[page.lang].fields.iam.label }}</label>
+          <select id="contact-dialog-iam" name="{{ site.data.contact.main[page.lang].fields.iam.label }}" class="contact-dialog__input">
+            <option value=""></option>
+            {% for option in site.data.contact.main[page.lang].fields.iam.options %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+          </select>
+        </li>
+        <li class="contact-dialog__item">
+          <label for="contact-dialog-iam" class="contact-dialog__label">{{ site.data.contact.main[page.lang].fields.iwant.label }}</label>
+          <select id="contact-dialog-iwant" name="{{ site.data.contact.main[page.lang].fields.iwant.label }}" class="contact-dialog__input">
+            <option value=""></option>
+            {% for option in site.data.contact.main[page.lang].fields.iwant.options %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+          </select>
+        </li>
+      </ul>
+    </form>
+  </div>
+  <div class="contact-dialog__footer">
+    <input form="contact-dialog-form" class="contact-dialog__submit" type="submit" value="{{ site.data.contact.main[page.lang].submit }}" />
+  </div>
+</div>
