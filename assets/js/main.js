@@ -61,3 +61,24 @@ if (hamburgers.length > 0) {
     });
   }
 })();
+
+// Contact dialog
+(function () {
+  var openDialogToggle = document.getElementById('contact-dialog-toggle');
+  if (openDialogToggle) {
+    var contactDialog = document.getElementById('contact-dialog');
+    var stored = sessionStorage.getItem('contactDialog');
+    if (!stored || stored !== 'close') {
+      contactDialog.classList.remove('hidden');
+    }
+    openDialogToggle.addEventListener('click', function () {
+      sessionStorage.setItem('contactDialog', (contactDialog.classList.toggle('hidden') ? 'close' : 'open'));
+    });
+    document.getElementById('contact-dialog-form').addEventListener('submit', function (ev) {
+      sessionStorage.setItem('contactDialog', 'close');
+      // this.submit();
+      // ev.preventDefault();
+    });
+
+  }
+})();
