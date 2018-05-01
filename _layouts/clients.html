@@ -12,6 +12,10 @@ layout: default
         container-classes=''
     %}
 
+    <div class="clients-text">
+      <p class="clients-text__p">{{ page_data.text }}</p>
+    </div>
+      
     <div class="clients">
         {% for item in page_data.clients %}
         <div class="clients-item">

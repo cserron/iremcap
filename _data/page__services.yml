@@ -1,10 +1,10 @@
 en:
-  title: SERVICES
+  title: Services
   subtitle: Interactive Real Estate Management
 
   services:
     - text: >
-        Integral investment management : IREM is in charge of the whole investment process from sourcing the opportunity to its execution through financing and project management
+        Integral investment management : IREMCAP is in charge of the whole investment process from sourcing the opportunity to its execution through financing and project management
       icon: building
     - text: Intermediation in the purchase / sale of empty or rented buildings with potential added value
       icon: intermediate
@@ -18,7 +18,7 @@ en:
       icon: handshake
 
 es:
-  title: SERVICIOS
+  title: Servicios
   subtitle: Interactive Real Estate Management
 
   services:
