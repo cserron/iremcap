@@ -5,7 +5,7 @@ main:
       img: assets/images/common/iremcap.svg
       url: /
     - title: Services
-      url: /services
+      url: /real-estate-services
     - title: Clients
       url: /clients
     - title: Team

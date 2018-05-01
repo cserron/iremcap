@@ -6,9 +6,12 @@ en:
     - label: About Us
       link: /team
     - label: Services
-      link: /services
+      link: /real-estate-services
 
-  text: Today the real estate sector is at the crossroads of industry, communication and e-commerce. A building should be more than a place to live, work or sleep; it should be a link of transcendental content for those who are going to use it. One of our differential aspects is that we add real estate experience with the knowledge of experts in sectors such as e-commerce, hotels or technological infrastructures.
+  text: Today the real estate sector is at the crossroads of industry,
+        communication and e-commerce. A building should be more than a place to live,
+        work or sleep; it should be a link of transcendental content for those who are going to use it.
+        IREMCAP combines real estate experience with experts’ knowledge in sectors such as e-commerce, hospitality and IT infrastructures to provide a full and creative service to our clients.
 
   skills:
     title: >
@@ -43,7 +46,10 @@ es:
     - label: Servicios
       link: /servicios
 
-  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria, la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir, trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo. Uno de nuestros aspectos diferenciales es que sumamos experiencia inmobiliaria con conocimiento de expertos en sectores como el e-commerce, la hotelería o las infraestructuras técnologicas.
+  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria,
+        la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir,
+        trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo.
+        IREMCAP combina la larga experiencia en negocios inmobiliarios de sus socios con expertise de confirmados profesionales en sectores como el e-commerce, la hotelería o las infraestructuras tecnológicas para ofrecer un servicio completo y creativo a sus clientes.
 
   skills:
     title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio

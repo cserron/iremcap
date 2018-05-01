@@ -76,9 +76,6 @@ if (hamburgers.length > 0) {
     });
     document.getElementById('contact-dialog-form').addEventListener('submit', function (ev) {
       sessionStorage.setItem('contactDialog', 'close');
-      // this.submit();
-      // ev.preventDefault();
     });
-
   }
 })();

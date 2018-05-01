@@ -1,6 +1,6 @@
 en:
   title: Clients
-
+  text: Our real estate competitive strengh is to attend personally all types of real estate needs depending on client’s profile.
   clients:
     - title: Investors
       text: We focus on detecting real estate opportunities by processing market data and profiles of
@@ -13,9 +13,9 @@ en:
             If you are interested in our way of working we can advise you on how to invest in the best
             conditions.
       keywords:
-        - detecting real estate opportunities
-        - strategies defined to advise, sell or invest in cities and products
-        - invest with us in the real estate sector benefitting from a global advice
+        - Source real estate opportunities
+        - Definition of strategies to advise, sell or invest in cities and products
+        - Optimization of investment through a full management service
       question: Do you want to invest in the best conditions?
       cta:
         label: Contact us!
@@ -27,9 +27,9 @@ en:
             and the enhancement of real estate.
             Do you have an empty/rented building and want to sell it?
       keywords:
-        - added value
-        - market knowledge and real estate know-how
-        - innovative marketing techniques and the enhancement of real estate
+        - Added value
+        - Market knowledge and real estate know-how
+        - Innovative marketing techniques and the enhancement of real estate
       question: Do you have an empty/rented building and want to sell it?
       cta:
         label: Contact us!
@@ -42,9 +42,9 @@ en:
             have changed drastically in recent years. That is why we focus on finding the best place for your business, trying to innovate in our proposals.
             Would you like to receive creative proposals of places of activity?
       keywords:
-        - realization of unique projects for their own use
-        - optimization of their real estate assets
-        - find the best place for your business
+        - Conception of real estate projects and strategies attending each client’s needs
+        - Optimization of real estate assets
+        - Location of the best place for your business
       question: Would you like to receive creative proposals for your workplace?
       cta:
         label: Contact us!
@@ -52,7 +52,7 @@ en:
 
 es:
   title: Clientes
-
+  text: Nuestra ventaja competitiva radica en atender nuestros clientes de forma personalizada según sus necesidades inmobiliarias y perfil.
   clients:
     - title: Inversores
       text: Nos enfocamos en detectar oportunidades procesando datos de mercado y perfiles de
@@ -65,9 +65,9 @@ es:
             Si le interesa nuestra forma de trabajo podemos asesorarle en cómo invertir en las mejores
             condiciones.
       keywords:
-        - detectar oportunidades
-        - estrategias definidas para asesorar, vender o invertir en ciudades y productos
-        - invierta con nosotros en el sector inmobiliario beneficiándose de un asesoramiento global
+        - Detectar oportunidades
+        - Estrategias definidas para asesorar, vender o invertir en ciudades y productos
+        - Invierta con nosotros en el sector inmobiliario beneficiándose de un asesoramiento global
       question: ¿Quiere invertir en las mejores condiciones?
       cta:
         label: ¡Contáctenos!
@@ -78,9 +78,9 @@ es:
             mercado y know how inmobiliario a técnicas novedosas de comercialización y puesta envalor del bien inmueble.
             ¿Tiene un edificio vacío/alquilada y quiere venderlo?
       keywords:
-        - valor añadido
-        - conocimiento de mercado y expertise inmobiliario
-        - novedosas técnicas de comercialización y puesta en valor del bien inmueble.
+        - Valor añadido
+        - Conocimiento de mercado y expertise inmobiliario
+        - Novedosas técnicas de comercialización y puesta en valor del bien inmueble.
       question: ¿Tiene un edificio vacío/alquilado y quiere venderlo?
       cta:
         label: ¡Contáctenos!
@@ -93,9 +93,9 @@ es:
             Por eso nos enfocamos a encontrar el mejor lugar para su negocioprocurando innovar en nuestras propuestas.
             ¿Quiere recibir propuestas creativas de lugares de actividad?
       keywords:
-        - realización de proyectos singulares para uso propio
-        - optimización de sus activos inmobiliarios
-        - encontrar el mejor lugar para su negocio
+        - Realización de proyectos singulares para uso propio
+        - Optimización de sus activos inmobiliarios
+        - Encontrar el mejor lugar para su negocio
       question: ¿Quiere recibir propuestas creativas de lugares de actividad?
       cta:
         label: ¡Contáctenos!
