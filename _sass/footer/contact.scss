@@ -11,6 +11,7 @@ $toggle-duration: 0.5s;
   position: fixed;
   right: 2em;
   transition: transform $toggle-duration, box-shadow $toggle-duration;
+  z-index: 2;
 
   @include for-size(desktop-up) {
     display: block;
@@ -32,8 +33,10 @@ $toggle-duration: 0.5s;
     right: -2.1em;
     transition: bottom $toggle-duration;
 
+    &:focus,
     &::-moz-focus-inner {
       border: 0;
+      outline: 0;
     }
 
     span::before {
