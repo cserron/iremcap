@@ -19,22 +19,31 @@ en:
     list:
       - text: Data-based advice
         icon: graph
+        link: /real-estate-services
       - text: Execution by a partner of the company
         icon: handshake
+        link: /team
       - text: Added value real estate
         icon: building
+        link: /clients
       - text: Integrity and continuous professional improvement
         icon: growth
+        link: /team
       - text: The real estate sector
         icon: realstate
+        link: /team
       - text: E-commerce
         icon: ecommerce
+        link: /team
       - text: Operational hotel management
         icon: hotel
+        link: /team
       - text: Technological infrastructure and data analysis
         icon: dataanalysis
-      - text: Construction management in the tertiary sector
+        link: /team
+      - text: Construction management
         icon: intermediate
+        link: /team
 
 es:
   logo: /assets/images/home/logo.png
@@ -56,19 +65,28 @@ es:
     list:
       - text: Asesoramiento basado en datos
         icon: graph
+        link: /servicios
       - text: Ejecución por un partner de la empresa
         icon: handshake
+        link: /equipo
       - text: Valor añadido inmobiliario
         icon: building
+        link: /clientes
       - text: Integridad y mejora profesional continua
         icon: growth
+        link: /equipo
       - text: El sector inmobiliario
         icon: realstate
+        link: /equipo
       - text: El e-commerce
         icon: ecommerce
+        link: /equipo
       - text: La gestión operativa hotelera
         icon: hotel
+        link: /equipo
       - text: La infraestructura tecnológica y análisis de datos
         icon: dataanalysis
+        link: /equipo
       - text: La gestión de obras en el sector terciario
         icon: intermediate
+        link: /equipo

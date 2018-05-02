@@ -1,7 +1,24 @@
 .footer {
-  background-image: url("images/common/footer.png");
-  height: 17vw;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position-y: bottom;
+  // background-image: url("images/common/footer.png");
+  // height: 17vw;
+  // background-repeat: no-repeat;
+  // background-size: 100% auto;
+  // background-position-y: bottom;
+  background-color: $black;
+
+  p {
+    color: $white;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1em 0;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
