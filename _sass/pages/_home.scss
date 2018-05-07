@@ -1,7 +1,7 @@
 .intro {
   min-height: 100vh;
   background-attachment: fixed;
-  background-image: url("./images/home/madrid.jpg");
+  background: linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.4)), url("./images/home/madrid.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -46,14 +46,13 @@
 }
 
 .overview {
+  align-items: center;
+  background-color: $white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
-
   width: 100%;
   // min-height: 100vh;
-  background-color: $white;
 }
 
 .text,
@@ -190,7 +189,7 @@
       	transform: scale(1.2, 1.2);
         background-color: $blue;
         border: none;
-  
+
         .skills-item__img {
           fill: $white;
           width: 4rem;
