@@ -1,6 +1,8 @@
 
 @import "burger";
 
+$rotation: -45deg;
+
 // Header
 // ==================================================
 .header{
@@ -28,11 +30,15 @@
       position: fixed;
       top: -50px;
       width: 100%;
-    }
-  }
 
-  .site-logo {
-    height: 1.4em;
+      .site-logo {
+        visibility: visible;
+      }
+    }
+
+    .site-logo {
+      height: 1.4em;
+    }
   }
 
   &__toolbar {
@@ -53,8 +59,8 @@
       align-items: center;
     }
 
-    &, a {
-
+    &,
+    a {
       @include for-size(tablet-portrait-up) {
         color: $blue !important;
       }
@@ -161,16 +167,14 @@
         justify-content: flex-end;
       }
     }
-
   }
-
 }
 
-
-
+.home .site-logo {
+  visibility: hidden;
+}
 
 // Scroll down button for Page header
-$rotation: -45deg;
 .scroll-down {
   bottom: 0;
   display: block;
