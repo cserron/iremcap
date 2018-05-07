@@ -1,5 +1,7 @@
 .intro {
   min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url("./images/home/madrid.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -10,7 +12,6 @@
     justify-content: space-around;
     padding: 0 10%;
   }
-
 
   @include for-size(desktop-up) {
     .cta-button {
@@ -51,7 +52,7 @@
   justify-content: flex-start;
 
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
   background-color: $white;
 }
 
