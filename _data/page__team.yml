@@ -46,7 +46,7 @@ en:
     - link: /assets/images/team/jimena_asarte.jpg
       name: Jimena Lasarte
       description: SEO and digital trends
-      email: jlasarte@iremcap.com
+      email: contacto@iremcap.com
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/jimena-lasarte-49945028/
@@ -54,7 +54,7 @@ en:
     - link: /assets/images/team/christian_serron.jpg
       name: Christian Serron
       description: IT Infrastructures
-      email: cserron@iremcap.com
+      email: contacto@iremcap.com
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
@@ -68,6 +68,14 @@ en:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+
+    - link: /assets/images/team/person.png
+      name: Gérard Arfinengo
+      description: Director of Institutional Relations
+      email: contacto@iremcap.com
+      phones:
+        - +34 622 840 301
+      social:
 
 es:
 
@@ -117,7 +125,7 @@ es:
     - link: /assets/images/team/jimena_asarte.jpg
       name: Jimena Lasarte
       description: SEO and digital trends
-      email: jlasarte@iremcap.com
+      email: contacto@iremcap.com
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/jimena-lasarte-49945028/
@@ -125,7 +133,7 @@ es:
     - link: /assets/images/team/christian_serron.jpg
       name: Christian Serron
       description: IT Infrastructures
-      email: cserron@iremcap.com
+      email: contacto@iremcap.com
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/cserron/
@@ -139,3 +147,11 @@ es:
       social:
         - network: LinkedIn
           url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+
+    - link: /assets/images/team/person.png
+      name: Gérard Arfinengo
+      description: Director de Relaciones Institucionales
+      email: contacto@iremcap.com
+      phones:
+        - +34 622 840 301
+      social:
