@@ -3,155 +3,174 @@ en:
   title: Our Team
 
   team:
-    - link: /assets/images/team/myriam_freval.jpg
-      name: Myriam Fréval
-      description: Founder and partner IREMCAP - MRICS
-      email: mfreval@iremcap.com
-      phones:
-        - +34 649 874 606
-        - +1 (516) 7283315
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/myriamfreval/
+    - title: Real Estate Team
+      members:
+      - link: /assets/images/team/myriam_freval.jpg
+        name: Myriam Fréval
+        description: Founder and partner IREMCAP - MRICS
+        email: mfreval@iremcap.com
+        phones:
+          - +34 649 874 606
+          - +1 (516) 7283315
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/myriamfreval/
 
-    - link: /assets/images/team/guillaume_sainpy.jpg
-      name: Guillaume Sainpy
-      description: Founder and  partner IREMCAP - MRICS
-      email: gsainpy@iremcap.com
-      phones:
-        - +34 654 935 718
-        - +598 (0) 95698703
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/gsainpy/
+      - link: /assets/images/team/guillaume_sainpy.jpg
+        name: Guillaume Sainpy
+        description: Founder and  partner IREMCAP - MRICS
+        email: gsainpy@iremcap.com
+        phones:
+          - +34 654 935 718
+          - +598 (0) 95698703
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/gsainpy/
 
-    - link: /assets/images/team/cees_houweling.jpg
-      name: Cees Houweling
-      description: Partner at Cees Houweling Advisory
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ceeshouweling/
+      - link: /assets/images/team/ruben_pintado.jpg
+        name: Rubén Pintado
+        description: Investment Analyst IREMCAP
+        email: invest@iremcap.com
+        phones:
+          - +34 666 870 084
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/ruben-pintado-83b77441/
 
-    - link: /assets/images/team/veronica_martin.jpg
-      name: Verónica Martin
-      description: Partner / QS Architect and PM
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ceeshouweling/
+    - title: Technical Team
+      members:
+      - link: /assets/images/team/cees_houweling.jpg
+        name: Cees Houweling
+        description: Asesor Hotelero
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/ceeshouweling/
 
-    - link: /assets/images/team/mariana_mosso.jpg
-      name: Mariana Mosso
-      description: Associated Architect and PM
+      - link: /assets/images/team/veronica_martin.jpg
+        name: Verónica Martin
+        description: Asesor Técnico
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/ceeshouweling/
 
-    - link: /assets/images/team/jimena_asarte.jpg
-      name: Jimena Lasarte
-      description: SEO and digital trends
-      email: contacto@iremcap.com
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/jimena-lasarte-49945028/
+      - link: /assets/images/team/mariana_mosso.jpg
+        name: Mariana Mosso
+        description: Asesor Técnico
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/mariana-mosso-9ba8a525/
 
-    - link: /assets/images/team/christian_serron.jpg
-      name: Christian Serron
-      description: IT Infrastructures
-      email: contacto@iremcap.com
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/cserron/
+    - title: IT Experts / E-commerce
+      members:
+      - link: /assets/images/team/jimena_asarte.jpg
+        name: Jimena Lasarte
+        description: SEO and digital trends
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
-    - link: /assets/images/team/ruben_pintado.jpg
-      name: Rubén Pintado
-      description: Investment Analyst IREMCAP
-      email: invest@iremcap.com
-      phones:
-        - +34 666 870 084
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+      - link: /assets/images/team/christian_serron.jpg
+        name: Christian Serron
+        description: IT Infrastructures
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/cserron/
 
-    - link: /assets/images/team/person.png
-      name: Gérard Arfinengo
-      description: Director of Institutional Relations
-      email: contacto@iremcap.com
-      phones:
-        - +34 622 840 301
-      social:
+
+      # - link: /assets/images/team/person.png
+      #   name: Gérard Arfinengo
+      #   description: Director of Institutional Relations
+      #   email: contacto@iremcap.com
+      #   phones:
+      #     - +34 622 840 301
+      #   social:
 
 es:
 
   title: Nuestro Equipo
 
   team:
-    - link: /assets/images/team/myriam_freval.jpg
-      name: Myriam Fréval
-      description: Founder and partner IREMCAP - MRICS
-      email: mfreval@iremcap.com
-      phones:
-        - +34 649 874 606
-        - +1 (516) 7283315
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/myriamfreval/
+    - title: Real Estate Team
+      members:
+        - link: /assets/images/team/myriam_freval.jpg
+          name: Myriam Fréval
+          description: Founder and partner IREMCAP - MRICS
+          email: mfreval@iremcap.com
+          phones:
+            - +34 649 874 606
+            - +1 (516) 7283315
+          social:
+            - network: LinkedIn
+              url: https://www.linkedin.com/in/myriamfreval/
 
-    - link: /assets/images/team/guillaume_sainpy.jpg
-      name: Guillaume Sainpy
-      description: Founder and  partner IREMCAP - MRICS
-      email: gsainpy@iremcap.com
-      phones:
-        - +34 654 935 718
-        - +598 (0) 95698703
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/gsainpy/
+        - link: /assets/images/team/guillaume_sainpy.jpg
+          name: Guillaume Sainpy
+          description: Founder and  partner IREMCAP - MRICS
+          email: gsainpy@iremcap.com
+          phones:
+            - +34 654 935 718
+            - +598 (0) 95698703
+          social:
+            - network: LinkedIn
+              url: https://www.linkedin.com/in/gsainpy/
 
-    - link: /assets/images/team/cees_houweling.jpg
-      name: Cees Houweling
-      description: Partner at Cees Houweling Advisory
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ceeshouweling/
+        - link: /assets/images/team/ruben_pintado.jpg
+          name: Rubén Pintado
+          description: Analista de Inversiones IREMCAP
+          email: invest@iremcap.com
+          phones:
+            - +34 666 870 084
+          social:
+            - network: LinkedIn
+              url: https://www.linkedin.com/in/ruben-pintado-83b77441/
 
-    - link: /assets/images/team/veronica_martin.jpg
-      name: Verónica Martin
-      description: Partner / QS Architect and PM
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ceeshouweling/
+    - title: Equipo Técnico
+      members:
+        - link: /assets/images/team/cees_houweling.jpg
+          name: Cees Houweling
+          description: Partner at Cees Houweling Advisory
+          social:
+            - network: LinkedIn
+              url: https://www.linkedin.com/in/ceeshouweling/
 
-    - link: /assets/images/team/mariana_mosso.jpg
-      name: Mariana Mosso
-      description: Associated Architect and PM
+        - link: /assets/images/team/veronica_martin.jpg
+          name: Verónica Martin
+          description: Partner / QS Architect and PM
+          social:
+            - network: LinkedIn
+              url: https://www.linkedin.com/in/ceeshouweling/
 
-    - link: /assets/images/team/jimena_asarte.jpg
-      name: Jimena Lasarte
-      description: SEO and digital trends
-      email: contacto@iremcap.com
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/jimena-lasarte-49945028/
+        - link: /assets/images/team/mariana_mosso.jpg
+          name: Mariana Mosso
+          description: Associated Architect and PM
 
-    - link: /assets/images/team/christian_serron.jpg
-      name: Christian Serron
-      description: IT Infrastructures
-      email: contacto@iremcap.com
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/cserron/
+    - title: Expertos IT / E-commerce
+      members:
+      - link: /assets/images/team/jimena_asarte.jpg
+        name: Jimena Lasarte
+        description: SEO and digital trends
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
-    - link: /assets/images/team/ruben_pintado.jpg
-      name: Rubén Pintado
-      description: Analista de Inversiones IREMCAP
-      email: invest@iremcap.com
-      phones:
-        - +34 666 870 084
-      social:
-        - network: LinkedIn
-          url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+      - link: /assets/images/team/christian_serron.jpg
+        name: Christian Serron
+        description: IT Infrastructures
+        email: contacto@iremcap.com
+        social:
+          - network: LinkedIn
+            url: https://www.linkedin.com/in/cserron/
 
-    - link: /assets/images/team/person.png
-      name: Gérard Arfinengo
-      description: Director de Relaciones Institucionales
-      email: contacto@iremcap.com
-      phones:
-        - +34 622 840 301
-      social:
+      # - link: /assets/images/team/person.png
+      #   name: Gérard Arfinengo
+      #   description: Director de Relaciones Institucionales
+      #   email: contacto@iremcap.com
+      #   phones:
+      #     - +34 622 840 301
+      #   social:

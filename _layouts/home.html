@@ -25,7 +25,7 @@ layout: default
     {% for item in page_data.skills.list %}
       <div class="skills-item">
         <span class="skills-item__icon"><a href="{{ item.link | prepend: site.baseurl }}"><svg class="skills-item__img"><use xlink:href="#{{ item.icon }}" /></svg></a></span>
-        <h3 class="skills-item__title">{{ item.text }}</h3>
+        <h3 class="skills-item__title"><a href="{{ item.link | prepend: site.baseurl }}">{{ item.text }}</a></h3>
       </div>
     {% endfor %}
     </div>
