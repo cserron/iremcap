@@ -13,21 +13,26 @@
 }
 
 .team {
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0px;
+
   @include for-size(tablet-landscape-up) {
     max-width: 780px;
   };
 
   &-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
   }
 
-  justify-content: flex-start;
-  align-items: center;
-
-  padding: 20px 0px;
+  &__area {
+    font-size: 26px;
+    padding: 1em 0;
+    text-align: center;
+  }
 
   &__member {
     align-items: center;
@@ -53,10 +58,10 @@
       padding: 30px 0;
       flex-basis: 33%;
 
-      &:nth-child(1),
-      &:nth-child(2) {
-        flex-basis: 50%;
-      }
+      // &:nth-child(1),
+      // &:nth-child(2) {
+      //   flex-basis: 50%;
+      // }
     }
 
     &--name {
@@ -81,6 +86,13 @@
       width: 70%;
       border-radius: 50%;
       min-height: 0;
+    }
+  }
+
+  &:first-of-type {
+    .team__member:nth-child(1),
+    .team__member:nth-child(2) {
+      flex-basis: 50%;
     }
   }
 }

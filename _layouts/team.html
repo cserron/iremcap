@@ -12,17 +12,19 @@ layout: default
         container-classes='banner'
     %}
 
+    {% for area in page_data.team %}
     <div class="team">
+      <h2 class="team__area">{{ area.title }}</h2>
       <div class="team-grid">
-        {% for member in page_data.team %}
+        {% for member in area.members %}
         <div class="team__member">
-          <img class="team__member--img" src="{{member.link | prepend: site.baseurl}}" alt="{{ member.name }}" />
+          <img class="team__member--img" src="{{ member.link | relative_url }}" alt="{{ member.name }}" />
           <div class="team-member__info">
-            <h3 class="team__member--name">{{member.name}}</h3>
-            <em class="team__member--description">{{member.description}}</em>
+            <h3 class="team__member--name">{{ member.name }}</h3>
+            <em class="team__member--description">{{ member.description }}</em>
             <p>
               {% if member.email %}
-              <a class="team__member--email" href="mailto:{{ member.email }}">{{member.email}}</a>
+              <a class="team__member--email" href="mailto:{{ member.email }}">{{ member.email }}</a>
               <br />
               {% endif %}
               {% for phone in member.phones %}
@@ -44,4 +46,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
+    {% endfor %}
 </section>
