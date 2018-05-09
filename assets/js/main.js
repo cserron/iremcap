@@ -32,14 +32,14 @@ if (hamburgers.length > 0) {
 }
 
 // Sticky header
-(function () {
-  var header = document.getElementById('header');
-  var mainMenu = document.getElementById('main-menu-list');
-  window.onscroll = function stickyHeader() {
-    var sticky = mainMenu.offsetTop;
-    header.classList.toggle('sticky', (window.pageYOffset > sticky));
-  };
-})();
+// (function () {
+//   var header = document.getElementById('header');
+//   var mainMenu = document.getElementById('main-menu-list');
+//   window.onscroll = function stickyHeader() {
+//     var sticky = mainMenu.offsetTop;
+//     header.classList.toggle('sticky', (window.pageYOffset > sticky));
+//   };
+// })();
 
 // Home grid
 (function () {

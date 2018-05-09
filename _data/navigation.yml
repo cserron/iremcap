@@ -2,38 +2,52 @@
 main:
   en:
     - title: Home
-      img: assets/images/common/iremcap.svg
+      # img: assets/images/common/iremcap.svg
       url: /
+      class: home
     - title: Services
       url: /real-estate-services
+      class: services
     - title: Clients
       url: /clients
+      class: clients
     - title: Team
       url: /team
+      class: team
     - title: Contact
       url: /contact
+      class: contact
     - title: News
       url: /news
+      class: news
     - title: ES
       preText: EN/
       tooltip: Español
       url: /inicio
+      class: lang
 
   es:
     - title: Home
-      img: assets/images/common/iremcap.svg
+      # img: assets/images/common/iremcap.svg
       url: /inicio
+      class: home
     - title: Servicios
       url: /servicios
+      class: services
     - title: Clientes
       url: /clientes
+      class: clients
     - title: Equipo
       url: /equipo
+      class: team
     - title: Contacto
       url: /contacto
+      class: contact
     - title: Noticias
       url: /noticias
+      class: news
     - title: EN
       postText: /ES
       tooltip: English
       url: /
+      class: lang

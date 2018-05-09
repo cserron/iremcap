@@ -5,7 +5,7 @@ layout: default
 {% assign page_data = site.data.page__home[page.lang] %}
 
 <section class="intro">
-  <img class="intro__logo" src="{{page_data.logo | prepend: site.baseurl}}" alt="">
+  <img class="intro__logo" src="{{ site.data.page__home.logo | prepend: site.baseurl }}" alt="">
   {% include common/page_title.html
     title=page_data.slogan
     title-classes='intro__slogan'

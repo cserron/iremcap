@@ -1,5 +1,5 @@
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-<header id="header" class="header">
+<header id="header" class="header sticky">
     <!-- Toolbar -->
     <div class="header__toolbar">
         <div class="hamburger hamburger--collapse">
@@ -13,9 +13,9 @@
         <nav class="main-menu">
             <ul id="main-menu-list" class="main-menu-list">
               {% for link in site.data.navigation.main.[page.lang] %}
-                <li class="main-menu-list__item">
+                <li class="main-menu-list__item main-menu-list__item--{{ link.class }}">
                   {% if link.preText %}{{ link.preText }}{% endif %}
-                  <a href="{{link.url | prepend: site.baseurl}}">
+                  <a href="{{ link.url | relative_url }}">
                     {% if link.img %}
                       <img src="{{ "assets/images/common/iremcap.svg" | relative_url }}" alt="{{link.title}}" class="site-logo" />
                     {% else %}

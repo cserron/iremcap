@@ -1,5 +1,6 @@
+logo: /assets/images/home/iremcap_logo.svg
+
 en:
-  logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
   ctas:
@@ -46,7 +47,6 @@ en:
         link: /team
 
 es:
-  logo: /assets/images/home/logo.png
   slogan: Real Estate Investment & Consulting
 
   ctas:
