@@ -16,14 +16,17 @@
                 <li class="main-menu-list__item main-menu-list__item--{{ link.class }}">
                   {% if link.preText %}{{ link.preText }}{% endif %}
                   <a href="{{ link.url | relative_url }}">
-                    {% if link.img %}
-                      <img src="{{ "assets/images/common/iremcap.svg" | relative_url }}" alt="{{link.title}}" class="site-logo" />
-                    {% else %}
-                      {{link.title}}
-                    {% endif %}
+                    {{link.title}}
                   </a>
                   {% if link.postText %}{{ link.postText }}{% endif %}
                 </li>
+              {% endfor %}
+              {% for social in site.data.navigation.social %}
+              <li class="main-menu-list__item main-menu-list__social-item main-menu-list__social-item--{{ social.network | downcase }}">
+                <a href="{{ social.url }}" title="{{ social.network }}" rel="noopener noreferrer" target="_blank">
+                  <span>{{ social.network }}</span>
+                </a>
+              </li>
               {% endfor %}
             </ul>
         </nav>

@@ -9,7 +9,6 @@ body {
   }
 }
 
-
 // Header
 // ==================================================
 .header {
@@ -161,6 +160,30 @@ body {
 
           &:hover {
             color: $blue-hover !important;
+          }
+        }
+      }
+
+      &__social-item {
+        a {
+          &::before {
+            @include fa-icon();
+            @extend .fab;
+            font-size: 1.2em;
+          }
+
+          span {
+            display: none;
+          }
+        }
+
+        &.main-menu-list__social-item--linkedin {
+          a {
+            // color: #0077b5;
+            &:before {
+              content: fa-content($fa-var-linkedin);
+              // padding-right: 0.2em;
+            }
           }
         }
       }
