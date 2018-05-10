@@ -2,7 +2,6 @@
 main:
   en:
     - title: Home
-      # img: assets/images/common/iremcap.svg
       url: /
       class: home
     - title: Services
@@ -28,7 +27,6 @@ main:
 
   es:
     - title: Home
-      # img: assets/images/common/iremcap.svg
       url: /inicio
       class: home
     - title: Servicios
@@ -51,3 +49,13 @@ main:
       tooltip: English
       url: /
       class: lang
+
+# langs:
+#   - code: es
+#     label: Español
+#   - code: en
+#     label: English
+
+social:
+  - network: LinkedIn
+    url: https://www.linkedin.com/company/iremcap/
