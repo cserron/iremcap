@@ -9,8 +9,8 @@ en:
       lng: -3.6816476566164056
     - address:
       label: Mallorca
-      lat: 39.5715422
-      lng: 2.6517081
+      lat: 39.765339
+      lng: 2.654799
     - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
       label: Montevideo
       lat: -34.904425119577745
@@ -54,8 +54,8 @@ es:
       lng: -3.6816476566164056
     - address:
       label: Mallorca
-      lat: 39.5715422
-      lng: 2.6517081
+      lat: 39.765339
+      lng: 2.654799
     - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
       label: Montevideo
       lat: -34.904425119577745
