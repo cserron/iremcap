@@ -2,5 +2,5 @@
 layout: contact
 ref: contact
 lang: en
-title: Contact
+title: Contact - IREMCAP
 ---
