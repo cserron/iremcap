@@ -1,11 +1,13 @@
 .intro {
+  align-items: center;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.6)), url("./images/stock/madrid.jpg");
   background-position: center bottom;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  min-height: 600px;
 
   @include for-size(phone-only) {
     justify-content: space-around;

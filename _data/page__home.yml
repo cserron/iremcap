@@ -1,7 +1,7 @@
 logo: /assets/images/home/iremcap_logo.svg
 
 en:
-  slogan: Real Estate Investment & Consulting
+  slogan: Real estate investment operating partner in Spain
 
   ctas:
     - label: About Us
@@ -9,10 +9,9 @@ en:
     - label: Services
       link: /real-estate-services
 
-  text: Today the real estate sector is at the crossroads of industry,
-        communication and e-commerce. A building should be more than a place to live,
-        work or sleep; it should be a link of transcendental content for those who are going to use it.
-        IREMCAP combines real estate experience with experts’ knowledge in sectors such as e-commerce, hospitality and IT infrastructures to provide a full and creative service to our clients.
+  text: |
+    Our holistic approach combines real estate investment management with specific experts in hospitality industry, e-commerce and data analysis.
+    To provide a full and creative service to our clients we conceive buildings as vehicles to create value through active management.
 
   skills:
     title: >
@@ -47,7 +46,7 @@ en:
         link: /team
 
 es:
-  slogan: Real Estate Investment & Consulting
+  slogan: Real estate investment operating partner in Spain
 
   ctas:
     - label: Equipo
