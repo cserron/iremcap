@@ -41,7 +41,7 @@ en:
       members:
       - link: /assets/images/team/cees_houweling.jpg
         name: Cees Houweling
-        description: Asesor Hotelero
+        description: Hospitality Advisor
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
@@ -49,7 +49,7 @@ en:
 
       - link: /assets/images/team/veronica_martin.jpg
         name: Verónica Martin
-        description: Asesor Técnico
+        description: Technical Advisor
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
@@ -57,7 +57,7 @@ en:
 
       - link: /assets/images/team/mariana_mosso.jpg
         name: Mariana Mosso
-        description: Asesor Técnico
+        description: Technical Advisor
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
@@ -67,7 +67,7 @@ en:
       members:
       - link: /assets/images/team/jimena_asarte.jpg
         name: Jimena Lasarte
-        description: SEO and digital trends
+        description: E-commerce expert
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
