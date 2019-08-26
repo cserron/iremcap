@@ -27,15 +27,15 @@ en:
           - network: LinkedIn
             url: https://www.linkedin.com/in/gsainpy/
 
-      - link: /assets/images/team/ruben_pintado.jpg
-        name: Rubén Pintado
-        description: Investment Analyst IREMCAP
-        email: invest@iremcap.com
-        phones:
-          - +34 666 870 084
-        social:
-          - network: LinkedIn
-            url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+#       - link: /assets/images/team/ruben_pintado.jpg
+#         name: Rubén Pintado
+#         description: Investment Analyst IREMCAP
+#         email: invest@iremcap.com
+#         phones:
+#           - +34 666 870 084
+#         social:
+#           - network: LinkedIn
+#             url: https://www.linkedin.com/in/ruben-pintado-83b77441/
 
     - title: Technical Team
       members:
