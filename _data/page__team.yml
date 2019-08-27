@@ -5,8 +5,8 @@ en:
   team:
     - title: Real Estate Team
       members:
-      - link: /assets/images/team/myriam_freval.jpg
-        name: Myriam Fréval
+      - name: Myriam Fréval
+        link: /assets/images/team/myriam_freval.jpg
         description: Founder and partner IREMCAP - MRICS
         email: mfreval@iremcap.com
         phones:
@@ -15,9 +15,21 @@ en:
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/myriamfreval/
+        moreInfo:
+          title: Investment & Consulting
+          experience:
+            - 30 years of experience in the Real Estate industry advising multinational, private and institutional investors
+            - Partner and CEO at Atis Real Estate (13 years in Auguste Thouard, today BNP Real Estate)
+            - CEO and Founder of Adyton in Spain sold to AOS Studley - Member of the European Board (today Colliers)
+            - Former president and founder of Athol Asset – 7 years
+            - RICS (Royal Institution of Chartered Surveyors) – 6 years
+            - CCEF (Conseiller du Commerce Extérieur) for the French government – 15 years
+            - Member of the board of the franco-spanish Chamber of Commerce - 10 years
+            - Member of the board and founder of the association Women Avenir - 6 Years
+            - Knight of the Order of Merit of France - 5 years
 
-      - link: /assets/images/team/guillaume_sainpy.jpg
-        name: Guillaume Sainpy
+      - name: Guillaume Sainpy
+        link: /assets/images/team/guillaume_sainpy.jpg
         description: Founder and  partner IREMCAP - MRICS
         email: gsainpy@iremcap.com
         phones:
@@ -26,69 +38,84 @@ en:
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/gsainpy/
-
-#       - link: /assets/images/team/ruben_pintado.jpg
-#         name: Rubén Pintado
-#         description: Investment Analyst IREMCAP
-#         email: invest@iremcap.com
-#         phones:
-#           - +34 666 870 084
-#         social:
-#           - network: LinkedIn
-#             url: https://www.linkedin.com/in/ruben-pintado-83b77441/
+        moreInfo:
+          title: Investment & Consulting
+          experience:
+            - More than 14 years of experience in the sector of real estate investments
+            - Former director of Investment and Corporate Accounts in AOS Studley, Spain - 5 years
+            - Founder Latam Investment Partners, Uruguay – 6 years
+            - Experience in advising multinational, private and institutional investors
+            - Member of RICS (Royal Institution of Chartered Surveyors) - 8 years
+            - MBA at University of Deusto, Spain
+            - Certificate in Hotel Investment & Asset Management, Cornell University (USA)
+            - Professor at the Universidad ORT Uruguay of the Master of Real Estate Development
+            - Board member and responsible real estate commission French Chamber of Commerce in Montevideo
 
     - title: Technical Team
       members:
-      - link: /assets/images/team/cees_houweling.jpg
-        name: Cees Houweling
+      - name: Cees Houweling
+        link: /assets/images/team/cees_houweling.jpg
         description: Hospitality Advisor
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/ceeshouweling/
+        moreInfo:
+          title: Hotel Advisor
+          experience:
+            - With more than 28 years of experience in the hotel sector, he is a renown international advisor of the major brands such as Hyatt or Hilton, with creation of specific concepts as Director of Operations of Mundo Cuervo "Tequila Spirit of Mexico".
+            - Founder of NA Concepts, he is a Diplomate of the Hotel University of Switzerland in Lucerne.
+            - He has an extensive experience in the management of some of the most luxurious hotels in the world. He started his career at Hilton International, later joining Hyatt International, where after performing different functions in several continents, he was in charge of Park Hyatt of Buenos Aires, Argentina and was responsible for the creation of the Madison project, today better known as Four Seasons Carmelo, Uruguay.
+            - He detected the needs and opportunities represented by the touristic sector in Latin America and launched a chain of “boutique” luxuries hotels "NewAge Town & Country Hotels ", a concept started in Argentina and reached twenty hotels scattered throughout Latin America.
 
-      - link: /assets/images/team/veronica_martin.jpg
-        name: Verónica Martin
+      - name: Verónica Martin
+        link: /assets/images/team/veronica_martin.jpg
         description: Technical Advisor
         email: contacto@iremcap.com
-        social:
-          - network: LinkedIn
-            url: https://www.linkedin.com/in/ceeshouweling/
+        moreInfo:
+          title: Technical Advisors
+          experience:
+            - Previously she worked in Remax Investment company, Ares
+            - Building Solutions, Cushman & Wakefield, EC-Harris (ARCADIS) as Project Manager, Tecnical consultant, Designer, Project Supervisor and Due diligence Coordinator.
+            - MBA in construction and real estate companies.
+            - BREEAM and Green Advisor associate LEED
+            - Member of the Board of Spain and construction group of RICS (Royal Institution of Chartered Surveyors )
+            - Founding partner of WIRES (Woman in Real Estate spain)
+            - She has a large experience with relevant clients as:<br />BBVA, Caja Madrid, Santander, RBS, Citibank, Deutsche Bank, Hypo Real Estate GroupMorgan StandleyGE Real Estate, ING Real Estate, Nokia Siemmens Networks, Heitman, Cognita, Neinver, etc
 
-      - link: /assets/images/team/mariana_mosso.jpg
-        name: Mariana Mosso
+      - name: Mariana Mosso
+        link: /assets/images/team/mariana_mosso.jpg
         description: Technical Advisor
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/mariana-mosso-9ba8a525/
+        moreInfo:
+          title: Technical Advisors
+          experience:
+            - Previously she worked in TYPSA, JLL, DEGW, DBA associates, Aguirre Newman and Rafael de la Hoz Arquitectos as Designer, Project Monitor and Due diligence Coordinator.
+            - She also has experience working on projects outside Spain with international teams.
+            - Registered architect at COAM
+            - MBA in construction and real estate companies.
+            - She has a large experience with relevant clients as:<br />Grant Thornton, Directorate of transport in the city of Astana, Embassy of Glen, PwC, InfoglobalSony, BBVA, Renault, ESCP, REE, OHIM, Endesa, HAVAS Group, Mastercard, Visa, Microsoft, Cysco, ICEX, Dunkin, InitecAIG Alico, MSM
 
     - title: IT Experts / E-commerce
       members:
-      - link: /assets/images/team/jimena_asarte.jpg
-        name: Jimena Lasarte
+      - name: Jimena Lasarte
+        link: /assets/images/team/jimena_asarte.jpg
         description: E-commerce expert
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/jimena-lasarte-49945028/
 
-      - link: /assets/images/team/christian_serron.jpg
-        name: Christian Serron
+      - name: Christian Serron
+        link: /assets/images/team/christian_serron.jpg
         description: IT Infrastructures
         email: contacto@iremcap.com
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/cserron/
-
-
-      # - link: /assets/images/team/person.png
-      #   name: Gérard Arfinengo
-      #   description: Director of Institutional Relations
-      #   email: contacto@iremcap.com
-      #   phones:
-      #     - +34 622 840 301
-      #   social:
 
 es:
 
@@ -119,16 +146,6 @@ es:
             - network: LinkedIn
               url: https://www.linkedin.com/in/gsainpy/
 
-#         - link: /assets/images/team/ruben_pintado.jpg
-#           name: Rubén Pintado
-#           description: Analista de Inversiones IREMCAP
-#           email: invest@iremcap.com
-#           phones:
-#             - +34 666 870 084
-#           social:
-#             - network: LinkedIn
-#               url: https://www.linkedin.com/in/ruben-pintado-83b77441/
-
     - title: Equipo Técnico
       members:
         - link: /assets/images/team/cees_houweling.jpg
@@ -141,9 +158,6 @@ es:
         - link: /assets/images/team/veronica_martin.jpg
           name: Verónica Martin
           description: Partner / QS Architect and PM
-          social:
-            - network: LinkedIn
-              url: https://www.linkedin.com/in/ceeshouweling/
 
         - link: /assets/images/team/mariana_mosso.jpg
           name: Mariana Mosso
@@ -166,11 +180,3 @@ es:
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/cserron/
-
-      # - link: /assets/images/team/person.png
-      #   name: Gérard Arfinengo
-      #   description: Director de Relaciones Institucionales
-      #   email: contacto@iremcap.com
-      #   phones:
-      #     - +34 622 840 301
-      #   social:

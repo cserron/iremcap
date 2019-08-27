@@ -2,7 +2,7 @@
   align-items: center;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.6)), url("./images/stock/madrid.jpg");
-  background-position: center bottom;
+  background-position: center 25px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 .skills {
   width: 90%;
   max-width: 800px;
-  
+
   @include for-size(desktop-up) {
     width: 80%;
   }
@@ -114,7 +114,7 @@
     display: none;
     font-weight: 600;
     padding-top: 1em;
-    
+
     @include for-size(desktop-up) {
       display: block;
     }

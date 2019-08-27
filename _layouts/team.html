@@ -17,7 +17,7 @@ layout: default
       <h2 class="team__area">{{ area.title }}</h2>
       <div class="team-grid">
         {% for member in area.members %}
-        <div class="team__member">
+        <div class="team__member{% if member.moreInfo %} has-more-info{% endif %}">
           <img class="team__member--img" src="{{ member.link | relative_url }}" alt="{{ member.name }}" />
           <div class="team-member__info">
             <h3 class="team__member--name">{{ member.name }}</h3>
@@ -34,7 +34,7 @@ layout: default
             </p>
           </div>
           <div class="team-member__social">
-          {% if member.social %}
+            {% if member.social %}
             <ul>
               {% for social in member.social %}
               <li class="{{ social.network | downcase }}"><a href="{{ social.url }}" title="{{ social.network }}" rel="noopener noreferrer" target="_blank">{{ social.network }}</a></li>
@@ -42,6 +42,43 @@ layout: default
             </ul>
             {% endif %}
           </div>
+          {% if member.moreInfo %}
+          <div class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <span class="modal-close">&times;</span>
+              </div>
+              <div class="modal-body">
+                <div class="main">
+                  <img class="team__member--img" src="{{ member.link | relative_url }}" alt="{{ member.name }}" />
+                  <div class="team-member__info">
+                    <h3 class="team__member--name">{{ member.name }}</h3>
+                    <em class="team__member--description">{{ member.description }}</em>
+                    <p>
+                      {% if member.email %}
+                      <a class="team__member--email" href="mailto:{{ member.email }}">{{ member.email }}</a>
+                      <br />
+                      {% endif %}
+                      {% for phone in member.phones %}
+                      <a class="team__member--phone" href="tel:{{phone}}">{{phone}}</a>
+                      <br />
+                      {% endfor %}
+                    </p>
+                  </div>
+                </div>
+                <div class="experience">
+                  <h3 class="experience-title">Experience</h3>
+                  <ul>
+                    {% for item in member.moreInfo.experience %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>

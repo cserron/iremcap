@@ -65,7 +65,7 @@ if (hamburgers.length > 0) {
   if (openDialogToggle) {
     var contactDialog = document.getElementById('contact-dialog');
     var stored = sessionStorage.getItem('contactDialog');
-    if (!stored || stored !== 'close') {
+    if (stored && stored === 'open') {
       contactDialog.classList.remove('hidden');
     }
     openDialogToggle.addEventListener('click', function () {
@@ -74,5 +74,39 @@ if (hamburgers.length > 0) {
     document.getElementById('contact-dialog-form').addEventListener('submit', function (ev) {
       sessionStorage.setItem('contactDialog', 'close');
     });
+  }
+})();
+
+// Team modal
+var modal = null;
+(function () {
+  function closeModal (ev) {
+    ev.stopPropagation();
+    if (modal) {
+      modal.classList.remove('modal-open');
+      modal = null;
+    }
+  }
+
+  function openModal (ev) {
+    if (ev.target.tagName === 'A') {
+      return;
+    }
+    this.classList.add('modal-open');
+    modal = this;
+  }
+
+  var teamMembers = document.getElementsByClassName('team__member');
+  for (i = 0; i < teamMembers.length; i++) {
+    if (teamMembers[i].classList.contains('has-more-info')) {
+      teamMembers[i].addEventListener('click', openModal);
+      teamMembers[i].getElementsByClassName('modal-close')[0].addEventListener('click', closeModal);
+    }
+  }
+
+  window.onclick = function(event) {
+    if (event.target.className === 'modal') {
+      closeModal(event);
+    }
   }
 })();

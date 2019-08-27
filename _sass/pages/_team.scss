@@ -9,7 +9,7 @@
 
   .banner {
     background-image: url("images/stock/madrid.jpg");
-    background-position-y: 419px;
+    // background-position-y: 419px;
   }
 }
 
@@ -19,7 +19,7 @@
   padding: 20px 0px;
 
   @include for-size(tablet-landscape-up) {
-    max-width: 780px;
+    width: 780px;
   };
 
   &-grid {
@@ -44,6 +44,10 @@
     margin-bottom: 2em;
     padding: 40px;
     text-align: center;
+
+    &.has-more-info {
+      cursor: pointer;
+    }
 
     &:hover {
       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -103,7 +107,7 @@
 .team-member__info {
   flex-grow: 1;
   padding: 10px 0;
-  
+
   p {
     margin: 0.5em 0 1em;
     line-height: 1.5;
@@ -112,7 +116,7 @@
 
 .team-member__social {
   li {
-    
+
     a::before {
       @include fa-icon();
       @extend .fab;
@@ -126,6 +130,65 @@
           content: fa-content($fa-var-linkedin);
           padding-right: 0.2em;
         }
+      }
+    }
+  }
+}
+
+.modal-open {
+  .modal {
+    // display: block;
+    display: flex;
+  }
+}
+
+.modal-body {
+  @include for-size(tablet-landscape-up) {
+    display: flex;
+    flex-direction: row;
+  };
+
+  .main {
+    @include for-size(tablet-landscape-up) {
+      flex-shrink: 0;
+      padding: 0 1em;
+    }
+  }
+}
+
+.experience {
+  text-align: initial;
+
+  .experience-title {
+    color: #253789;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    // padding: 0 2em;
+    margin: 0;
+
+    li {
+      padding: 0 1.5em 1em;
+      position: relative;
+      line-height: 1.3;
+
+      &::before {
+        @include fa-icon();
+        @extend .fa;
+        color: $grey;
+        content: fa-content($fa-var-certificate);
+        font-size: 1em;
+        left: 0;
+        line-height: 1.2;
+        padding-right: 0.2em;
+        position: absolute;
+        transition-property: color;
+        transition-duration: 0.3s;
       }
     }
   }
