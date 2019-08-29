@@ -15,7 +15,7 @@
 .service--img_div{
 
   @include for-size(phone-only) {
-    padding: 0.6em;
+    padding: 0 0.6em 0.6em 0.6em;
   }
 }
 
@@ -139,6 +139,7 @@
 
       @include for-size(phone-only) {
         line-height: 1.4;
+        padding-bottom: 1em;
       }
     }
     
