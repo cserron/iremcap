@@ -2,20 +2,60 @@ en:
   title: Services
   subtitle: Interactive Real Estate Management
 
-  services:
-    - text: >
-        Integral investment management : IREMCAP is in charge of the whole investment process from sourcing the opportunity to its execution through financing and project management
-      icon: building
-    - text: Intermediation in the purchase / sale of empty or rented buildings with potential added value
-      icon: intermediate
-    - text: Advice to owners to maximize their vacant / leased building or land
-      icon: training
-    - text: Advice to users to obtain business places adapted to new tendencies
-      icon: location
-    - text: Advice and investment/divestment processes in the hotel sector based on more than 30 years of operational experience.
-      icon: graph
-    - text: Feasibility studies
-      icon: handshake
+  CIM_service:
+    title: Consultancy & Investment Management
+    panels:
+      - service_title: Real Estate Services
+        items:
+          - text: Property experts
+          - text: Consulting
+          - text: Brokerage
+          - text: Investment / Asset Management
+      - service_title: Hospitality Services
+        items:
+          - text: Industry experts
+          - text: Consulting
+          - text: OPEX advisor
+          - text: Interim management
+          - text: Brand advisor for new concepts
+
+  TEC_service:
+    title: Technical Services
+    panels:
+      - service_title: Building Consultancy
+        items:
+          - text: "Analysis of asset optimization: We have a commercial, economic and technical vision of all those elements that can improve the asset and we make special emphasis on the improvement of the design and optimization of operating costs."
+          - text: "Technical Due Diligence:"
+            subitems:
+              - Consolidation and digitalization of the constituent elements of Due Diligence.
+              - Due Diligence.
+      - service_title: Project Management & Monitoring
+        description: "Generally our project management services include:"
+        items:
+          - text: Coordination and control of the design process.
+          - text: Coordination of cost control.
+          - text: Planning of deadlines.
+          - text: Contracts management.
+          - text: Advice on hiring consultants. Construction management.
+          - text: Deactivation of the project
+      - service_title: Architecture
+        items:
+          - text: Design and execution of new construction or rehabilitation.
+            subitems:
+              - Workplace consultancy.
+              - Test fit.
+              - Space planning.
+              - Space audit.
+          - text: Definition and design of the project.
+          - text: Interior design.
+          - text: Licensing and permissions management.
+          - text: Construction management.
+          - text: Transfer management.
+      - service_title: Facilities
+        items:
+          - text: Conceptual studies.
+          - text: Engineering and Design of Front-End FEED.
+          - text: Detail engineering.
 
 es:
   title: Servicios
