@@ -13,11 +13,43 @@ layout: default
   %}
 
   <div class="services">
-    {% for item in page_data.services %}
     <div class="services-item">
-      <svg class="services-item__img"><use xlink:href="#{{ item.icon }}" /></svg>
-      <p class="services-item__text">{{ item.text }}</p>
+      <h2 class="services-item__Title">{{ page_data.CIM_service.title }}</h2>
+      {% for panel in page_data.CIM_service.panels %}
+      <div class="services-item__Child services-accordion">
+        <h4 class="services-item__Child__Title">{{ panel.service_title}}</h4>
+        <ul class="services-item__Child__UL">
+          {% for item in panel.items %}
+          <li class="panel-item">{{item.text}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+    <div class="service--img_div">
+      <h2 class="services-item__Title">{{ page_data.asset-life-cycle-title }}</h2>
+      <img class="service--img" src="{{ page_data.asset-life-cycle-link }}" />
+    </div>
+    <div class="services-item">
+      <h2 class="services-item__Title">{{ page_data.TEC_service.title }}</h2>
+      {% for panel in page_data.TEC_service.panels %}
+        <div class="services-item__Child services-accordion">
+          <h4 class="services-item__Child__Title">{{ panel.service_title}}</h4>
+          <ul class="services-item__Child__UL services-accordion__Child">
+            {% for item in panel.items %}
+              <li class="panel-item">{{item.text}}
+              {% if item.subitems %}
+                <ul class="panel-item__UL">
+                {% for subitem in item.subitems %}
+                  <li class="panel-item__UL__subitem">{{ subitem }}</li>
+                {% endfor %}
+                </ul>
+              {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

@@ -1,3 +1,16 @@
+.accordion-open ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-open h4{
+  padding: 0 0 1em 0;
+}
+
+.services-accordion__Child{
+  display:none;
+}
+
 .services-intro {
   min-height: 100vh;
   width: 100%;
@@ -12,14 +25,73 @@
   }
 }
 
+.service--img_div{
+  padding: 4em;
+  @include for-size(phone-only) {
+    padding: 0 0.6em 0.6em 0.6em;
+  }
+}
+
+.service--img {
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  &:hover {
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.panel-item{
+  padding: 0 1.5em 1em;
+  position: relative;
+  line-height: 1.3;
+
+  &::before{
+    @include fa-icon();
+    @extend .fa;
+    color: $grey;
+    content: fa-content($fa-var-certificate);
+    font-size: 1em;
+    left: 0;
+    line-height: 1.2;
+    padding-right: 0.2em;
+    position: absolute;
+    transition-property: color;
+    transition-duration: 0.3s;
+  }
+  
+  &__UL{
+    list-style: none;
+    padding: 0 2em;
+    margin-top: 0.4em;
+
+    &__subitem{
+
+      &::before{
+      @include fa-icon();
+      @extend .fa;
+      color: $grey;
+      content: fa-content($fa-var-certificate);
+      font-size: 0.7em;
+      left: 0;
+      line-height: 2;
+      padding-right: 0.2em;
+      padding-left: 3.5em;
+      position: absolute;
+      transition-property: color;
+      transition-duration: 0.3s;
+      }
+    }
+  }
+}
+
+
 .services {
   display: flex;
   flex-direction: column;
-
-  width: 100%;
-  height: 100%;
-
-  margin-top: 50px;
+  justify-content: space-around;
+  max-width: 1000px;
+  width: 90%;
 
   @include for-size(desktop-up) {
     max-width: 780px;
@@ -27,7 +99,8 @@
   }
 
   &-item {
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
 
     @include for-size(phone-only) {
       padding: 5px 0;
@@ -39,34 +112,46 @@
       padding: 30px 0;
     }
 
-    &__img {
-      fill: $blue;
-      float: left;
-      height: 120px;
-      width: 120px;
+    &__Child{
+      background-color: white;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2em;
+      padding: 1em;
 
-      @include for-size(desktop-up) {
-        padding-right: 30px;
+      &:hover {
+        box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  
+          .panel-item::before {
+            color: $blue-hover;
+          }
+
+          .panel-item__UL__subitem::before{
+            color: $blue-hover;
+          }
       }
-      @include for-size(phone-only) {
-        width: 3em;
-        height: 3em;
+
+      &__Title{
+        font-size: 23px;
+      }
+
+      &__UL{
+        list-style: none;
+        padding: 0 2em;
+        margin: 0;
       }
     }
 
-    &__text {
-      line-height: 1.3;
+    &__Title{
       color: $black;
-      font-size: 20px;
-      margin-left: 130px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      min-height: 120px;
+      font-size: 30px;
+      line-height: 3;
+      text-align: center;
 
       @include for-size(phone-only) {
-        display: block;
-        margin-left: 3.5em;
+        line-height: 1.4;
+        padding-bottom: 1em;
       }
     }
   }
