@@ -110,3 +110,24 @@ var modal = null;
     }
   }
 })();
+
+//Services accordion
+
+var services = document.getElementsByClassName('services-accordion');
+  for (i = 0; i < services.length; i++) {
+    if (!services[i].classList.contains('accordion-open')) {
+      services[i].addEventListener('click', openService);
+    }
+  }
+
+function openService(){
+  var wasOpen = this.classList.contains('accordion-open');
+  for (i = 2; i < services.length; i++) { //The two first services need to be always open
+    if (services[i].classList.contains('accordion-open')) {
+      services[i].classList.remove('accordion-open');
+    }
+  }
+  if(!wasOpen){
+    this.classList.add('accordion-open');
+  }
+}
