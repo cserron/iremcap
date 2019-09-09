@@ -1,12 +1,14 @@
 logo: /assets/images/home/iremcap_logo.svg
 
 en:
-  slogan: Impact Real Estate Management
+  slogan: Real Estate Investment Operating Partner in Spain
 
   ctas:
     - label: About Us
       link: /team
     - label: Services
+      link: /real-estate-services
+    - label: Impact Investing
       link: /real-estate-services
 
   text: |
@@ -46,18 +48,19 @@ en:
         link: /team
 
 es:
-  slogan: Real estate investment operating partner in Spain
+  slogan: Real Estate Investment Operating Partner in Spain
 
   ctas:
     - label: Equipo
       link: /equipo
     - label: Servicios
       link: /servicios
+    - label: Impact Investing
+      link: /real-estate-services
 
-  text: Hoy en día el sector inmobiliario está en el cruce de caminos entre la industria,
-        la comunicación y el e-commerce. Un edificio debe proponer más que un lugar para vivir,
-        trabajar o dormir debe ser un vínculo de contenido trascendental para quienes vayan a usarlo.
-        IREMCAP combina la larga experiencia en negocios inmobiliarios de sus socios con expertise de confirmados profesionales en sectores como el e-commerce, la hotelería o las infraestructuras tecnológicas para ofrecer un servicio completo y creativo a sus clientes.
+  text: Nuestro método de selección de oportunidades se basa en más de 40 años de experiencia en el negocio inmobiliario
+         con el valor añadido específico de nuestros especialistas en e-commerce, hotelería o análisis de datos. 
+         Para satisfacer nuestros clientes con un servicio completo y creativo miramos a los edificios como vehículos de valor a través de una gestión activa. 
 
   skills:
     title: Por eso tenemos especialistas de cada punto crítico de nuestro modelo de negocio

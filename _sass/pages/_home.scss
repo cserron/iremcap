@@ -19,9 +19,10 @@
     .cta-button {
       margin-bottom: 20px;
       width: 40%;
+      white-space: nowrap;
 
       &__link {
-        flex: 1;
+        flex-grow: 1;
         min-width: none;
       }
     }

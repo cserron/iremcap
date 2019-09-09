@@ -7,6 +7,9 @@ main:
     - title: Services
       url: /real-estate-services
       class: services
+    - title: Impact Investng
+      url: /impact-investing
+      class: impact-investing
     - title: Clients
       url: /clients
       class: clients
@@ -32,6 +35,9 @@ main:
     - title: Servicios
       url: /servicios
       class: services
+    - title: Impact Investng
+      url: /inversion-de-impacto
+      class: impact-investing
     - title: Clientes
       url: /clientes
       class: clients

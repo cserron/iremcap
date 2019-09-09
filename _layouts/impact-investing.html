@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% assign page_data = site.data.page__impact-investing[page.lang] %}
+
+<section class="impact-investing-intro">
+  {% include common/page_title.html
+    title=page_data.title
+    title-classes='title'
+    container-classes='banner'
+  %}
+
+  <div class="impact-investing">
+      <ul class="impact-investing__UL">
+        {% for item in page_data.items %}
+        <li class="impact-investing__UL__LI">{{item.text}}</li>
+        {% endfor %}
+      </ul>
+      <div class="impact-investing__cta"></div>
+      <p class="impact-investing__contact">{{page_data.contact}}</p>
+      {% include common/cta_button.html cta=page_data.cta %}
+    </div>
+  </div>
+
+  
+</section>

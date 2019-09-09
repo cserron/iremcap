@@ -127,6 +127,7 @@ body {
         text-align: center;
         margin: 20px;
         justify-content: center;
+        white-space: nowrap;
 
         @include for-size(tablet-portrait-up) {
           flex: 0;
