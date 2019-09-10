@@ -9,7 +9,7 @@ en:
     - label: Services
       link: /real-estate-services
     - label: Impact Investing
-      link: /real-estate-services
+      link: /impact-investing
 
   text: |
     Our holistic approach combines real estate investment management with specific experts in hospitality industry, e-commerce and data analysis.
@@ -55,8 +55,8 @@ es:
       link: /equipo
     - label: Servicios
       link: /servicios
-    - label: Impact Investing
-      link: /real-estate-services
+    - label: Inversión de Impacto
+      link: /inversion-de-impacto
 
   text: Nuestro método de selección de oportunidades se basa en más de 40 años de experiencia en el negocio inmobiliario
          con el valor añadido específico de nuestros especialistas en e-commerce, hotelería o análisis de datos. 

@@ -17,7 +17,7 @@ layout: default
       <h2 class="services-item__Title">{{ page_data.CIM_service.title }}</h2>
       <div class="services-item-container">
         {% for panel in page_data.CIM_service.panels %}
-        <div class="services-item__Child accordion-open">
+        <div class="services-item__Child services-accordion accordion-open">
           <h4 class="services-item__Child__Title">{{ panel.service_title}}</h4>
           <ul class="services-item__Child__UL">
             {% for item in panel.items %}
@@ -35,7 +35,7 @@ layout: default
     <div class="services-item">
       <h2 class="services-item__Title">{{ page_data.TEC_service.title }}</h2>
       {% for panel in page_data.TEC_service.panels %}
-        <div class="services-item__Child">
+        <div class="services-item__Child services-accordion">
           <h4 class="services-item__Child__Title">{{ panel.service_title}}</h4>
           <ul class="services-item__Child__UL services-accordion__Child">
             {% for item in panel.items %}

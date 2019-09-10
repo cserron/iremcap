@@ -117,6 +117,7 @@
 
     &-container{
       display: flex;
+      justify-content: center;
 
       & .services-item__Child{
         widows: 50%;

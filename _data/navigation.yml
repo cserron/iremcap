@@ -38,10 +38,10 @@ main:
     - title: Servicios
       url: /servicios
       class: services
-    - title: Impact Investng
+    - title: Inversión de impacto
       url: /inversion-de-impacto
       class: impact-investing
-    - title: Investment Focus
+    - title: Foco de Inversión
       url: /foco-de-inversion
       class: investment-focus
     - title: Clientes
