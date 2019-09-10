@@ -114,6 +114,7 @@ var modal = null;
 //Services accordion
 
 var services = document.getElementsByClassName('services-accordion');
+  console.log(services);
   for (i = 0; i < services.length; i++) {
     if (!services[i].classList.contains('accordion-open')) {
       services[i].addEventListener('click', openService);

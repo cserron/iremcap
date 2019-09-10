@@ -7,6 +7,12 @@ main:
     - title: Services
       url: /real-estate-services
       class: services
+    - title: Impact Investng
+      url: /impact-investing
+      class: impact-investing
+    - title: Investment Focus
+      url: /investment-focus
+      class: investment-focus
     - title: Clients
       url: /clients
       class: clients
@@ -32,6 +38,12 @@ main:
     - title: Servicios
       url: /servicios
       class: services
+    - title: Inversión de impacto
+      url: /inversion-de-impacto
+      class: impact-investing
+    - title: Foco de Inversión
+      url: /foco-de-inversion
+      class: investment-focus
     - title: Clientes
       url: /clientes
       class: clients

@@ -1,34 +1,10 @@
-.accordion-open ul{
-  display: flex;
-  flex-direction: column;
-}
-
-.accordion-open h4{
-  padding: 0 0 1em 0;
-}
-
-.services-accordion__Child{
-  display:none;
-}
-
-.services-intro {
-  min-height: 100vh;
-  width: 100%;
-  background-color: $white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-
-  .banner {
-    background-image: url("images/stock/galpon.jpg");
+.accordion-open{
+  & ul{
+    display: flex;
+    flex-direction: column;
   }
-}
-
-.service--img_div{
-  padding: 4em;
-  @include for-size(phone-only) {
-    padding: 0 0.6em 0.6em 0.6em;
+  & h4{
+    padding: 0 0 1em 0;
   }
 }
 
@@ -38,6 +14,13 @@
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   &:hover {
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  &_div{
+    padding: 4em;
+    @include for-size(phone-only) {
+      padding: 0 0.6em 0.6em;
+    }
   }
 }
 
@@ -98,6 +81,26 @@
     margin: 0 auto;
   }
 
+  &-intro{
+    min-height: 100vh;
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  
+    .banner {
+      background-image: url("images/stock/galpon.jpg");
+    }
+  }
+
+  &-accordion{
+    &__Child{
+      display:none;
+    }
+  }
+
   &-item {
     display: flex;
     flex-direction: column;
@@ -110,6 +113,25 @@
 
     @include for-size(desktop-up) {
       padding: 30px 0;
+    }
+
+    &-container{
+      display: flex;
+      justify-content: center;
+
+      & .services-item__Child{
+        widows: 50%;
+        margin: 0 20px;
+      }
+
+      @include for-size(phone-only){
+        flex-direction: column;
+
+        & .services-item__Child{
+          width: auto;
+          margin: 20px 0;
+        }
+      }
     }
 
     &__Child{
