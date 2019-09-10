@@ -42,8 +42,8 @@ es:
   items:
           - text: "¿Por qué España?"
             subitems:
-                   - "Economía: crecimiento robusto y uno de los más altos en los países desarrollados. "
-                   - "Bienes inmuebles: mercado con muchas oportunidades de inversión demográfica y estructural"
+                   - "Economía: crecimiento robusto y uno de los más altos en los países desarrollados."
+                   - "Bienes inmuebles: mercado con muchas oportunidades de inversión demográfica y estructural."
                    - "Infraestructuras: tercer país del mundo para redes de carreteras rápidas en el mundo y primer país de Europa para ferrocarriles de alta velocidad."
                    - "Hospitalidad: el segundo país más visitado del mundo (83 millones de turistas) y el país más competitivo en el sector de la hospitalidad."
                    - "Transformación digital: aumento del comercio electrónico con espacio para un rápido crecimiento (solo el 4% del comercio minorista)"
@@ -61,9 +61,9 @@ es:
           - text: ¿Por qué hospitalidad?
             subitems:
                    - España alberga algunos de los principales operadores hoteleros del mundo, especialmente en el segmento de playa.
-                   - El 14,6% del PIB se basa en el turismo y el 14,7% del empleo 
-                   - Modelos de arrendamiento a largo plazo
-                   - Propiedad fragmentada
+                   - El 14,6% del PIB se basa en el turismo y el 14,7% del empleo.
+                   - Modelos de arrendamiento a largo plazo.
+                   - Propiedad fragmentada.
                    - Muchos submercados (Islas Canarias, Islas Baleares, Ciudades urbanas ...)
   contact: ¿Quieres saber más sobre el mercado y las oportunidades en España? Contáctenos!
   cta:

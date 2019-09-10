@@ -19,7 +19,7 @@
   &_div{
     padding: 4em;
     @include for-size(phone-only) {
-      padding: 0 0.6em 0.6em 0.6em;
+      padding: 0 0.6em 0.6em;
     }
   }
 }
