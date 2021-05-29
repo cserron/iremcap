@@ -5,36 +5,25 @@ en:
   team:
     - title: Real Estate Team
       members:
-      - name: Myriam Fréval
-        link: /assets/images/team/myriam_freval.jpg
-        description: Founder and partner IREMCAP - MRICS
-        email: mfreval@iremcap.com
+      - name: Martín Guiñazú
+        link: /assets/images/team/martin_guinazu.jpg
+        description: Associate Director
+        email: invest@iremcap.com 
         phones:
-          - +34 649 874 606
-          - +1 (516) 7283315
+          - +34 667 64 96 75
         social:
           - network: LinkedIn
-            url: https://www.linkedin.com/in/myriamfreval/
+            url: https://www.linkedin.com/in/martinguinazu/?originalSubdomain=es
         moreInfo:
-          title: Investment & Consulting
-          experience:
-            - 30 years of experience in the Real Estate industry advising multinational, private and institutional investors
-            - Partner and CEO at Atis Real Estate (13 years in Auguste Thouard, today BNP Real Estate)
-            - CEO and Founder of Adyton in Spain sold to AOS Studley - Member of the European Board (today Colliers)
-            - Former president and founder of Athol Asset – 7 years
-            - RICS (Royal Institution of Chartered Surveyors) – 6 years
-            - CCEF (Conseiller du Commerce Extérieur) for the French government – 15 years
-            - Member of the board of the franco-spanish Chamber of Commerce - 10 years
-            - Member of the board and founder of the association Women Avenir - 6 Years
-            - Knight of the Order of Merit of France - 5 years
+          title: Associate director
+
 
       - name: Guillaume Sainpy
         link: /assets/images/team/guillaume_sainpy.jpg
-        description: Founder and  partner IREMCAP - MRICS
+        description: Founder and  partner IREMCAP
         email: gsainpy@iremcap.com
         phones:
           - +34 654 935 718
-          - +598 (0) 95698703
         social:
           - network: LinkedIn
             url: https://www.linkedin.com/in/gsainpy/
@@ -124,24 +113,22 @@ es:
   team:
     - title: Real Estate Team
       members:
-        - link: /assets/images/team/myriam_freval.jpg
-          name: Myriam Fréval
-          description: Founder and partner IREMCAP - MRICS
-          email: mfreval@iremcap.com
+        - link: /assets/images/team/martin_guinazu.jpg
+          name: Martín Guiñazú
+          description: Director Asociado
+          email: invest@iremcap.com 
           phones:
-            - +34 649 874 606
-            - +1 (516) 7283315
+            - +34 667 64 96 75
           social:
             - network: LinkedIn
-              url: https://www.linkedin.com/in/myriamfreval/
+              url: https://www.linkedin.com/in/martinguinazu/?originalSubdomain=es
 
         - link: /assets/images/team/guillaume_sainpy.jpg
           name: Guillaume Sainpy
-          description: Founder and  partner IREMCAP - MRICS
+          description: Founder and  partner IREMCAP
           email: gsainpy@iremcap.com
           phones:
             - +34 654 935 718
-            - +598 (0) 95698703
           social:
             - network: LinkedIn
               url: https://www.linkedin.com/in/gsainpy/

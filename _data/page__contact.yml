@@ -3,18 +3,18 @@ en:
   title: Contact
 
   locations:
-    - address: Calle Castelló 23, 3D 28001 Madrid
+    - address: Calle Castelló 19, 28001 Madrid
       label: Madrid
-      lat: 40.4246500823053
-      lng: -3.6816476566164056
-    - address:
-      label: Mallorca
-      lat: 39.765339
-      lng: 2.654799
-    - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
-      label: Montevideo
-      lat: -34.904425119577745
-      lng: -56.188194557169254
+      lat: 40.424006
+      lng: -3.683900
+    # - address:
+    #   label: Mallorca
+    #   lat: 39.765339
+    #   lng: 2.654799
+    # - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
+    #   label: Montevideo
+    #   lat: -34.904425119577745
+    #   lng: -56.188194557169254
 
   info:
     email: invest@iremcap.com
@@ -48,23 +48,23 @@ es:
   title: Contacto
 
   locations:
-    - address: Calle Castelló 23, 3D 28001 Madrid
+    - address: Calle Castelló 19, 28001 Madrid
       label: Madrid
-      lat: 40.4246500823053
-      lng: -3.6816476566164056
-    - address:
-      label: Mallorca
-      lat: 39.765339
-      lng: 2.654799
-    - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
-      label: Montevideo
-      lat: -34.904425119577745
-      lng: -56.188194557169254
+      lat: 40.424006
+      lng: -3.683900
+    # - address:
+    #   label: Mallorca
+    #   lat: 39.765339
+    #   lng: 2.654799
+    # - address: Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
+    #   label: Montevideo
+    #   lat: -34.904425119577745
+    #   lng: -56.188194557169254
 
   info:
     addresses:
       - Calle Castelló 23, 3D 28001 Madrid
-      - Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
+      # - Calle Yaguarón 1407, oficina 708 – 11.100 Montevideo Uruguay
     email: invest@iremcap.com
     phones:
       - label: >
