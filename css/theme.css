@@ -516,4 +516,10 @@
                 padding-top: 1em;
                 flex-direction: column;
             }
+            section {
+                padding-top: 70px;
+            }
+            #strategy .row {
+                flex-direction: column-reverse;
+            }
         }
