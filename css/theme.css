@@ -357,6 +357,8 @@
         
         .legacy-nav {
             font-size: 80%;
+            position: relative;
+            z-index: 999;
         }
         
         .legacy-nav a {
@@ -522,4 +524,28 @@
             #strategy .row {
                 flex-direction: column-reverse;
             }
+        }
+        /*legacy*/
+        
+        .legacy {
+            min-height: calc(100vh - 240px);
+        }
+        
+        .legacy h1 {
+            margin-top: 1em;
+        }
+        
+        .legacy p,
+        .legacy ul li {
+            text-align: justify;
+            color: #666;
+        }
+        
+        .legacy h2 {
+            font-size: 1.15em;
+        }
+        
+        .legacy h4 {
+            font-size: 1em;
+            font-weight: 900;
         }
